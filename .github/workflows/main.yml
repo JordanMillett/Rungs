@@ -19,8 +19,8 @@ jobs:
     - name: Publish .NET Core Project
       run: dotnet publish Rungs.csproj -c Release -o release --nologo
       
-    - name: Change base-tag in index.html from / to rungs
-      run: sed -i 's/<base href="\/" \/>/<base href="\/rungs\/" \/>/g' release/wwwroot/index.html
+    - name: Change base-tag in index.html from / to Rungs
+      run: sed -i 's/<base href="\/" \/>/<base href="\/Rungs\/" \/>/g' release/wwwroot/index.html
 
     - name: copy index.html to 404.html
       run: cp release/wwwroot/index.html release/wwwroot/404.html
