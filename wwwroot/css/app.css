@@ -1,0 +1,49 @@
+:root 
+{
+    /* --- Text --- */
+    --text_color: #F3F8F2;
+    --text_color_red: #E00022;
+    --text_color_blue: #0ABEFF;
+    
+    /* --- Background --- */
+    --empty_color: black;
+    --content_background: #191716;
+    
+    --bg_color_gray: #30383b;
+}
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+    
+    background-color: var(--empty_color);
+    
+    color: var(--text_color);
+    font-family: "Overpass";
+    
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+a
+{
+    color: var(--text_color_blue);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar 
+{
+    display: none;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+.red
+{
+    color: var(--text_color_red);
+}
