@@ -1,6 +1,6 @@
 # RUNGS
 
-Russian Language Learning App.
+Russian Language Learning App
 
 ## Built With
 
