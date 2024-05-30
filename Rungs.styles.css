@@ -1,0 +1,91 @@
+/* /Components/Main/Header.razor.rz.scp.css */
+.burger[b-zf06gc6n7u]
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+    color: var(--text_color)
+}
+
+.title[b-zf06gc6n7u]
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    
+    display: inline-block;
+    margin-top: 9px;
+}
+
+hr[b-zf06gc6n7u]
+{
+    border: 1px solid var(--bg_color_gray);
+    
+    position: absolute;
+    margin-top: auto;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/* /Components/Main/Navigation.razor.rz.scp.css */
+.link[b-fepfnoz457]
+{
+    margin-top: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+/* /Components/Main/View.razor.rz.scp.css */
+#screen[b-8i8s5ugrjo]
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+#header[b-8i8s5ugrjo]
+{
+    top:0;
+    background-color: var(--content_background);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+}
+
+#navigation[b-8i8s5ugrjo]
+{
+    top:60px;
+    
+    background-color: var(--content_background);
+  
+    
+    width: 400px;
+    
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+}
+
+#content[b-8i8s5ugrjo] 
+{
+    background-color: var(--content_background);
+
+    margin-left: 400px;
+   
+    padding-top: 60px;
+    
+    min-height: 100%;
+    
+    overflow-y:scroll;
+
+}
+/* /Components/Pages/Homepage.razor.rz.scp.css */
+.title[b-pw8gvdk4qy]
+{
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
