@@ -1,4 +1,4 @@
-<a class="burger">☰</a>
+<a class="burger" @onclick="ToggleNavigationOpen">☰</a>
 
 <h1 class="title"><span class="red">RU</span>NGS</h1>
 
@@ -6,5 +6,15 @@
 
 @code
 {
-    
+    [Parameter]
+    public bool NavigationOpen { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> OnNavigationToggled { get; set; }
+        
+    async Task ToggleNavigationOpen()
+    {
+        NavigationOpen = !NavigationOpen;
+        await OnNavigationToggled.InvokeAsync(NavigationOpen);
+    }
 }

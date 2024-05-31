@@ -1,16 +1,17 @@
 ﻿@inherits LayoutComponentBase
 
-<div id="screen">
-    <div id="header">
-        <Header/>
-    </div>
+<div id="header">
+    <Header NavigationOpen="@NavigationOpen" OnNavigationToggled="@OnNavigationToggle"/>
+</div>
+
+<div id="container">
     @if (NavigationOpen)
     {
         <div id="navigation">
             <Navigation/>
         </div>
     }
-    <div id="content">
+    <div id="content" class="@(NavigationOpen ? "default" : "expanded")">
         @Body
     </div>
 </div>
@@ -18,4 +19,10 @@
 @code
 {
     public bool NavigationOpen = true;
+
+    async Task OnNavigationToggle(bool Value)
+    {
+        NavigationOpen = Value;
+        await Task.Delay(0);
+    }
 }
