@@ -4,10 +4,18 @@
     <div id="header">
         <Header/>
     </div>
-    <div id="navigation">
-        <Navigation/>
-    </div>
+    @if (NavigationOpen)
+    {
+        <div id="navigation">
+            <Navigation/>
+        </div>
+    }
     <div id="content">
         @Body
     </div>
 </div>
+
+@code
+{
+    public bool NavigationOpen = true;
+}
