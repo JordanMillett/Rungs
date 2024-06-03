@@ -92,8 +92,6 @@
         }
         else
         {   
-            Song = Song.ToLower();
-
             HttpResponseMessage Message = await Http.GetAsync("data/songs/" + Song + ".txt");
             if (Message.IsSuccessStatusCode)
             {
