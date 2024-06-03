@@ -1,14 +1,15 @@
 ﻿@inherits LayoutComponentBase
+@inject IJSRuntime Runtime
 
 <div id="header">
-    <Header NavigationOpen="@NavigationOpen" OnNavigationToggled="@OnNavigationToggle"/>
+    <Header OnNavigationToggled="@OnNavigationToggle"/>
 </div>
 
 <div id="container">
     @if (NavigationOpen)
     {
         <div id="navigation">
-            <Navigation/>
+            <Navigation OnLinkClicked="@OnLinkClicked"/>
         </div>
     }
     <div id="content" class="@(NavigationOpen ? "default" : "expanded")">
@@ -20,9 +21,39 @@
 {
     public bool NavigationOpen = true;
 
-    async Task OnNavigationToggle(bool Value)
+    protected override async Task OnInitializedAsync()
     {
-        NavigationOpen = Value;
+        if(await IsDesktopSized())
+        {
+            NavigationOpen = true;
+        }else
+        {
+            NavigationOpen = false;
+        }
+    }
+
+    async Task OnNavigationToggle()
+    {
+        NavigationOpen = !NavigationOpen;
         await Task.Delay(0);
+    }
+
+    async Task OnLinkClicked(bool Value)
+    {
+        if(await IsDesktopSized())
+        {
+            NavigationOpen = true;
+        }else
+        {
+            NavigationOpen = false;
+        }
+        await Task.Delay(0);
+    }
+
+    async Task<bool> IsDesktopSized()
+    {
+        int Value = await Runtime.InvokeAsync<int>("getScreenWidth");
+        Console.WriteLine(Value);
+        return Value >= 700;
     }
 }

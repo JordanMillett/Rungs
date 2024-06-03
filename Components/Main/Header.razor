@@ -7,14 +7,10 @@
 @code
 {
     [Parameter]
-    public bool NavigationOpen { get; set; }
-
-    [Parameter]
-    public EventCallback<bool> OnNavigationToggled { get; set; }
+    public EventCallback OnNavigationToggled { get; set; }
         
     async Task ToggleNavigationOpen()
     {
-        NavigationOpen = !NavigationOpen;
-        await OnNavigationToggled.InvokeAsync(NavigationOpen);
+        await OnNavigationToggled.InvokeAsync();
     }
 }
