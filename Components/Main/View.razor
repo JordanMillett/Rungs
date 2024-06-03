@@ -54,6 +54,6 @@
     {
         int Value = await Runtime.InvokeAsync<int>("getScreenWidth");
         Console.WriteLine(Value);
-        return Value >= 700;
+        return Value > 700;
     }
 }
