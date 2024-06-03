@@ -11,8 +11,9 @@
 {
     background-color: var(--content_background);
   
-   
-   
+    height: 100vh;
+    height: 100dvh;
+    background-color: red;
     margin-top: 60px;
 }
 
@@ -20,15 +21,15 @@
 {
     width: 300px;
     position: fixed;
-  
+    background-color: purple;
 }
 
 #content
 {  
     padding: 20px;
-    height: 100vh;
     overflow-y: auto;
- 
+    height: 100%;
+    background-color: blue;
 }
 
 .default
