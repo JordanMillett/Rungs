@@ -77,8 +77,6 @@
 
     protected override async Task OnParametersSetAsync()
     {
-        Console.WriteLine(Song);
-        
         Loading = true;
         SongFound = false;
 
@@ -87,8 +85,11 @@
             SongFound = false;
         }
         else
-        {   
-            HttpResponseMessage Message = await Http.GetAsync("data/songs/" + Song + ".txt");
+        {
+            Console.WriteLine(Song); 
+            string Target = Uri.EscapeDataString(Song);
+            Console.WriteLine(Target);
+            HttpResponseMessage Message = await Http.GetAsync("data/songs/" + Target + ".txt");
             if (Message.IsSuccessStatusCode)
             {
                 byte[] Data = await Message.Content.ReadAsByteArrayAsync();
