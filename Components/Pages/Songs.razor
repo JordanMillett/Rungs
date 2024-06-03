@@ -31,9 +31,9 @@
         @if(SongListLoaded)
         {
             <ul>
-            @for (int i = 0; i < AllSongLinks.Length; i++)
+            @for (int i = 0; i < AllSongs.Length; i++)
             {
-                <li><a href="songs/@AllSongLinks[i].ToLower()">@AllSongNames[i]</a></li>
+                <li><a href="songs/@AllSongs[i].ToLower()">@AllSongs[i]</a></li>
             }
             </ul>
         }else
@@ -48,8 +48,7 @@
 
 @code
 {
-    string[] AllSongNames = new string[0];
-    string[] AllSongLinks = new string[0];
+    string[] AllSongs = new string[0];
 
     [Parameter]
     public string? Song { get; set; }
@@ -63,13 +62,8 @@
 
     async Task LoadSongList()
     {
-        string FullText = await Http.GetStringAsync("data/songlinks.txt");
-        AllSongLinks = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
-                           .Select(line => line.Replace(".txt", ""))
-                           .ToArray();
-                           
-        FullText = await Http.GetStringAsync("data/songnames.txt");
-        AllSongNames = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
+        string FullText = await Http.GetStringAsync("data/songlist.txt");
+        AllSongs = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
                            .Select(line => line.Replace(".txt", ""))
                            .ToArray();
 
