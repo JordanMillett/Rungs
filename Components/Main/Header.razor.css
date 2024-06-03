@@ -18,7 +18,7 @@
 
 hr
 {
-    border: 1px solid var(--bg_color_gray);
+    border: 1px solid var(--border_color);
     
     position: absolute;
     margin-top: auto;

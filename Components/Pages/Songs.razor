@@ -18,7 +18,7 @@
             <br>
         }else
         {
-            <p>@Lines[i]</p>
+            <p class="highlightable">@Lines[i]</p>
         }
     }
     }else
@@ -77,6 +77,8 @@
 
     protected override async Task OnParametersSetAsync()
     {
+        Console.WriteLine(Song);
+        
         Loading = true;
         SongFound = false;
 

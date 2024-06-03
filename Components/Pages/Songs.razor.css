@@ -10,3 +10,8 @@
     font-size: 20px;
     margin: 0;
 }
+
+.highlightable:hover
+{
+    background-color: darkgoldenrod;
+}
