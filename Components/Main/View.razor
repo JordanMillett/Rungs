@@ -14,6 +14,7 @@
     }
     <div id="content" class="@(NavigationOpen ? "default" : "expanded")">
         @Body
+        <br>
     </div>
 </div>
 
@@ -38,7 +39,7 @@
         await Task.Delay(0);
     }
 
-    async Task OnLinkClicked(bool Value)
+    async Task OnLinkClicked()
     {
         if(await IsDesktopSized())
         {
@@ -53,7 +54,6 @@
     async Task<bool> IsDesktopSized()
     {
         int Value = await Runtime.InvokeAsync<int>("getScreenWidth");
-        Console.WriteLine(Value);
         return Value > 700;
     }
 }

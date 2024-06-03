@@ -1,0 +1,108 @@
+@page "/songs/{song?}"
+@inject HttpClient Http
+
+@if (!Loading)
+{
+    @if(SongFound)
+    {
+    <PageTitle>@Song</PageTitle>
+
+    <h1 class="title">@Lines[0]</h1>
+    <p class="artist"><i>@Lines[1]</i></p>
+    <br>
+
+    @for (int i = 3; i < Lines.Length; i++)
+    {
+        if(String.IsNullOrWhiteSpace(Lines[i]))
+        {
+            <br>
+        }else
+        {
+            <p>@Lines[i]</p>
+        }
+    }
+    }else
+    {
+        <PageTitle>Missing</PageTitle>
+        <p>Song @Song not found.</p>
+        
+        <p>View included songs below:</p>
+        
+        @if(SongListLoaded)
+        {
+            <ul>
+            @foreach (string S in AllSongs)
+            {
+                <li><a href="songs/@S.ToLower()">@S</a></li>
+            }
+            </ul>
+        }else
+        {
+            <p></p>
+        }
+    }
+}else
+{
+    <p></p>
+}
+
+@code
+{
+    string[] AllSongs = new string[0];
+
+    [Parameter]
+    public string? Song { get; set; }
+
+    string Text = "";
+    string[] Lines = new string[0];
+
+    bool SongFound = false;
+    bool Loading = true;
+    bool SongListLoaded = false;
+
+    async Task LoadSongList()
+    {
+        string FullText = await Http.GetStringAsync("data/songlist.txt");
+        AllSongs = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
+                           .Select(line => line.Replace(".txt", ""))
+                           .ToArray();
+
+        SongListLoaded = true;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadSongList();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        Loading = true;
+        SongFound = false;
+
+        if (Song == null)
+        {
+            SongFound = false;
+        }
+        else
+        {   
+            Song = Song.ToLower();
+
+            HttpResponseMessage Message = await Http.GetAsync("data/songs/" + Song + ".txt");
+            if (Message.IsSuccessStatusCode)
+            {
+                byte[] Data = await Message.Content.ReadAsByteArrayAsync();
+                Text = Encoding.UTF8.GetString(Data);
+
+                Lines = Text.Split(new string[] { "\n" }, StringSplitOptions.None);
+
+                SongFound = true;
+            }else
+            {
+                SongFound = false;
+            }
+        }
+
+        Loading = false;
+    }
+}

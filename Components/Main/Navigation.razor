@@ -1,23 +1,15 @@
 <div class="link" @onclick="ToggleLinkClicked"><a href="">Home</a></div>
 <div class="link" @onclick="ToggleLinkClicked"><a href="terms/">Terms</a></div>
-<div class="link" @onclick="ToggleLinkClicked"><a>Practice</a></div>
-<div class="link" @onclick="ToggleLinkClicked"><a>Grammar</a></div>
-<div class="link" @onclick="ToggleLinkClicked"><a>Test</a></div>
-<div class="link" @onclick="ToggleLinkClicked"><a>Learn</a></div>
-<div class="link" @onclick="ToggleLinkClicked"><a>Profile</a></div>
-<div class="link" @onclick="ToggleLinkClicked"><a>Settings</a></div>
+<div class="link" @onclick="ToggleLinkClicked"><a href="songs/">Songs</a></div>
+<div class="link" @onclick="ToggleLinkClicked"><a href="songs/test">Test</a></div>
 
 @code
 {
     [Parameter]
-    public bool LinkClicked { get; set; }
-
-    [Parameter]
-    public EventCallback<bool> OnLinkClicked { get; set; }
+    public EventCallback OnLinkClicked { get; set; }
         
     async Task ToggleLinkClicked()
     {
-        LinkClicked = !LinkClicked;
-        await OnLinkClicked.InvokeAsync(LinkClicked);
+        await OnLinkClicked.InvokeAsync();
     }
 }
