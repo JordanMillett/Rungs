@@ -49,8 +49,9 @@ hr[b-zf06gc6n7u]
 {
     background-color: var(--content_background);
   
-   
-   
+    height: 100vh;
+    height: 100dvh;
+    background-color: red;
     margin-top: 60px;
 }
 
@@ -58,15 +59,15 @@ hr[b-zf06gc6n7u]
 {
     width: 300px;
     position: fixed;
-  
+    background-color: purple;
 }
 
 #content[b-8i8s5ugrjo]
 {  
     padding: 20px;
-    height: 100vh;
     overflow-y: auto;
- 
+    height: 100%;
+    background-color: blue;
 }
 
 .default[b-8i8s5ugrjo]
