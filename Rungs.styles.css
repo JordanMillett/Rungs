@@ -19,7 +19,7 @@
 
 hr[b-zf06gc6n7u]
 {
-    border: 1px solid var(--bg_color_gray);
+    border: 1px solid var(--border_color);
     
     position: absolute;
     margin-top: auto;
@@ -112,4 +112,9 @@ hr[b-zf06gc6n7u]
 {
     font-size: 20px;
     margin: 0;
+}
+
+.highlightable:hover[b-li9tlq7wjp]
+{
+    background-color: darkgoldenrod;
 }
