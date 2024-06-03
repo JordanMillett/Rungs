@@ -31,9 +31,9 @@
         @if(SongListLoaded)
         {
             <ul>
-            @for (int i = 0; i < AllSongs.Length; i++)
-            { 
-                <li><a href="songs/@SongLinks[i].ToLower()">@AllSongs[i]</a></li>
+            @for (int i = 0; i < AllSongLinks.Length; i++)
+            {
+                <li><a href="songs/@AllSongLinks[i].ToLower()">@AllSongNames[i]</a></li>
             }
             </ul>
         }else
@@ -48,8 +48,8 @@
 
 @code
 {
-    string[] AllSongs = new string[0];
-    string[] SongLinks = new string[0];
+    string[] AllSongNames = new string[0];
+    string[] AllSongLinks = new string[0];
 
     [Parameter]
     public string? Song { get; set; }
@@ -63,14 +63,13 @@
 
     async Task LoadSongList()
     {
-        string FullText = await Http.GetStringAsync("data/songlist.txt");
-
-        AllSongs = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
+        string FullText = await Http.GetStringAsync("data/songlinks.txt");
+        AllSongLinks = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
                            .Select(line => line.Replace(".txt", ""))
                            .ToArray();
-
-        FullText = FullText.Replace(" ", "%20");
-        SongLinks = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
+                           
+        FullText = await Http.GetStringAsync("data/songnames.txt");
+        AllSongNames = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
                            .Select(line => line.Replace(".txt", ""))
                            .ToArray();
 
@@ -94,7 +93,6 @@
         else
         {   
             Song = Song.ToLower();
-            Song = Song.Replace("%20", " ").TrimEnd();
 
             HttpResponseMessage Message = await Http.GetAsync("data/songs/" + Song + ".txt");
             if (Message.IsSuccessStatusCode)
