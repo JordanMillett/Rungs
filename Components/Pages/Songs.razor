@@ -25,7 +25,7 @@
     {
         <PageTitle>Missing</PageTitle>
         <p>Song @Song not found.</p>
-        
+        /*
         <p>View included songs below:</p>
         
         @if(SongListLoaded)
@@ -39,7 +39,7 @@
         }else
         {
             <p></p>
-        }
+        }*/
     }
 }else
 {
@@ -58,22 +58,6 @@
 
     bool SongFound = false;
     bool Loading = true;
-    bool SongListLoaded = false;
-
-    async Task LoadSongList()
-    {
-        string FullText = await Http.GetStringAsync("data/songlist.txt");
-        AllSongs = FullText.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)
-                           .Select(line => line.Replace(".txt", ""))
-                           .ToArray();
-
-        SongListLoaded = true;
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        await LoadSongList();
-    }
 
     protected override async Task OnParametersSetAsync()
     {
@@ -86,10 +70,7 @@
         }
         else
         {
-            Console.WriteLine(Song); 
-            string Target = Uri.EscapeDataString(Song);
-            Console.WriteLine(Target);
-            HttpResponseMessage Message = await Http.GetAsync("data/songs/" + Target + ".txt");
+            HttpResponseMessage Message = await Http.GetAsync("data/songs/" + Song + ".txt");
             if (Message.IsSuccessStatusCode)
             {
                 byte[] Data = await Message.Content.ReadAsByteArrayAsync();

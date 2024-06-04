@@ -1,0 +1,43 @@
+@page "/search"
+
+@inject ISongService SongService
+
+<h1>Search Songs</h1>
+
+<p>Enter search term:</p>
+<input type="text" value="@searchTerm" @oninput="SearchTermChanged" />
+
+@if (searchResults.Any())
+{
+    <h2>Results:</h2>
+    @foreach (Song S in searchResults)
+    {
+        <a href="songs/@S.Link">@S.Title - @S.Artist</a><br>
+    }
+}
+else
+{
+    <p>No results found.</p>
+}
+
+@code 
+{
+    string searchTerm = "";
+    List<Song> searchResults = new List<Song>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await UpdateSearch();
+    }
+
+    async Task SearchTermChanged(ChangeEventArgs e)
+    {
+        searchTerm = string.Format("{0}", e.Value);
+        await UpdateSearch();
+    }
+
+    async Task UpdateSearch()
+    {
+        searchResults = await SongService.Search(searchTerm);
+    }
+}

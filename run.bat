@@ -1,3 +1,3 @@
 @echo off
-call generate_songlist.bat
+dotnet script generate_songlist.csx
 dotnet watch
