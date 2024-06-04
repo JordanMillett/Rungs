@@ -7,6 +7,11 @@
     color: var(--text_color)
 }
 
+a[b-zf06gc6n7u]
+{
+    color: var(--text_color)
+}
+
 .title[b-zf06gc6n7u]
 {
     font-size: 40px;
@@ -43,6 +48,7 @@ hr[b-zf06gc6n7u]
     width: 100%;
     height: 60px;
     position: fixed;
+    white-space: nowrap;
 }
 
 #container[b-8i8s5ugrjo]
@@ -92,29 +98,51 @@ hr[b-zf06gc6n7u]
         width: 100%;
     }
 }
-/* /Components/Pages/Home.razor.rz.scp.css */
-.title[b-gysvgvxaef]
+/* /Components/Pages/Homepage.razor.rz.scp.css */
+.title[b-pw8gvdk4qy]
 {
     font-size: 90px;
     font-weight: bold;
     text-align: center;
     margin: 0;
 }
-/* /Components/Pages/Songs.razor.rz.scp.css */
-.title[b-li9tlq7wjp]
+/* /Components/Pages/Searchpage.razor.rz.scp.css */
+#container[b-mbf94rdbdf]
+{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered[b-mbf94rdbdf]
+{
+    text-align: center;
+}
+/* /Components/Pages/Songpage.razor.rz.scp.css */
+@media only screen and (max-width: 700px) 
+{
+    #container[b-tu8woojp75]
+    {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.title[b-tu8woojp75]
 {
     font-size: 50px;
     font-weight: bold;
     margin: 0;
 }
 
-.artist[b-li9tlq7wjp]
+.artist[b-tu8woojp75]
 {
     font-size: 20px;
     margin: 0;
 }
 
-.highlightable:hover[b-li9tlq7wjp]
+.highlightable:hover[b-tu8woojp75]
 {
     background-color: darkgoldenrod;
 }
