@@ -11,13 +11,13 @@ public class Song
 {
     public string Title { get; set; }
     public string Artist { get; set; }
-    public string Link { get; set; }
+    public string URL { get; set; }
 
-    public Song(string title, string artist, string link)
+    public Song(string title, string artist, string url)
     {
         Title = title;
         Artist = artist;
-        Link = link;
+        URL = url;
     }
 }
 
@@ -51,13 +51,13 @@ public class SongService : ISongService
 
         foreach (Song S in LoadedSongs)
         {
-            AddSong(S.Title, S.Artist, S.Link);
+            AddSong(S.Title, S.Artist, S.URL);
         }
     }
 
-    private void AddSong(string title, string artist, string link)
+    private void AddSong(string title, string artist, string url)
     {
-        Song S = new Song(title, artist, link);
+        Song S = new Song(title, artist, url);
         AllSongs.Add(title, S);
     }
 

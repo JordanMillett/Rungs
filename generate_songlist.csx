@@ -10,7 +10,7 @@ public class Song
 {
     public string Title { get; set; }
     public string Artist { get; set; }
-    public string Link { get; set; }
+    public string URL { get; set; }
 }
 
 Main();
@@ -40,7 +40,7 @@ void Main()
         {
             Title = title,
             Artist = artist,
-            Link = hash
+            URL = hash
         };
 
         songs.Add(song);

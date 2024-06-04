@@ -1,3 +1,13 @@
+@media only screen and (max-width: 700px) 
+{
+    #container
+    {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .title
 {
     font-size: 50px;

@@ -1,30 +1,32 @@
-@page "/songs/{song?}"
+@page "/songs/{url?}"
 @inject HttpClient Http
 
 @if (!Loading)
 {
     @if(SongFound)
-    {
-    <PageTitle>@Song</PageTitle>
-
-    <h1 class="title">@Lines[0]</h1>
-    <p class="artist"><i>@Lines[1]</i></p>
-    <br>
-
-    @for (int i = 3; i < Lines.Length; i++)
-    {
-        if(String.IsNullOrWhiteSpace(Lines[i]))
-        {
+    {        
+        <PageTitle>@Lines[0]</PageTitle>
+        
+        <div id="container">
+            <h1 class="title">@Lines[0]</h1>
+            <p class="artist"><i>@Lines[1]</i></p>
             <br>
-        }else
-        {
-            <p class="highlightable">@Lines[i]</p>
-        }
-    }
+
+            @for (int i = 3; i < Lines.Length; i++)
+            {
+                if(String.IsNullOrWhiteSpace(Lines[i]))
+                {
+                    <br>
+                }else
+                {
+                    <p class="highlightable">@Lines[i]</p>
+                }
+            }
+        </div>
     }else
     {
         <PageTitle>Missing</PageTitle>
-        <p>Song @Song not found.</p>
+        <p>Song @URL not found.</p>
         /*
         <p>View included songs below:</p>
         
@@ -51,7 +53,7 @@
     string[] AllSongs = new string[0];
 
     [Parameter]
-    public string? Song { get; set; }
+    public string? URL { get; set; }
 
     string Text = "";
     string[] Lines = new string[0];
@@ -64,13 +66,13 @@
         Loading = true;
         SongFound = false;
 
-        if (Song == null)
+        if (URL == null)
         {
             SongFound = false;
         }
         else
         {
-            HttpResponseMessage Message = await Http.GetAsync("data/songs/" + Song + ".txt");
+            HttpResponseMessage Message = await Http.GetAsync("data/songs/" + URL + ".txt");
             if (Message.IsSuccessStatusCode)
             {
                 byte[] Data = await Message.Content.ReadAsByteArrayAsync();

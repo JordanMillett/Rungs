@@ -6,6 +6,11 @@
     color: var(--text_color)
 }
 
+a
+{
+    color: var(--text_color)
+}
+
 .title
 {
     font-size: 40px;
