@@ -1,6 +1,14 @@
+@inject ProfileService ProfileService
+
 <div class="link" @onclick="ToggleLinkClicked"><a href="">Home</a></div>
 <div class="link" @onclick="ToggleLinkClicked"><a href="search/">Search</a></div>
 <div class="link" @onclick="ToggleLinkClicked"><a href="profile/">Profile</a></div>
+<br>
+<div class="link">Recent Pages</div>
+@foreach (Page P in ProfileService.RecentPages)
+{
+    <div class="link" @onclick="ToggleLinkClicked"><a href="songs/@P.Link">@P.Name</a></div>
+}
 
 @code
 {
@@ -10,5 +18,20 @@
     async Task ToggleLinkClicked()
     {
         await OnLinkClicked.InvokeAsync();
+    }
+    
+    protected override void OnInitialized()
+    {
+        ProfileService.OnProfileSave += Rerender;
+    }
+
+    private void Rerender()
+    {
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        ProfileService.OnProfileSave -= Rerender;
     }
 }

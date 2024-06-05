@@ -1,5 +1,6 @@
 @page "/songs/{url?}"
 @inject HttpClient Http
+@inject ProfileService ProfileService
 
 @if (!Loading)
 {
@@ -19,7 +20,22 @@
                     <br>
                 }else
                 {
-                    <p class="highlightable">@Lines[i]</p>
+                    string[] words = Lines[i].Split(new char[] { ' ', '.', '?', ',', '-', '!', ';', ':', '—', '"', '\''}, StringSplitOptions.RemoveEmptyEntries);
+                    
+                    <p>
+                        @foreach (string word in words)
+                        {      
+                            <span class="highlightable @(ProfileService.HasTerm(word) ? "added" : "")"
+                                @onclick="() => ProfileService.ToggleTerm(word)">
+                                @word
+                            </span>
+                            
+                            @if (!word.Equals(words.Last()))
+                            {
+                                <span>&nbsp;</span>
+                            }
+                        }
+                    </p>
                 }
             }
         </div>
@@ -79,6 +95,8 @@
                 Text = Encoding.UTF8.GetString(Data);
 
                 Lines = Text.Split(new string[] { "\n" }, StringSplitOptions.None);
+                
+                await ProfileService.UpdateRecent(Lines[0], URL);
 
                 SongFound = true;
             }else
