@@ -1,0 +1,33 @@
+@page "/profile"
+@inject ProfileService ProfileService
+@inject SongService SongService
+
+<PageTitle>Profile</PageTitle>
+
+<p>Enter Name Here:</p>
+<input type="text" value="@ProfileService.ProfileName" @oninput="ProfileNameChanged"/>
+
+<p>Term to add:</p>
+<input type="text" @bind="TermToAdd"/>
+<button @onclick="() => ProfileService.AddTerm(TermToAdd)">Add</button>
+
+<p>Term to remove:</p>
+<input type="text" @bind="TermToRemove"/>
+<button @onclick="() => ProfileService.RemoveTerm(TermToRemove)">Remove</button>
+
+@foreach (KeyValuePair<string, Term> T in ProfileService.Terms)
+{
+    <p>@T.Value.RU</p>
+}
+
+@code
+{
+    string TermToAdd = "";
+    string TermToRemove = "";
+
+    async Task ProfileNameChanged(ChangeEventArgs e)
+    {
+        ProfileService.ProfileName = string.Format("{0}", e.Value);
+        await ProfileService.SaveProfile();
+    }
+}

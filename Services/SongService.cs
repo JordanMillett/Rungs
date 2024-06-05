@@ -1,12 +1,6 @@
 using System.Diagnostics;
 using System.Text.Json;
 
-public interface ISongService
-{
-    Task InitializeAsync();
-    Task<List<Song>> Search(string searchTerm);
-}
-
 public class Song
 {
     public string Title { get; set; }
@@ -21,7 +15,7 @@ public class Song
     }
 }
 
-public class SongService : ISongService
+public class SongService
 {
     Dictionary<string, Song> AllSongs;
 

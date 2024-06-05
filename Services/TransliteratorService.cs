@@ -1,10 +1,4 @@
-public interface ITransliterator
-{
-    string CyrillicToLatin(string cyrillicText);
-    string LatinToCyrillic(string latinText);
-}
-
-public class TransliteratorService : ITransliterator
+public class TransliteratorService
 {
     private Dictionary<char, string> cyrillicToLatinMap = new Dictionary<char, string>
     {
