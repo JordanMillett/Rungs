@@ -144,5 +144,15 @@ hr[b-zf06gc6n7u]
 
 .highlightable:hover[b-tu8woojp75]
 {
-    background-color: darkgoldenrod;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--content_background);
+    background-color: var(--text_color);
+}
+
+.added[b-tu8woojp75]
+{
+    text-decoration: underline;
+    text-decoration-color: var(--text_color_red);
+    text-decoration-thickness: 2px;
 }
