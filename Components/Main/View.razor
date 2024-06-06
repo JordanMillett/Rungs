@@ -54,6 +54,6 @@
     async Task<bool> IsDesktopSized()
     {
         int Value = await Runtime.InvokeAsync<int>("getScreenWidth");
-        return Value > 700;
+        return Value > 600;
     }
 }
