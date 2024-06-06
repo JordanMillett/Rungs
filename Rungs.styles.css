@@ -98,6 +98,29 @@ hr[b-zf06gc6n7u]
         width: 100%;
     }
 }
+/* /Components/Pages/Debugpage.razor.rz.scp.css */
+#textbox[b-pzvv3jpqi6]
+{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+hr[b-pzvv3jpqi6]
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p[b-pzvv3jpqi6]
+{
+    padding-top: 4px;
+    font-size: 14px;
+    font-family: "Overpass Mono";
+    margin: 0;
+}
 /* /Components/Pages/Homepage.razor.rz.scp.css */
 .title[b-pw8gvdk4qy]
 {
