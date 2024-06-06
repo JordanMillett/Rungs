@@ -13,11 +13,13 @@ public class Term
 public class Page
 {
     public string Name { get; set; }
+    public string Category { get; set; }
     public string Link { get; set; }
 
-    public Page(string name, string link)
+    public Page(string name, string category, string link)
     {
         Name = name;
+        Category = category;
         Link = link;
     }
 }
@@ -51,7 +53,7 @@ public class ProfileService
         Debug.Log($"Profile: {ProfileName} loaded");
     }
     
-    public async Task UpdateRecent(string Name, string Link)
+    public async Task UpdateRecent(string Name, string Category, string Link)
     {
         for(int i = 0; i < RecentPages.Count; i++)
         {
@@ -59,7 +61,7 @@ public class ProfileService
                 RecentPages.RemoveAt(i);
         }
         
-        Page P = new Page(Name, Link);
+        Page P = new Page(Name, Category, Link);
         RecentPages.Insert(0, P);
 
         int recentSize = 4;

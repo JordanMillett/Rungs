@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 public class Song
 {
     public string Title { get; set; }
-    public string Artist { get; set; }
+    public string Author { get; set; }
     public string URL { get; set; }
 }
 
@@ -34,12 +34,12 @@ void Main()
 
         string[] lines = File.ReadAllLines(Path.Combine(directory, newFileName));
         string title = lines[0];
-        string artist = lines[1];
+        string author = lines[1];
 
         Song song = new Song
         {
             Title = title,
-            Artist = artist,
+            Author = author,
             URL = hash
         };
 

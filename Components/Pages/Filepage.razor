@@ -1,16 +1,16 @@
-@page "/songs/{url?}"
+@page "/search/{category?}/{url?}"
 @inject HttpClient Http
 @inject ProfileService ProfileService
 
 @if (!Loading)
 {
-    @if(SongFound)
+    @if(FileFound)
     {        
         <PageTitle>@Lines[0]</PageTitle>
         
         <div id="container">
             <h1 class="title">@Lines[0]</h1>
-            <p class="artist"><i>@Lines[1]</i></p>
+            <p class="author"><i>@Lines[1]</i></p>
             <br>
 
             @for (int i = 3; i < Lines.Length; i++)
@@ -42,22 +42,7 @@
     }else
     {
         <PageTitle>Missing</PageTitle>
-        <p>Song @URL not found.</p>
-        /*
-        <p>View included songs below:</p>
-        
-        @if(SongListLoaded)
-        {
-            <ul>
-            @for (int i = 0; i < AllSongs.Length; i++)
-            {
-                <li><a href="songs/@AllSongs[i].ToLower()">@AllSongs[i]</a></li>
-            }
-            </ul>
-        }else
-        {
-            <p></p>
-        }*/
+        <p>File @URL not found.</p>
     }
 }else
 {
@@ -66,29 +51,30 @@
 
 @code
 {
-    string[] AllSongs = new string[0];
-
+    [Parameter]
+    public string? Category { get; set; }
+    
     [Parameter]
     public string? URL { get; set; }
 
     string Text = "";
     string[] Lines = new string[0];
 
-    bool SongFound = false;
+    bool FileFound = false;
     bool Loading = true;
 
     protected override async Task OnParametersSetAsync()
     {
         Loading = true;
-        SongFound = false;
+        FileFound = false;
 
         if (URL == null)
         {
-            SongFound = false;
+            FileFound = false;
         }
         else
         {
-            HttpResponseMessage Message = await Http.GetAsync("data/songs/" + URL + ".txt");
+            HttpResponseMessage Message = await Http.GetAsync("data/" + Category + "/" + URL + ".txt");
             if (Message.IsSuccessStatusCode)
             {
                 byte[] Data = await Message.Content.ReadAsByteArrayAsync();
@@ -96,12 +82,12 @@
 
                 Lines = Text.Split(new string[] { "\n" }, StringSplitOptions.None);
                 
-                await ProfileService.UpdateRecent(Lines[0], URL);
+                await ProfileService.UpdateRecent(Lines[0], Category, URL);
 
-                SongFound = true;
+                FileFound = true;
             }else
             {
-                SongFound = false;
+                FileFound = false;
             }
         }
 

@@ -15,14 +15,14 @@ builder.Services.AddBlazoredLocalStorageAsSingleton();
 builder.Services.AddSingleton<DebugService>();
 //builder.Services.AddSingleton<ITransliterator, TransliteratorService>();
 builder.Services.AddSingleton<ProfileService>();
-builder.Services.AddSingleton<SongService>();
+builder.Services.AddSingleton<FileService>();
 
 WebAssemblyHost host = builder.Build();
 
 ProfileService profileService = host.Services.GetRequiredService<ProfileService>();
 await profileService.InitializeAsync();
 
-SongService songService = host.Services.GetRequiredService<SongService>();
-await songService.InitializeAsync();
+FileService fileService = host.Services.GetRequiredService<FileService>();
+await fileService.InitializeAsync();
 
 await host.RunAsync();
