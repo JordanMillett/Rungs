@@ -19,12 +19,14 @@ public class SongService
 {
     Dictionary<string, Song> AllSongs;
 
+    DebugService Debug;
     HttpClient Http { get; set; }
 
-    public SongService(HttpClient httpClient)
+    public SongService(HttpClient httpClient, DebugService debug)
     {
         AllSongs = new Dictionary<string, Song>();
         Http = httpClient;
+        Debug = debug;
     }
 
     public async Task InitializeAsync()
@@ -34,7 +36,7 @@ public class SongService
         await LoadSongList();
         
         stopwatch.Stop();
-        Console.WriteLine($"Loaded {AllSongs.Count} songs in {stopwatch.ElapsedMilliseconds}ms");
+        Debug.Log($"Loaded {AllSongs.Count} songs in {stopwatch.ElapsedMilliseconds}ms");
     }
 
     async Task LoadSongList()

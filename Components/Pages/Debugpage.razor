@@ -1,0 +1,20 @@
+@page "/debug"
+
+@inject DebugService Debug
+
+<PageTitle>Debug</PageTitle>
+
+@if(Debug.Messages.Any())
+{
+    <div id="textbox">
+        
+        <hr>
+        
+        @foreach (string Message in Debug.Messages)
+        {
+            <p>@Message</p>
+            
+            <hr>
+        }
+    </div>
+}

@@ -24,18 +24,20 @@ public class Page
 
 public class ProfileService
 {
-    public event Action OnProfileSave;
+    public event Action OnProfileSave = () => { };
     
     Blazored.LocalStorage.ILocalStorageService Local;
+    DebugService Debug;
 
     //-----     SAVED DATA     -----
     public string ProfileName = "User";
     public Dictionary<string, Term> Terms = new Dictionary<string, Term>();
     public List<Page> RecentPages = new List<Page>();
 
-    public ProfileService(Blazored.LocalStorage.ILocalStorageService localStorage)
+    public ProfileService(Blazored.LocalStorage.ILocalStorageService localStorage, DebugService debug)
     {
         Local = localStorage;
+        Debug = debug;
     }
 
     public async Task InitializeAsync()
@@ -45,8 +47,8 @@ public class ProfileService
         await LoadProfile();
 
         stopwatch.Stop();
-        Console.WriteLine($"Loaded {Terms.Count} terms in {stopwatch.ElapsedMilliseconds}ms");
-        Console.WriteLine($"Profile: {ProfileName} loaded");
+        Debug.Log($"Loaded {Terms.Count} terms in {stopwatch.ElapsedMilliseconds}ms");
+        Debug.Log($"Profile: {ProfileName} loaded");
     }
     
     public async Task UpdateRecent(string Name, string Link)
@@ -79,6 +81,7 @@ public class ProfileService
             if (!Terms.ContainsKey(Value))
             {
                 Terms.Add(Value, new Term(Value));
+                Debug.Log("Added Term: " + Value);
                 await SaveProfile();
             }
         }
@@ -87,6 +90,7 @@ public class ProfileService
     public async Task RemoveTerm(string Value)
     {
         Terms.Remove(Value.ToLower());
+        Debug.Log("Removed Term: " + Value);
         await SaveProfile();
     }
     

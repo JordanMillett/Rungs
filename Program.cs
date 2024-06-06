@@ -11,6 +11,8 @@ builder.Services.AddSingleton<HttpClient>(sp => new HttpClient { BaseAddress = n
 
 builder.Services.AddBlazoredLocalStorageAsSingleton();
 
+
+builder.Services.AddSingleton<DebugService>();
 //builder.Services.AddSingleton<ITransliterator, TransliteratorService>();
 builder.Services.AddSingleton<ProfileService>();
 builder.Services.AddSingleton<SongService>();
