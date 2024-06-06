@@ -132,6 +132,44 @@ p[b-pzvv3jpqi6]
     font-family: "Overpass Mono";
     margin: 0;
 }
+/* /Components/Pages/Filepage.razor.rz.scp.css */
+@media only screen and (max-width: 600px) 
+{
+    #container[b-sgh5beeuvd]
+    {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.title[b-sgh5beeuvd]
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.author[b-sgh5beeuvd]
+{
+    font-size: 20px;
+    margin: 0;
+}
+
+.highlightable:hover[b-sgh5beeuvd]
+{
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--content_background);
+    background-color: var(--text_color);
+}
+
+.added[b-sgh5beeuvd]
+{
+    text-decoration: underline;
+    text-decoration-color: var(--text_color_red);
+    text-decoration-thickness: 2px;
+}
 /* /Components/Pages/Homepage.razor.rz.scp.css */
 .title[b-pw8gvdk4qy]
 {
@@ -152,42 +190,4 @@ p[b-pzvv3jpqi6]
 .centered[b-mbf94rdbdf]
 {
     text-align: center;
-}
-/* /Components/Pages/Songpage.razor.rz.scp.css */
-@media only screen and (max-width: 600px) 
-{
-    #container[b-tu8woojp75]
-    {
-        max-width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-.title[b-tu8woojp75]
-{
-    font-size: 50px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.artist[b-tu8woojp75]
-{
-    font-size: 20px;
-    margin: 0;
-}
-
-.highlightable:hover[b-tu8woojp75]
-{
-    cursor: pointer;
-    font-weight: bold;
-    color: var(--content_background);
-    background-color: var(--text_color);
-}
-
-.added[b-tu8woojp75]
-{
-    text-decoration: underline;
-    text-decoration-color: var(--text_color_red);
-    text-decoration-thickness: 2px;
 }
