@@ -15,6 +15,9 @@
 <input type="text" @bind="TermToRemove"/>
 <button @onclick="() => ProfileService.RemoveTerm(TermToRemove)">Remove</button>
 
+<p>Clear Profile</p>
+<button @onclick="() => ProfileService.ClearProfile()">Clear</button>
+
 @foreach (KeyValuePair<string, Term> T in ProfileService.Terms)
 {
     <p>@T.Value.RU</p>

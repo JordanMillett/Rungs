@@ -28,10 +28,19 @@ public class ProfileService
         Debug = debug;
     }
 
+    void InitializeProfile()
+    {
+        ProfileName = "User";
+        Terms = new Dictionary<string, Term>();
+        RecentPages = new List<string>();
+    }
+
     public async Task InitializeAsync()
     {
+        InitializeProfile();
+        
         Stopwatch stopwatch = Stopwatch.StartNew();
-
+        
         await LoadProfile();
 
         stopwatch.Stop();
@@ -124,5 +133,12 @@ public class ProfileService
         await Local.SetItemAsync<List<string>>("recent", RecentPages);
         
         OnProfileSave?.Invoke();
+    }
+    
+    public async Task ClearProfile()
+    {
+        await Local.ClearAsync();
+        Debug.Log("Cleared Profile");
+        InitializeProfile();
     }
 }
