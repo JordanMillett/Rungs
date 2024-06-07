@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Rungs",
   "resources": {
-    "hash": "sha256-Ne3Py3w2KQ6RihIqoT8ZXnCEgFKpM4M1scK/DaLPQeE=",
+    "hash": "sha256-6JzQyMbP27Uy5SmivQh54+KPkQ/yM43wkcEqFI68+FY=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.6vlmefabfv.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -32,7 +32,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6187ynEahDlSLMBvD4vAmiLpZ3clRb5xu6rM7O8AxNo=",
       "Microsoft.JSInterop.wasm": "sha256-3O3gWyrEr74DBx9YVdApbuDBLG2cw8DkHPzqZ2JoG2Q=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-i8yLC1pzEZMAPAHK2MyunJW81S6Tpyvwka9LDZSylx8=",
-      "Rungs.wasm": "sha256-yIbnnQ7Vpodl/4OVmrRo/LUs8eFBcNHtDiz+t9Ur/4Q=",
+      "Rungs.wasm": "sha256-TFVf1SA5iz67bbNiSv0Eaub9P2CI+brHUfMauJGn2IA=",
       "System.Collections.Concurrent.wasm": "sha256-k7on0sE4G2EIY8yi6XS/+wuMjRCChNDwl+O8Uq+uyy4=",
       "System.Collections.wasm": "sha256-f99tRNZrArorFwKEtmUZI2Sp4nrYIap7cxjSz9HU3Ig=",
       "System.ComponentModel.wasm": "sha256-3drUNG+pOzAK56sVBBB8sQXp80RmGsNYQXUk2WSIAD8=",
