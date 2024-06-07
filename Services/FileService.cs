@@ -19,7 +19,7 @@ public class File
 
 public class FileService
 {
-    Dictionary<string, File> AllFiles;
+    public Dictionary<string, File> AllFiles;
 
     DebugService Debug;
     HttpClient Http { get; set; }
@@ -43,19 +43,19 @@ public class FileService
 
     async Task LoadFileList()
     {
-        string JSON = await Http.GetStringAsync("data/songlist.txt");
+        string JSON = await Http.GetStringAsync("data/filelist.txt");
         List<File> LoadedSongs = JsonSerializer.Deserialize<List<File>>(JSON)!;
 
         foreach (File F in LoadedSongs)
         {
-            AddFile(F.Title, F.Author, F.URL, "songs");
+            AddFile(F.Title, F.Author, F.URL, F.Category);
         }
     }
 
     private void AddFile(string title, string author, string url, string category)
     {
         File F = new File(title, author, url, category);
-        AllFiles.Add(title, F);
+        AllFiles.Add(url, F);
     }
 
     public async Task<List<File>> Search(string searchTerm)

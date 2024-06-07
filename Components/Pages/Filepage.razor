@@ -1,16 +1,17 @@
-@page "/search/{category?}/{url?}"
+@page "/search/{url?}"
 @inject HttpClient Http
 @inject ProfileService ProfileService
+@inject FileService FileService
 
 @if (!Loading)
 {
-    @if(FileFound)
+    @if(FileFound && URL != null && FileService.AllFiles.ContainsKey(URL))
     {        
-        <PageTitle>@Lines[0]</PageTitle>
+        <PageTitle>@FileService.AllFiles[URL].Title</PageTitle>
         
         <div id="container">
-            <h1 class="title">@Lines[0]</h1>
-            <p class="author"><i>@Lines[1]</i></p>
+            <h1 class="title">@FileService.AllFiles[URL].Title</h1>
+            <p class="author"><i>@FileService.AllFiles[URL].Author</i></p>
             <br>
 
             @for (int i = 3; i < Lines.Length; i++)
@@ -20,7 +21,7 @@
                     <br>
                 }else
                 {
-                    string[] words = Lines[i].Split(new char[] { ' ', '.', '?', ',', '-', '!', ';', ':', '—', '"', '\''}, StringSplitOptions.RemoveEmptyEntries);
+                    string[] words = Lines[i].Split(new char[] { ' ', '.', '?', ',', '-', '!', ';', ':', '—', '"', '\'', '–'}, StringSplitOptions.RemoveEmptyEntries);
                     
                     <p>
                         @foreach (string word in words)
@@ -52,9 +53,6 @@
 @code
 {
     [Parameter]
-    public string? Category { get; set; }
-    
-    [Parameter]
     public string? URL { get; set; }
 
     string Text = "";
@@ -74,7 +72,7 @@
         }
         else
         {
-            HttpResponseMessage Message = await Http.GetAsync("data/" + Category + "/" + URL + ".txt");
+            HttpResponseMessage Message = await Http.GetAsync("data/" + FileService.AllFiles[URL].Category + "/" + URL + ".txt");
             if (Message.IsSuccessStatusCode)
             {
                 byte[] Data = await Message.Content.ReadAsByteArrayAsync();
@@ -82,7 +80,7 @@
 
                 Lines = Text.Split(new string[] { "\n" }, StringSplitOptions.None);
                 
-                await ProfileService.UpdateRecent(Lines[0], Category, URL);
+                await ProfileService.UpdateRecent(URL);
 
                 FileFound = true;
             }else

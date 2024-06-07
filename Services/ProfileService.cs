@@ -10,20 +10,6 @@ public class Term
     }
 }
 
-public class Page
-{
-    public string Name { get; set; }
-    public string Category { get; set; }
-    public string Link { get; set; }
-
-    public Page(string name, string category, string link)
-    {
-        Name = name;
-        Category = category;
-        Link = link;
-    }
-}
-
 public class ProfileService
 {
     public event Action OnProfileSave = () => { };
@@ -34,7 +20,7 @@ public class ProfileService
     //-----     SAVED DATA     -----
     public string ProfileName = "User";
     public Dictionary<string, Term> Terms = new Dictionary<string, Term>();
-    public List<Page> RecentPages = new List<Page>();
+    public List<string> RecentPages = new List<string>();
 
     public ProfileService(Blazored.LocalStorage.ILocalStorageService localStorage, DebugService debug)
     {
@@ -53,16 +39,15 @@ public class ProfileService
         Debug.Log($"Profile: {ProfileName} loaded");
     }
     
-    public async Task UpdateRecent(string Name, string Category, string Link)
+    public async Task UpdateRecent(string Link)
     {
         for(int i = 0; i < RecentPages.Count; i++)
         {
-            if (RecentPages[i].Link == Link)
+            if (RecentPages[i] == Link)
                 RecentPages.RemoveAt(i);
         }
-        
-        Page P = new Page(Name, Category, Link);
-        RecentPages.Insert(0, P);
+
+        RecentPages.Insert(0, Link);
 
         int recentSize = 4;
 
@@ -126,7 +111,7 @@ public class ProfileService
         
         if(await Local.ContainKeyAsync("recent"))
         {
-            RecentPages = await Local.GetItemAsync<List<Page>>("recent") ?? RecentPages;
+            RecentPages = await Local.GetItemAsync<List<string>>("recent") ?? RecentPages;
         }
     }
     
@@ -136,7 +121,7 @@ public class ProfileService
         
         await Local.SetItemAsync<Dictionary<string, Term>>("terms", Terms);
         
-        await Local.SetItemAsync<List<Page>>("recent", RecentPages);
+        await Local.SetItemAsync<List<string>>("recent", RecentPages);
         
         OnProfileSave?.Invoke();
     }

@@ -28,10 +28,10 @@
             
             @foreach (File F in searchResults)
             {
-                <a href="search/@F.Category/@F.URL">
+                <a href="search/@F.URL">
                 <div style="display: flex;">
                     <div style="flex: 1;">
-                        <span>@F.Title 🎵</span>
+                        <span>@F.Title @GetSymbol(F.Category)</span>
                     </div>
                     <div style="flex: 1; text-align: right;">
                         <span>@F.Author</span>
@@ -66,5 +66,15 @@
     async Task UpdateSearch()
     {
         searchResults = await FileService.Search(searchTerm);
+    }
+    
+    string GetSymbol(string Category)
+    {
+        switch (Category)
+        {
+            case "songs": return "♫";
+            case "texts": return "🕮";
+            default: return "";
+        }
     }
 }

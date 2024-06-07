@@ -1,4 +1,5 @@
 @inject ProfileService ProfileService
+@inject FileService FileService
 
 <div class="link" @onclick="ToggleLinkClicked"><a href="">Home</a></div>
 <div class="link" @onclick="ToggleLinkClicked"><a href="search/">Search</a></div>
@@ -6,9 +7,9 @@
 <div class="link" @onclick="ToggleLinkClicked"><a href="debug/">Debug</a></div>
 <br>
 <div class="link">Recent Pages</div>
-@foreach (Page P in ProfileService.RecentPages)
+@foreach (string S in ProfileService.RecentPages)
 {
-    <div class="link" @onclick="ToggleLinkClicked"><a href="search/@P.Category/@P.Link">@P.Name</a></div>
+    <div class="link" @onclick="ToggleLinkClicked"><a href="search/@S">@FileService.AllFiles[S].Title</a></div>
 }
 
 @code

@@ -6,11 +6,12 @@ using System.Diagnostics;
 using System.IO;
 using Newtonsoft.Json;
 
-public class Song
+public class FileData
 {
     public string Title { get; set; }
     public string Author { get; set; }
     public string URL { get; set; }
+    public string Category { get; set; }
 }
 
 Main();
@@ -20,39 +21,48 @@ void Main()
     Stopwatch stopwatch = new Stopwatch();
     stopwatch.Start();
     
-    string directory = @"wwwroot\data\songs";
-    string songListFilePath = @"wwwroot\data\songlist.txt";
+    List<FileData> files = new List<FileData>();
 
-    List<Song> songs = new List<Song>();
 
-    foreach (string file in Directory.GetFiles(directory, "*.txt"))
+    GetFiles(files, "songs");
+    GetFiles(files, "texts");
+
+
+    string fileListFilePath = @"wwwroot\data\filelist.txt";
+    string json = JsonConvert.SerializeObject(files, Formatting.Indented);
+    File.WriteAllText(fileListFilePath, json);
+        
+    stopwatch.Stop(); 
+    TimeSpan elapsed = stopwatch.Elapsed;
+
+    Console.WriteLine($"File list generated in {elapsed.TotalSeconds} seconds");
+}
+
+void GetFiles(List<FileData> files, string folder)
+{
+    string directory = @"wwwroot\data\" + folder;
+    
+    foreach (string opened in Directory.GetFiles(directory, "*.txt"))
     {
-        FileInfo fileInfo = new FileInfo(file);
-        string hash = GetMD5Hash(file);
+        FileInfo fileInfo = new FileInfo(opened);
+        string hash = GetMD5Hash(opened);
         string newFileName = hash + fileInfo.Extension;
-        File.Move(file, Path.Combine(directory, newFileName));
+        File.Move(opened, Path.Combine(directory, newFileName));
 
         string[] lines = File.ReadAllLines(Path.Combine(directory, newFileName));
         string title = lines[0];
         string author = lines[1];
 
-        Song song = new Song
+        FileData F = new FileData
         {
             Title = title,
             Author = author,
-            URL = hash
+            URL = hash,
+            Category = folder
         };
 
-        songs.Add(song);
+        files.Add(F);
     }
-
-    string json = JsonConvert.SerializeObject(songs, Formatting.Indented);
-    File.WriteAllText(songListFilePath, json);
-        
-    stopwatch.Stop(); 
-    TimeSpan elapsed = stopwatch.Elapsed;
-
-    Console.WriteLine($"Song list generated in {elapsed.TotalSeconds} seconds");
 }
 
 string GetMD5Hash(string filePath)

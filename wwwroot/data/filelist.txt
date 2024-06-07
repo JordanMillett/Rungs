@@ -1,0 +1,68 @@
+[
+  {
+    "Title": "Хочу перемен",
+    "Author": "Кино",
+    "URL": "147696813959563ec2be38df1f083204",
+    "Category": "songs"
+  },
+  {
+    "Title": "Группа крови",
+    "Author": "Кино",
+    "URL": "1555927b1de56ae4bd511dfee6215540",
+    "Category": "songs"
+  },
+  {
+    "Title": "Кукушка",
+    "Author": "Кино",
+    "URL": "3edb6c3373ff88610d13a09b039477b0",
+    "Category": "songs"
+  },
+  {
+    "Title": "Клетка",
+    "Author": "Молчат Дома",
+    "URL": "3f1e4dc54e11764b791140639a3d01af",
+    "Category": "songs"
+  },
+  {
+    "Title": "Кончится лето",
+    "Author": "Кино",
+    "URL": "76dcf830169498323b27a6335ea107a9",
+    "Category": "songs"
+  },
+  {
+    "Title": "Пластинки",
+    "Author": "Дурной Вкус",
+    "URL": "8e8226a23e5bbb50d833deb65aba0b4c",
+    "Category": "songs"
+  },
+  {
+    "Title": "Пачка сигарет",
+    "Author": "Кино",
+    "URL": "96ea809f67d3973a717dc040d698d4d1",
+    "Category": "songs"
+  },
+  {
+    "Title": "Судно",
+    "Author": "Молчат Дома",
+    "URL": "c2cc23193d5d5d69d3e9f5f1e264314b",
+    "Category": "songs"
+  },
+  {
+    "Title": "Песня без слов",
+    "Author": "Кино",
+    "URL": "c7bb9348c2685f4c6a0a132eeab802bb",
+    "Category": "songs"
+  },
+  {
+    "Title": "Тоска",
+    "Author": "Молчат Дома",
+    "URL": "f64a929212cac52d22a59b39a2977316",
+    "Category": "songs"
+  },
+  {
+    "Title": "Моя учительница",
+    "Author": "Lingua",
+    "URL": "ee7ede54c0589c3be100253b3a731126",
+    "Category": "texts"
+  }
+]
