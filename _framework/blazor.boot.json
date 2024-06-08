@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Rungs",
   "resources": {
-    "hash": "sha256-6JzQyMbP27Uy5SmivQh54+KPkQ/yM43wkcEqFI68+FY=",
+    "hash": "sha256-BCTH60bal/nv/1vD8v3LgG0Qu+6ss/VtenE6Tcut4mo=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.6vlmefabfv.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -32,7 +32,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6187ynEahDlSLMBvD4vAmiLpZ3clRb5xu6rM7O8AxNo=",
       "Microsoft.JSInterop.wasm": "sha256-3O3gWyrEr74DBx9YVdApbuDBLG2cw8DkHPzqZ2JoG2Q=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-i8yLC1pzEZMAPAHK2MyunJW81S6Tpyvwka9LDZSylx8=",
-      "Rungs.wasm": "sha256-TFVf1SA5iz67bbNiSv0Eaub9P2CI+brHUfMauJGn2IA=",
+      "Rungs.wasm": "sha256-9qRyuuOVDpHnRWRRrssH+uPgUJXuxMiwKRL11lFPUoc=",
       "System.Collections.Concurrent.wasm": "sha256-k7on0sE4G2EIY8yi6XS/+wuMjRCChNDwl+O8Uq+uyy4=",
       "System.Collections.wasm": "sha256-f99tRNZrArorFwKEtmUZI2Sp4nrYIap7cxjSz9HU3Ig=",
       "System.ComponentModel.wasm": "sha256-3drUNG+pOzAK56sVBBB8sQXp80RmGsNYQXUk2WSIAD8=",
@@ -45,7 +45,7 @@
       "System.Private.CoreLib.wasm": "sha256-E39E1lesLqije/zdZGQlxFNhGRZ9+cTMV2MaSlNFR5U=",
       "System.Private.Uri.wasm": "sha256-NJG7CdfapWZ8rh0uj+ySphRq229TS28HJSAyak4/VZg=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-ick0L8BMlN/DNWw0EnAnSMeYbiczX3ggoXkf5DDrCwc=",
-      "System.Runtime.wasm": "sha256-LVJnpNZvOUeeJWTbnbI8dyijbDFfAq1T45uRQfDIa5I=",
+      "System.Runtime.wasm": "sha256-UWNWKcoWy7WonQuZ3T1R/G4eskpSktvr+9XnJo67oNs=",
       "System.Text.Encodings.Web.wasm": "sha256-r3ODjquYz1kv8rmEvFqbp3+c06aeq4b4whv1G4aX+to=",
       "System.Text.Json.wasm": "sha256-FN9e+3DfB3P7eqZXvrRaQ2VnbriPMRG1LnBXRlejBeA=",
       "System.Text.RegularExpressions.wasm": "sha256-4SbMIAUrFhMg/jXTrbWhc1WyjxEcu5jE+QKnK7uAI90=",

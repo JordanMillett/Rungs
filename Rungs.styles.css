@@ -132,6 +132,16 @@ p[b-pzvv3jpqi6]
     font-family: "Overpass Mono";
     margin: 0;
 }
+
+.error[b-pzvv3jpqi6]
+{
+    color: #FF0000;
+}
+
+.success[b-pzvv3jpqi6]
+{
+    color: #00FF00;
+}
 /* /Components/Pages/Filepage.razor.rz.scp.css */
 @media only screen and (max-width: 600px) 
 {
