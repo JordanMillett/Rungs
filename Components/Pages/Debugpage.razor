@@ -10,9 +10,9 @@
         
         <hr>
         
-        @foreach (string Message in Debug.Messages)
+        @foreach (var Message in Debug.Messages)
         {
-            <p>@Message</p>
+            <p class="@Message.Item2">@Message.Item1</p>
             
             <hr>
         }

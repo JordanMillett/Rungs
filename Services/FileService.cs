@@ -23,12 +23,14 @@ public class FileService
 
     DebugService Debug;
     HttpClient Http { get; set; }
+    ProfileService Profile;
 
-    public FileService(HttpClient httpClient, DebugService debug)
+    public FileService(HttpClient httpClient, DebugService debug, ProfileService profile)
     {
         AllFiles = new Dictionary<string, File>();
         Http = httpClient;
         Debug = debug;
+        Profile = profile;
     }
 
     public async Task InitializeAsync()
@@ -38,17 +40,24 @@ public class FileService
         await LoadFileList();
         
         stopwatch.Stop();
-        Debug.Log($"Loaded {AllFiles.Count} files in {stopwatch.ElapsedMilliseconds}ms");
+        Debug.LogSuccess($"Loaded {AllFiles.Count} files in {stopwatch.ElapsedMilliseconds}ms");
     }
 
     async Task LoadFileList()
     {
-        string JSON = await Http.GetStringAsync("data/filelist.txt");
-        List<File> LoadedSongs = JsonSerializer.Deserialize<List<File>>(JSON)!;
-
-        foreach (File F in LoadedSongs)
+        try
         {
-            AddFile(F.Title, F.Author, F.URL, F.Category);
+            string JSON = await Http.GetStringAsync("data/filelist.txt");
+            List<File> LoadedSongs = JsonSerializer.Deserialize<List<File>>(JSON)!;
+
+            foreach (File F in LoadedSongs)
+            {
+                AddFile(F.Title, F.Author, F.URL, F.Category);
+            }
+        }catch
+        {
+            Debug.LogError("Failed to load JSON, clearing profile...");
+            await Profile.ClearProfile();
         }
     }
 

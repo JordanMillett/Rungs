@@ -44,8 +44,7 @@ public class ProfileService
         await LoadProfile();
 
         stopwatch.Stop();
-        Debug.Log($"Loaded {Terms.Count} terms in {stopwatch.ElapsedMilliseconds}ms");
-        Debug.Log($"Profile: {ProfileName} loaded");
+        Debug.LogSuccess($"Loaded {Terms.Count} terms in {stopwatch.ElapsedMilliseconds}ms");
     }
     
     public async Task UpdateRecent(string Link)

@@ -31,7 +31,7 @@
         {
             if(!FileService.AllFiles.ContainsKey(S))
             {
-                Debug.Log("Recent Pages failed to load, clearing profile...");
+                Debug.LogError("Recent Pages failed to load, clearing profile...");
                 await ProfileService.ClearProfile();
                 Loaded = true;
                 break;

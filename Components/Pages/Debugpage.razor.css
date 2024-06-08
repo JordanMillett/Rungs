@@ -20,3 +20,13 @@ p
     font-family: "Overpass Mono";
     margin: 0;
 }
+
+.error
+{
+    color: #FF0000;
+}
+
+.success
+{
+    color: #00FF00;
+}
