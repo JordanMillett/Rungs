@@ -1,37 +1,29 @@
 using System.Diagnostics;
 
-public class Term
-{
-    public string RU { get; set; }
-
-    public Term(string ru)
-    {
-        RU = ru;
-    }
-}
-
 public class ProfileService
 {
     public event Action OnProfileSave = () => { };
     
     Blazored.LocalStorage.ILocalStorageService Local;
     DebugService Debug;
+    //FileService FileService;
 
     //-----     SAVED DATA     -----
     public string ProfileName = "User";
-    public Dictionary<string, Term> Terms = new Dictionary<string, Term>();
+    public List<string> Terms = new List<string>(); //make into full standalone dictionary
     public List<string> RecentPages = new List<string>();
 
     public ProfileService(Blazored.LocalStorage.ILocalStorageService localStorage, DebugService debug)
     {
         Local = localStorage;
         Debug = debug;
+        //FileService = fileservice;
     }
 
     void InitializeProfile()
     {
         ProfileName = "User";
-        Terms = new Dictionary<string, Term>();
+        //Terms = new Dictionary<string, Term>();
         RecentPages = new List<string>();
     }
 
@@ -73,12 +65,19 @@ public class ProfileService
         {
             Value = Value.ToLower();
             
-            if (!Terms.ContainsKey(Value))
+            if (!Terms.Contains(Value))
             {
-                Terms.Add(Value, new Term(Value));
+                Terms.Add(Value);
                 Debug.Log("Added Term: " + Value);
                 await SaveProfile();
             }
+            /*
+            if (!Terms.ContainsKey(Value))
+            {
+                Terms.Add(Value, new Term(Value, FileService.AllTerms[Value].EN));
+                Debug.Log("Added Term: " + Value);
+                await SaveProfile();
+            }*/
         }
     }
     
@@ -91,7 +90,8 @@ public class ProfileService
     
     public bool HasTerm(string Value)
     {
-        return Terms.ContainsKey(Value.ToLower());
+        return Terms.Contains(Value.ToLower());
+        //return Terms.ContainsKey(Value.ToLower());
     }
     
     public async Task ToggleTerm(string Value)
@@ -114,7 +114,8 @@ public class ProfileService
         
         if(await Local.ContainKeyAsync("terms"))
         {
-            Terms = await Local.GetItemAsync<Dictionary<string, Term>>("terms") ?? Terms;
+            //Terms = await Local.GetItemAsync<Dictionary<string, Term>>("terms") ?? Terms;
+            Terms = await Local.GetItemAsync<List<string>>("terms") ?? Terms;
         }
         
         if(await Local.ContainKeyAsync("recent"))
@@ -127,7 +128,8 @@ public class ProfileService
     {
         await Local.SetItemAsync<string>("name", ProfileName);
         
-        await Local.SetItemAsync<Dictionary<string, Term>>("terms", Terms);
+        //await Local.SetItemAsync<Dictionary<string, Term>>("terms", Terms);
+        await Local.SetItemAsync<List<string>>("terms", Terms);
         
         await Local.SetItemAsync<List<string>>("recent", RecentPages);
         

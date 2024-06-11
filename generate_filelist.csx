@@ -32,6 +32,16 @@ Stopwatch stopwatch = new Stopwatch();
 stopwatch.Start();
 
 Program.client = new HttpClient();
+Program.client.Timeout = TimeSpan.FromSeconds(1);
+string url = $"http://localhost:5148";
+try
+{
+    HttpResponseMessage response = await Program.client.GetAsync(url);
+    Program.RuslexRunning = response.IsSuccessStatusCode;
+}catch
+{
+    Program.RuslexRunning = false;
+}
 
 await Program.GetFiles("songs");
 await Program.GetFiles("texts");
@@ -39,17 +49,26 @@ await Program.GetFiles("texts");
 string json = JsonConvert.SerializeObject(Program.files, Formatting.Indented);
 File.WriteAllText(@"wwwroot\data\filelist.txt", json);
 
-json = JsonConvert.SerializeObject(Program.terms, Formatting.Indented);
-File.WriteAllText(@"wwwroot\data\terms.txt", json);
+if (Program.RuslexRunning)
+{
+    json = JsonConvert.SerializeObject(Program.terms, Formatting.Indented);
+    File.WriteAllText(@"wwwroot\data\terms.txt", json);
 
-json = JsonConvert.SerializeObject(Program.missing_terms, Formatting.Indented);
-File.WriteAllText(@"wwwroot\data\missing_terms.txt", json);
-    
+    json = JsonConvert.SerializeObject(Program.missing_terms, Formatting.Indented);
+    File.WriteAllText(@"wwwroot\data\missing_terms.txt", json);
+} 
+   
 stopwatch.Stop(); 
 TimeSpan elapsed = stopwatch.Elapsed;
 
-Console.WriteLine($"{Program.terms.Count} terms loaded");
-Console.WriteLine($"{Program.missing_terms.Count} terms not found");
+if (Program.RuslexRunning)
+{
+    Console.WriteLine($"{Program.terms.Count} terms loaded");
+    Console.WriteLine($"{Program.missing_terms.Count} terms not found");
+}else
+{
+    Console.WriteLine("Ruslex not running, term files not changed");
+}
 Console.WriteLine($"{Program.files.Count} files generated in {elapsed.TotalSeconds} seconds");
 
 public class Program
@@ -58,6 +77,8 @@ public class Program
     public static Dictionary<string, Translation> terms = new Dictionary<string, Translation>();
     public static List<string> missing_terms = new List<string>();
     public static HttpClient client;
+
+    public static bool RuslexRunning = false;
     
     public static async Task GetFiles(string folder)
     {
@@ -84,39 +105,42 @@ public class Program
 
             files.Add(F);
 
-            for (int i = 3; i < lines.Length; i++)
+            if (RuslexRunning)
             {
-                if (!String.IsNullOrWhiteSpace(lines[i]))
+                for (int i = 3; i < lines.Length; i++)
                 {
-                    string[] words = lines[i].Split(new char[] { ' ', '.', '?', ',', '-', '!', ';', ':', '—', '"', '\'', '–' }, StringSplitOptions.RemoveEmptyEntries);
-                    
-                    foreach (string word in words)
+                    if (!String.IsNullOrWhiteSpace(lines[i]))
                     {
-                        string key = word.ToLower().Replace("ё", "е");;
-                        
-                        if(!terms.ContainsKey(key) && !missing_terms.Contains(key))
+                        string[] words = lines[i].Split(new char[] { ' ', '.', '?', ',', '-', '!', ';', ':', '—', '"', '\'', '–' }, StringSplitOptions.RemoveEmptyEntries);
+
+                        foreach (string word in words)
                         {
-                            string url = $"http://localhost:5148/translations/{Uri.EscapeDataString(key)}";
-                            HttpResponseMessage response = await client.GetAsync(url);
+                            string key = word.ToLower().Replace("ё", "е"); ;
 
-                            if (response.IsSuccessStatusCode)
+                            if (!terms.ContainsKey(key) && !missing_terms.Contains(key))
                             {
-                                string jsonResponse = await response.Content.ReadAsStringAsync();
-                                Translation T = JsonConvert.DeserializeObject<Translation>(jsonResponse);
+                                string url = $"http://localhost:5148/translations/{Uri.EscapeDataString(key)}";
+                                HttpResponseMessage response = await client.GetAsync(url);
 
-                                terms.Add(key, T);
+                                if (response.IsSuccessStatusCode)
+                                {
+                                    string jsonResponse = await response.Content.ReadAsStringAsync();
+                                    Translation T = JsonConvert.DeserializeObject<Translation>(jsonResponse);
+
+                                    terms.Add(key, T);
+                                }
+                                else
+                                {
+                                    missing_terms.Add(key);
+                                }
                             }
-                            else
-                            {
-                                missing_terms.Add(key);
-                            }
+
+
                         }
-                
-                            
+
                     }
-                    
                 }
-            }          
+            }
         }
     }
     

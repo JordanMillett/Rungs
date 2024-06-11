@@ -17,11 +17,25 @@
 
 <p>Clear Profile</p>
 <button @onclick="() => ProfileService.ClearProfile()">Clear</button>
-
-@foreach (KeyValuePair<string, Term> T in ProfileService.Terms)
-{
-    <p>@T.Value.RU</p>
+@{
+    foreach (string T in ProfileService.Terms)
+    {
+        if(FileService.AllTerms.ContainsKey(T))
+        {
+            <p>@T ------------- @FileService.AllTerms[T].EN</p>
+        }else
+        {
+            <p>@T</p>
+        }
+    }
+    
+    /*
+    foreach (KeyValuePair<string, Term> T in ProfileService.Terms)
+    {
+        <p>@T.Value.RU - @T.Value.EN</p>
+    } */       
 }
+
 
 @code
 {
