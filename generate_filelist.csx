@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using Newtonsoft.Json;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 public class FileData
 {
@@ -14,65 +16,120 @@ public class FileData
     public string Category { get; set; }
 }
 
-Main();
-
-void Main()
+public struct Translation
 {
-    Stopwatch stopwatch = new Stopwatch();
-    stopwatch.Start();
-    
-    List<FileData> files = new List<FileData>();
+    public string RU { get; set; }
+    public string EN { get; set; }
 
-
-    GetFiles(files, "songs");
-    GetFiles(files, "texts");
-
-
-    string fileListFilePath = @"wwwroot\data\filelist.txt";
-    string json = JsonConvert.SerializeObject(files, Formatting.Indented);
-    File.WriteAllText(fileListFilePath, json);
-        
-    stopwatch.Stop(); 
-    TimeSpan elapsed = stopwatch.Elapsed;
-
-    Console.WriteLine($"File list generated in {elapsed.TotalSeconds} seconds");
-}
-
-void GetFiles(List<FileData> files, string folder)
-{
-    string directory = @"wwwroot\data\" + folder;
-    
-    foreach (string opened in Directory.GetFiles(directory, "*.txt"))
+    public Translation(string ru, string en)
     {
-        FileInfo fileInfo = new FileInfo(opened);
-        string hash = GetMD5Hash(opened);
-        string newFileName = hash + fileInfo.Extension;
-        File.Move(opened, Path.Combine(directory, newFileName));
-
-        string[] lines = File.ReadAllLines(Path.Combine(directory, newFileName));
-        string title = lines[0];
-        string author = lines[1];
-
-        FileData F = new FileData
-        {
-            Title = title,
-            Author = author,
-            URL = hash,
-            Category = folder
-        };
-
-        files.Add(F);
+        RU = ru;
+        EN = en;
     }
 }
 
-string GetMD5Hash(string filePath)
+Stopwatch stopwatch = new Stopwatch();
+stopwatch.Start();
+
+Program.client = new HttpClient();
+
+await Program.GetFiles("songs");
+await Program.GetFiles("texts");
+
+string json = JsonConvert.SerializeObject(Program.files, Formatting.Indented);
+File.WriteAllText(@"wwwroot\data\filelist.txt", json);
+
+json = JsonConvert.SerializeObject(Program.terms, Formatting.Indented);
+File.WriteAllText(@"wwwroot\data\terms.txt", json);
+
+json = JsonConvert.SerializeObject(Program.missing_terms, Formatting.Indented);
+File.WriteAllText(@"wwwroot\data\missing_terms.txt", json);
+    
+stopwatch.Stop(); 
+TimeSpan elapsed = stopwatch.Elapsed;
+
+Console.WriteLine($"{Program.terms.Count} terms loaded");
+Console.WriteLine($"{Program.missing_terms.Count} terms not found");
+Console.WriteLine($"{Program.files.Count} files generated in {elapsed.TotalSeconds} seconds");
+
+public class Program
 {
-    using (var md5 = System.Security.Cryptography.MD5.Create())
+    public static List<FileData> files = new List<FileData>();
+    public static Dictionary<string, Translation> terms = new Dictionary<string, Translation>();
+    public static List<string> missing_terms = new List<string>();
+    public static HttpClient client;
+    
+    public static async Task GetFiles(string folder)
     {
-        using (FileStream stream = File.OpenRead(filePath))
+        string directory = @"wwwroot\data\" + folder;
+        
+        foreach (string opened in Directory.GetFiles(directory, "*.txt"))
         {
-            byte[] hashBytes = md5.ComputeHash(stream);
-            return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
+            FileInfo fileInfo = new FileInfo(opened);
+            string hash = GetMD5Hash(opened);
+            string newFileName = hash + fileInfo.Extension;
+            File.Move(opened, Path.Combine(directory, newFileName));
+
+            string[] lines = File.ReadAllLines(Path.Combine(directory, newFileName));
+            string title = lines[0];
+            string author = lines[1];
+
+            FileData F = new FileData
+            {
+                Title = title,
+                Author = author,
+                URL = hash,
+                Category = folder
+            };
+
+            files.Add(F);
+
+            for (int i = 3; i < lines.Length; i++)
+            {
+                if (!String.IsNullOrWhiteSpace(lines[i]))
+                {
+                    string[] words = lines[i].Split(new char[] { ' ', '.', '?', ',', '-', '!', ';', ':', '—', '"', '\'', '–' }, StringSplitOptions.RemoveEmptyEntries);
+                    
+                    foreach (string word in words)
+                    {
+                        string key = word.ToLower().Replace("ё", "е");;
+                        
+                        if(!terms.ContainsKey(key) && !missing_terms.Contains(key))
+                        {
+                            string url = $"http://localhost:5148/translations/{Uri.EscapeDataString(key)}";
+                            HttpResponseMessage response = await client.GetAsync(url);
+
+                            if (response.IsSuccessStatusCode)
+                            {
+                                string jsonResponse = await response.Content.ReadAsStringAsync();
+                                Translation T = JsonConvert.DeserializeObject<Translation>(jsonResponse);
+
+                                terms.Add(key, T);
+                            }
+                            else
+                            {
+                                missing_terms.Add(key);
+                            }
+                        }
+                
+                            
+                    }
+                    
+                }
+            }          
         }
     }
+    
+    public static string GetMD5Hash(string filePath)
+    {
+        using (var md5 = System.Security.Cryptography.MD5.Create())
+        {
+            using (FileStream stream = File.OpenRead(filePath))
+            {
+                byte[] hashBytes = md5.ComputeHash(stream);
+                return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
+            }
+        }
+    }
+
 }
