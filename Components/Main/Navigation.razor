@@ -14,13 +14,12 @@
     <div class="link" @onclick="ToggleLinkClicked"><a href="search/@S">@FileService.AllFiles[S].Title</a></div>
 }
 
-
 @code
 {
     [Parameter]
     public EventCallback OnLinkClicked { get; set; }
 
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
         ProfileService.OnProfileSave += Rerender;
     }    

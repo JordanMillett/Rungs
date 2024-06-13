@@ -89,9 +89,18 @@ public class Program
             FileInfo fileInfo = new FileInfo(opened);
             string hash = GetMD5Hash(opened);
             string newFileName = hash + fileInfo.Extension;
-            File.Move(opened, Path.Combine(directory, newFileName));
+            string newFilePath = Path.Combine(directory, newFileName);
+            
+            try
+            {
+                File.Move(opened, newFilePath);
+            }catch
+            {
+                Console.WriteLine($"Filepath {opened} is a duplicate");
+                continue;
+            }
 
-            string[] lines = File.ReadAllLines(Path.Combine(directory, newFileName));
+            string[] lines = File.ReadAllLines(newFilePath);
             string title = lines[0];
             string author = lines[1];
 
@@ -148,9 +157,17 @@ public class Program
     {
         using (var md5 = System.Security.Cryptography.MD5.Create())
         {
-            using (FileStream stream = File.OpenRead(filePath))
+            using (var reader = new StreamReader(filePath))
             {
-                byte[] hashBytes = md5.ComputeHash(stream);
+                var sb = new StringBuilder();
+                for (int i = 0; i < 2; i++)
+                {
+                    string line = reader.ReadLine();
+                    sb.AppendLine(line);
+                }
+
+                byte[] contentBytes = Encoding.UTF8.GetBytes(sb.ToString());
+                byte[] hashBytes = md5.ComputeHash(contentBytes);
                 return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
             }
         }

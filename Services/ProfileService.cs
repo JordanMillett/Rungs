@@ -11,6 +11,7 @@ public class ProfileService
     //-----     SAVED DATA     -----
     public string ProfileName = "User";
     public List<string> Terms = new List<string>();
+    //public Dictionary<string, Term> SavedTerms = new Dictionary<string, Term>();
     public List<string> RecentPages = new List<string>();
 
     public ProfileService(Blazored.LocalStorage.ILocalStorageService localStorage, DebugService debug, FileService fservice)
