@@ -12,7 +12,7 @@
         
         @foreach (var Message in Debug.Messages)
         {
-            <p class="@Message.Item2">@Message.Item1</p>
+            <p class="@Message.Item2">[@Message.Item3] - @Message.Item1</p>
             
             <hr>
         }

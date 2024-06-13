@@ -3,6 +3,7 @@
 @inject DebugService Debug
 
 <div class="link" @onclick="ToggleLinkClicked"><a href="">Home</a></div>
+<div class="link" @onclick="ToggleLinkClicked"><a href="terms/">Terms</a></div>
 <div class="link" @onclick="ToggleLinkClicked"><a href="search/">Search</a></div>
 <div class="link" @onclick="ToggleLinkClicked"><a href="profile/">Profile</a></div>
 <div class="link" @onclick="ToggleLinkClicked"><a href="debug/">Debug</a></div>
@@ -31,8 +32,7 @@
         {
             if(!FileService.AllFiles.ContainsKey(S))
             {
-                Debug.LogError("Recent Pages failed to load, clearing profile...");
-                await ProfileService.ClearProfile();
+                await Debug.HandleError("Failed to load recent pages", HandleOptions.ClearProfile);
                 Loaded = true;
                 break;
             }

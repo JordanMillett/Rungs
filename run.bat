@@ -1,3 +1,3 @@
 @echo off
-dotnet script generate_filelist.csx
+dotnet script generate.csx
 dotnet watch

@@ -5,7 +5,8 @@
     margin-right: auto;
 }
 
-.centered
+.delete
 {
-    text-align: center;
+    color:var(--text_color_red);
+    cursor: pointer;
 }

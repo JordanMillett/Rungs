@@ -1,49 +1,19 @@
 using System.Diagnostics;
 using System.Text.Json;
 
-public class File
-{
-    public string Title { get; set; }
-    public string Author { get; set; }
-    public string URL { get; set; }
-    public string Category { get; set; }
-
-    public File(string title, string author, string url, string category)
-    {
-        Title = title;
-        Author = author;
-        URL = url;
-        Category = category;
-    }
-}
-
-public struct Term
-{
-    public string RU { get; set; }
-    public string EN { get; set; }
-
-    public Term(string ru, string en)
-    {
-        RU = ru;
-        EN = en;
-    }
-}
-
 public class FileService
 {
     public Dictionary<string, File> AllFiles;
     public Dictionary<string, Term> AllTerms = new Dictionary<string, Term>();
 
     DebugService Debug;
-    HttpClient Http { get; set; }
-    ProfileService Profile;
+    HttpClient Http;
 
-    public FileService(HttpClient httpClient, DebugService debug, ProfileService profile)
+    public FileService(HttpClient http, DebugService debug)
     {
         AllFiles = new Dictionary<string, File>();
-        Http = httpClient;
+        Http = http;
         Debug = debug;
-        Profile = profile;
     }
 
     public async Task InitializeAsync()
@@ -57,14 +27,13 @@ public class FileService
         await LoadTerms();
         stopwatch.Stop();
         Debug.LogSuccess($"Loaded {AllTerms.Count} terms in {stopwatch.ElapsedMilliseconds}ms");
-        
     }
 
     async Task LoadFileList()
     {
         try
         {
-            string JSON = await Http.GetStringAsync("data/filelist.txt");
+            string JSON = await Http.GetStringAsync("data/filelist.json");
             List<File> LoadedSongs = JsonSerializer.Deserialize<List<File>>(JSON)!;
 
             foreach (File F in LoadedSongs)
@@ -73,8 +42,7 @@ public class FileService
             }
         }catch
         {
-            Debug.LogError("Failed to load JSON, clearing profile...");
-            await Profile.ClearProfile();
+            await Debug.HandleError("Failed to load filelist.json", HandleOptions.ClearProfile);
         }
     }
     
@@ -82,12 +50,11 @@ public class FileService
     {
         try
         {
-            string JSON = await Http.GetStringAsync("data/terms.txt");
+            string JSON = await Http.GetStringAsync("data/terms.json");
             AllTerms = JsonSerializer.Deserialize<Dictionary<string, Term>>(JSON)!;
         }catch
         {
-            Debug.LogError("Failed to load JSON, clearing profile...");
-            await Profile.ClearProfile();
+            await Debug.HandleError("Failed to load terms.json", HandleOptions.ClearProfile);
         }
     }
 
@@ -114,5 +81,33 @@ public class FileService
 
             return matchedFiles;
         });
+    }
+}
+
+public class File
+{
+    public string Title { get; set; }
+    public string Author { get; set; }
+    public string URL { get; set; }
+    public string Category { get; set; }
+
+    public File(string title, string author, string url, string category)
+    {
+        Title = title;
+        Author = author;
+        URL = url;
+        Category = category;
+    }
+}
+
+public struct Term
+{
+    public string RU { get; set; }
+    public string EN { get; set; }
+
+    public Term(string ru, string en)
+    {
+        RU = ru;
+        EN = en;
     }
 }

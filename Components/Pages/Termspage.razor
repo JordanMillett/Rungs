@@ -1,0 +1,27 @@
+@page "/terms"
+@inject FileService FService
+@inject ProfileService PService
+@inject DebugService DService
+
+<PageTitle>Terms</PageTitle>
+
+<div id="container">
+    @foreach (string T in PService.Terms)
+    {
+        <div style="display: flex;">
+            <span class="delete" @onclick="() => PService.RemoveTerm(T)">x&nbsp;</span>
+            <div style="flex: 1;">
+                <span>@T</span>
+            </div>
+            <div style="flex: 1; text-align: right;">
+                <span>@FService.AllTerms[T].EN</span>
+            </div>
+        </div>
+        <br>
+    }
+</div>
+
+@code
+{
+    
+}

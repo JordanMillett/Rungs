@@ -6,24 +6,24 @@ public class ProfileService
     
     Blazored.LocalStorage.ILocalStorageService Local;
     DebugService Debug;
-    //FileService FileService;
+    FileService FService;
 
     //-----     SAVED DATA     -----
     public string ProfileName = "User";
-    public List<string> Terms = new List<string>(); //make into full standalone dictionary
+    public List<string> Terms = new List<string>();
     public List<string> RecentPages = new List<string>();
 
-    public ProfileService(Blazored.LocalStorage.ILocalStorageService localStorage, DebugService debug)
+    public ProfileService(Blazored.LocalStorage.ILocalStorageService localStorage, DebugService debug, FileService fservice)
     {
         Local = localStorage;
         Debug = debug;
-        //FileService = fileservice;
+        FService = fservice;
     }
 
     void InitializeProfile()
     {
         ProfileName = "User";
-        //Terms = new Dictionary<string, Term>();
+        Terms = new List<string>();
         RecentPages = new List<string>();
     }
 
@@ -32,11 +32,17 @@ public class ProfileService
         InitializeProfile();
         
         Stopwatch stopwatch = Stopwatch.StartNew();
-        
-        await LoadProfile();
 
-        stopwatch.Stop();
-        Debug.LogSuccess($"Loaded {Terms.Count} terms in {stopwatch.ElapsedMilliseconds}ms");
+        try
+        {
+            await LoadProfile();
+            stopwatch.Stop();
+            Debug.LogSuccess($"Loaded {Terms.Count} saved terms in {stopwatch.ElapsedMilliseconds}ms");
+        }catch
+        {
+            stopwatch.Stop();
+            await Debug.HandleError($"Failed to load profile", HandleOptions.ClearProfile);
+        }
     }
     
     public async Task UpdateRecent(string Link)
@@ -71,31 +77,29 @@ public class ProfileService
                 Debug.Log("Added Term: " + Value);
                 await SaveProfile();
             }
-            /*
-            if (!Terms.ContainsKey(Value))
-            {
-                Terms.Add(Value, new Term(Value, FileService.AllTerms[Value].EN));
-                Debug.Log("Added Term: " + Value);
-                await SaveProfile();
-            }*/
         }
     }
     
     public async Task RemoveTerm(string Value)
     {
-        Terms.Remove(Value.ToLower());
-        Debug.Log("Removed Term: " + Value);
-        await SaveProfile();
+        if (HasTerm(Value))
+        {
+            Terms.Remove(Value.ToLower());
+            Debug.Log("Removed Term: " + Value);
+            await SaveProfile();
+        }
     }
     
     public bool HasTerm(string Value)
     {
         return Terms.Contains(Value.ToLower());
-        //return Terms.ContainsKey(Value.ToLower());
     }
     
     public async Task ToggleTerm(string Value)
-    {        
+    {
+        if (!FService.AllTerms.ContainsKey(Value.ToLower()))
+            return;
+        
         if(HasTerm(Value))
         {
             await RemoveTerm(Value);
@@ -114,7 +118,6 @@ public class ProfileService
         
         if(await Local.ContainKeyAsync("terms"))
         {
-            //Terms = await Local.GetItemAsync<Dictionary<string, Term>>("terms") ?? Terms;
             Terms = await Local.GetItemAsync<List<string>>("terms") ?? Terms;
         }
         
@@ -128,7 +131,6 @@ public class ProfileService
     {
         await Local.SetItemAsync<string>("name", ProfileName);
         
-        //await Local.SetItemAsync<Dictionary<string, Term>>("terms", Terms);
         await Local.SetItemAsync<List<string>>("terms", Terms);
         
         await Local.SetItemAsync<List<string>>("recent", RecentPages);
@@ -139,7 +141,7 @@ public class ProfileService
     public async Task ClearProfile()
     {
         await Local.ClearAsync();
-        Debug.Log("Cleared Profile");
+        Debug.Log("Cleared profile");
         InitializeProfile();
     }
 }

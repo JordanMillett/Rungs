@@ -16,12 +16,12 @@ public class FileData
     public string Category { get; set; }
 }
 
-public struct Translation
+public struct Term
 {
     public string RU { get; set; }
     public string EN { get; set; }
 
-    public Translation(string ru, string en)
+    public Term(string ru, string en)
     {
         RU = ru;
         EN = en;
@@ -47,15 +47,15 @@ await Program.GetFiles("songs");
 await Program.GetFiles("texts");
 
 string json = JsonConvert.SerializeObject(Program.files, Formatting.Indented);
-File.WriteAllText(@"wwwroot\data\filelist.txt", json);
+File.WriteAllText(@"wwwroot\data\filelist.json", json);
 
 if (Program.RuslexRunning)
 {
     json = JsonConvert.SerializeObject(Program.terms, Formatting.Indented);
-    File.WriteAllText(@"wwwroot\data\terms.txt", json);
+    File.WriteAllText(@"wwwroot\data\terms.json", json);
 
     json = JsonConvert.SerializeObject(Program.missing_terms, Formatting.Indented);
-    File.WriteAllText(@"wwwroot\data\missing_terms.txt", json);
+    File.WriteAllText(@"wwwroot\data\missing_terms.json", json);
 } 
    
 stopwatch.Stop(); 
@@ -74,7 +74,7 @@ Console.WriteLine($"{Program.files.Count} files generated in {elapsed.TotalSecon
 public class Program
 {
     public static List<FileData> files = new List<FileData>();
-    public static Dictionary<string, Translation> terms = new Dictionary<string, Translation>();
+    public static Dictionary<string, Term> terms = new Dictionary<string, Term>();
     public static List<string> missing_terms = new List<string>();
     public static HttpClient client;
 
@@ -125,7 +125,7 @@ public class Program
                                 if (response.IsSuccessStatusCode)
                                 {
                                     string jsonResponse = await response.Content.ReadAsStringAsync();
-                                    Translation T = JsonConvert.DeserializeObject<Translation>(jsonResponse);
+                                    Term T = JsonConvert.DeserializeObject<Term>(jsonResponse);
 
                                     terms.Add(key, T);
                                 }
