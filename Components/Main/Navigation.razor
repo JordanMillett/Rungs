@@ -9,36 +9,20 @@
 <div class="link" @onclick="ToggleLinkClicked"><a href="debug/">Debug</a></div>
 <br>
 <div class="link">Recent Pages</div>
-@if(Loaded)
+@foreach (string S in ProfileService.RecentPages)
 {
-    @foreach (string S in ProfileService.RecentPages)
-    {
-        <div class="link" @onclick="ToggleLinkClicked"><a href="search/@S">@FileService.AllFiles[S].Title</a></div>
-    }
+    <div class="link" @onclick="ToggleLinkClicked"><a href="search/@S">@FileService.AllFiles[S].Title</a></div>
 }
+
 
 @code
 {
     [Parameter]
     public EventCallback OnLinkClicked { get; set; }
 
-    bool Loaded = false;
-
     protected override async Task OnInitializedAsync()
     {
         ProfileService.OnProfileSave += Rerender;
-
-        foreach (string S in ProfileService.RecentPages)
-        {
-            if(!FileService.AllFiles.ContainsKey(S))
-            {
-                await Debug.HandleError("Failed to load recent pages", HandleOptions.ClearProfile);
-                Loaded = true;
-                break;
-            }
-        }
-
-        Loaded = true;
     }    
     
     async Task ToggleLinkClicked()

@@ -33,16 +33,11 @@ public class ProfileService
         
         Stopwatch stopwatch = Stopwatch.StartNew();
 
-        try
-        {
-            await LoadProfile();
-            stopwatch.Stop();
-            Debug.LogSuccess($"Loaded {Terms.Count} saved terms in {stopwatch.ElapsedMilliseconds}ms");
-        }catch
-        {
-            stopwatch.Stop();
-            await Debug.HandleError($"Failed to load profile", HandleOptions.ClearProfile);
-        }
+        await LoadProfile();
+        stopwatch.Stop();
+        
+        Debug.LogSuccess($"Loaded {Terms.Count} saved terms in {stopwatch.ElapsedMilliseconds}ms");
+        await SaveProfile();
     }
     
     public async Task UpdateRecent(string Link)
@@ -113,17 +108,56 @@ public class ProfileService
     {
         if(await Local.ContainKeyAsync("name"))
         {
-            ProfileName = await Local.GetItemAsync<string>("name") ?? ProfileName;
+            try
+            {
+                ProfileName = await Local.GetItemAsync<string>("name") ?? ProfileName;
+            }catch
+            {
+                await Local.RemoveItemAsync("name");
+                Debug.LogError($"Failed to load profile name, clearing...");
+            }
         }
         
         if(await Local.ContainKeyAsync("terms"))
         {
-            Terms = await Local.GetItemAsync<List<string>>("terms") ?? Terms;
+            try
+            {
+                Terms = await Local.GetItemAsync<List<string>>("terms") ?? Terms;
+            }catch
+            {
+                await Local.RemoveItemAsync("terms");
+                Debug.LogError($"Failed to load saved terms, clearing...");
+            }
+            
+            for (int i = 0; i < Terms.Count; i++)
+            {
+                if(!FService.AllTerms.ContainsKey(Terms[i]))
+                {
+                    Debug.LogError($"Term definition for {Terms[i]} not found, deleting...");
+                    Terms.Remove(Terms[i]);
+                }
+            }
         }
         
         if(await Local.ContainKeyAsync("recent"))
         {
-            RecentPages = await Local.GetItemAsync<List<string>>("recent") ?? RecentPages;
+            try
+            {
+                RecentPages = await Local.GetItemAsync<List<string>>("recent") ?? RecentPages;
+            }catch
+            {
+                await Local.RemoveItemAsync("recent");
+                Debug.LogError($"Failed to load recent pages, clearing...");
+            }
+            
+            for (int i = 0; i < RecentPages.Count; i++)
+            {
+                if(!FService.AllFiles.ContainsKey(RecentPages[i]))
+                {
+                    Debug.LogError($"Recent page at URL {RecentPages[i]} not found, deleting...");
+                    RecentPages.Remove(RecentPages[i]);
+                }
+            }
         }
     }
     
@@ -143,5 +177,17 @@ public class ProfileService
         await Local.ClearAsync();
         Debug.Log("Cleared profile");
         InitializeProfile();
+    }
+}
+
+public struct SavedTerm
+{
+    public string RU { get; set; }
+    public string EN { get; set; }
+
+    public SavedTerm(string ru, string en)
+    {
+        RU = ru;
+        EN = en;
     }
 }
