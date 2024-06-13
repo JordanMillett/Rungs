@@ -180,6 +180,12 @@ p[b-pzvv3jpqi6]
     text-decoration-color: var(--text_color_red);
     text-decoration-thickness: 2px;
 }
+/*
+.missing
+{
+    color: #FFFF00;
+}
+*/
 /* /Components/Pages/Homepage.razor.rz.scp.css */
 .title[b-pw8gvdk4qy]
 {
@@ -194,10 +200,22 @@ p[b-pzvv3jpqi6]
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .centered[b-mbf94rdbdf]
 {
     text-align: center;
+}
+/* /Components/Pages/Termspage.razor.rz.scp.css */
+#container[b-p2cnt10829]
+{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.delete[b-p2cnt10829]
+{
+    color:var(--text_color_red);
+    cursor: pointer;
 }
