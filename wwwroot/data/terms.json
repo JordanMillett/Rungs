@@ -1,685 +1,461 @@
 {
-  "теплое": {
-    "RU": "тёплый",
-    "EN": "warm, mild, cordial, kindly, affectionate"
+  "я": {
+    "RU": "я",
+    "EN": "I"
   },
-  "место": {
-    "RU": "место",
-    "EN": "place, spot, site, locality; region, area; site, scene; room, space; job, position; piece of luggage"
+  "вчера": {
+    "RU": "вчера",
+    "EN": "yesterday"
   },
-  "но": {
-    "RU": "но",
-    "EN": "but"
+  "слишком": {
+    "RU": "слишком",
+    "EN": "too (much)"
   },
-  "улицы": {
-    "RU": "улица",
-    "EN": "street"
+  "поздно": {
+    "RU": "поздно",
+    "EN": "it is late, late"
   },
-  "ждут": {
-    "RU": "ждать",
-    "EN": "wait, expect, await"
+  "лег": {
+    "RU": "лечь",
+    "EN": "lie down; go to bed"
   },
-  "отпечатков": {
-    "RU": "отпечаток",
-    "EN": "imprint, impress; fingerprint"
+  "сегодня": {
+    "RU": "сегодня",
+    "EN": "today"
   },
-  "ног": {
-    "RU": "нога",
-    "EN": "leg"
+  "рано": {
+    "RU": "рано",
+    "EN": "it is early, it is too early, early"
   },
-  "звездная": {
-    "RU": "звёздный",
-    "EN": "star, sidereal, starry, starlit, converging"
+  "встал": {
+    "RU": "встать",
+    "EN": "get up, stand up, rise"
   },
-  "пыль": {
-    "RU": "пыль",
-    "EN": "dust, spray"
-  },
-  "на": {
-    "RU": "на",
-    "EN": "on (place); on (day/week); on (transport means); to; onto, upon; at"
-  },
-  "сапогах": {
-    "RU": "сапог",
-    "EN": "boot, top-boot, jackboot; waders, boots; very long boots"
-  },
-  "мягкое": {
-    "RU": "мягкий",
-    "EN": "soft, mild, gentle"
-  },
-  "кресло": {
-    "RU": "кресло",
-    "EN": "armchair, easy chair, stall"
-  },
-  "клетчатый": {
-    "RU": "клетчатый",
-    "EN": "checked, cellular"
-  },
-  "плед": {
-    "RU": "плед",
-    "EN": "rug, plaid; blanket"
+  "почти": {
+    "RU": "почесть",
+    "EN": "honour"
   },
   "не": {
     "RU": "не",
     "EN": "not"
   },
-  "нажатый": {
-    "RU": "нажатый",
-    "EN": ""
-  },
-  "вовремя": {
-    "RU": "вовремя",
-    "EN": "on time"
-  },
-  "курок": {
-    "RU": "курок",
-    "EN": "trigger"
-  },
-  "солнечный": {
-    "RU": "солнечный",
-    "EN": "sun, solar, sunny"
-  },
-  "день": {
-    "RU": "день",
-    "EN": "day, afternoon"
-  },
-  "в": {
-    "RU": "в",
-    "EN": "in; at; into; to; for; on; within"
-  },
-  "ослепительных": {
-    "RU": "ослепительный",
-    "EN": "blinding, dazzling"
-  },
-  "снах": {
-    "RU": "сон",
-    "EN": "dream; sleep"
-  },
-  "группа": {
-    "RU": "группа",
-    "EN": "group, cluster, clump"
-  },
-  "крови": {
-    "RU": "кровь",
-    "EN": "blood"
-  },
-  "рукаве": {
-    "RU": "рукав",
-    "EN": "sleeve, branch, arm, hose"
-  },
-  "мой": {
-    "RU": "мой",
-    "EN": "my, mine, my people"
-  },
-  "порядковый": {
-    "RU": "порядковый",
-    "EN": "ordinal"
-  },
-  "номер": {
-    "RU": "номер",
-    "EN": "number, size, room, issue, item on the programme, turn, trick"
-  },
-  "пожелай": {
-    "RU": "пожелать",
-    "EN": "wish, desire, covet"
+  "спал": {
+    "RU": "спать",
+    "EN": "sleep"
   },
   "мне": {
     "RU": "мне",
     "EN": "dative of \"I\""
   },
-  "удачи": {
-    "RU": "удача",
-    "EN": "good luck, success, good fortune"
-  },
-  "бою": {
-    "RU": "бой",
-    "EN": "beating, breakage; battle, combat, engagement; fight, fighting, struggle; striking (of a clock)"
-  },
-  "остаться": {
-    "RU": "остаться",
-    "EN": "remain, stay, be left"
-  },
-  "этой": {
-    "RU": "этот",
-    "EN": "this"
-  },
-  "траве": {
-    "RU": "трава",
-    "EN": "grass; weed; herb"
-  },
-  "и": {
-    "RU": "и",
-    "EN": "and"
-  },
-  "есть": {
-    "RU": "быть",
-    "EN": "be"
-  },
-  "платить": {
-    "RU": "платить",
-    "EN": "pay"
-  },
-  "я": {
-    "RU": "я",
-    "EN": "I"
-  },
-  "хочу": {
-    "RU": "хотеть",
-    "EN": "want; to feel like"
-  },
-  "победы": {
-    "RU": "победа",
-    "EN": "victory, triumph"
-  },
-  "любой": {
-    "RU": "любой",
-    "EN": "any, every, anyone, either"
-  },
-  "никому": {
-    "RU": "никой",
-    "EN": "no one"
-  },
-  "ставить": {
-    "RU": "ставить",
-    "EN": "to put, place; to bet, wager; to set; to implicate, raise"
-  },
-  "ногу": {
-    "RU": "нога",
-    "EN": "leg"
-  },
-  "грудь": {
-    "RU": "грудь",
-    "EN": "breast, chest, bosom, bust, front, shirt-front"
-  },
-  "хотел": {
-    "RU": "хотеть",
-    "EN": "want; to feel like"
-  },
-  "бы": {
-    "RU": "бы",
-    "EN": "would"
+  "наверно": {
+    "RU": "наверно",
+    "EN": "probably, most likely, for sure, certainly, for a certainty"
   },
   "с": {
     "RU": "с",
     "EN": "with; from; since; off, remove from"
   },
-  "просто": {
-    "RU": "простой",
-    "EN": "simple, easy, common, plain, mere"
+  "утра": {
+    "RU": "утро",
+    "EN": "morning, morn"
   },
-  "высокая": {
-    "RU": "высокий",
-    "EN": "high; tall"
+  "нужно": {
+    "RU": "нужный",
+    "EN": "necessary, needed"
   },
-  "небе": {
-    "RU": "небо",
-    "EN": "sky, heaven"
+  "было": {
+    "RU": "быть",
+    "EN": "be"
   },
-  "звезда": {
-    "RU": "звезда",
-    "EN": "star; famous person; name of service module on the International Space Station"
-  },
-  "зовет": {
-    "RU": "звать",
-    "EN": "call, call upon"
-  },
-  "меня": {
-    "RU": "меня",
-    "EN": "genitive of I"
-  },
-  "путь": {
-    "RU": "путь",
-    "EN": "way, track, path, race, journey, voyage, passage, duct, means"
-  },
-  "песен": {
-    "RU": "песня",
-    "EN": "song"
-  },
-  "сколько": {
-    "RU": "сколько",
-    "EN": "how much, how many"
-  },
-  "скажи": {
-    "RU": "сказать",
-    "EN": "say, tell, speak, talk"
-  },
-  "кукушка": {
-    "RU": "кукушка",
-    "EN": "cuckoo, small steam locomotive"
-  },
-  "пропой": {
-    "RU": "пропеть",
-    "EN": "sing"
-  },
-  "городе": {
-    "RU": "город",
-    "EN": "town"
-  },
-  "жить": {
-    "RU": "жить",
-    "EN": "live"
-  },
-  "или": {
-    "RU": "или",
-    "EN": "or"
-  },
-  "выселках": {
-    "RU": "выселок",
-    "EN": "settlement"
-  },
-  "камнем": {
-    "RU": "камень",
-    "EN": "stone, rock"
-  },
-  "лежать": {
-    "RU": "лежать",
-    "EN": "lay; be situated"
-  },
-  "гореть": {
-    "RU": "гореть",
-    "EN": "burn, be on fire, shine, sparkle"
-  },
-  "солнце": {
-    "RU": "солнце",
-    "EN": "sun"
-  },
-  "мое": {
-    "RU": "мой",
-    "EN": "my, mine, my people"
-  },
-  "взгляни": {
-    "RU": "взглянуть",
-    "EN": "to glance, to look at"
-  },
-  "моя": {
-    "RU": "мой",
-    "EN": "my, mine, my people"
-  },
-  "ладонь": {
-    "RU": "ладонь",
-    "EN": "palm (of the hand)"
-  },
-  "превратилась": {
-    "RU": "превратиться",
-    "EN": "turn into, become"
-  },
-  "кулак": {
-    "RU": "кулак",
-    "EN": "fist, concentrated force, cam, kulak"
-  },
-  "если": {
-    "RU": "если",
-    "EN": "if"
-  },
-  "порох": {
-    "RU": "порох",
-    "EN": "powder, gunpowder"
-  },
-  "дай": {
-    "RU": "дать",
-    "EN": "give"
-  },
-  "огня": {
-    "RU": "огонь",
-    "EN": "fire, light"
-  },
-  "вот": {
-    "RU": "вот",
-    "EN": "there, here, there is"
-  },
-  "так": {
-    "RU": "так",
-    "EN": "so, thus, like this, this way, then"
-  },
-  "кто": {
-    "RU": "кто",
-    "EN": "who"
-  },
-  "пойдет": {
+  "пойти": {
     "RU": "пойти",
     "EN": "go; walk"
   },
-  "по": {
-    "RU": "по",
-    "EN": "along, down; on the subject of; by the means of; hit or punch somewhere; after a age"
+  "к": {
+    "RU": "к",
+    "EN": "towards, to; visit someone"
   },
-  "следу": {
-    "RU": "след",
-    "EN": "track, footprint, footstep, trace, sign, vestige, sole"
+  "врачу": {
+    "RU": "врач",
+    "EN": "physician, doctor"
   },
-  "одинокому": {
-    "RU": "одинокий",
-    "EN": "solitary, lonely, lone, single, single man, bachelor"
-  },
-  "сильные": {
-    "RU": "сильный",
-    "EN": "strong, powerful, fierce, keen, intense, violent, towering, potent, impressive, hard, heavy, good"
-  },
-  "да": {
-    "RU": "да",
-    "EN": "yes"
-  },
-  "смелые": {
-    "RU": "смелый",
-    "EN": "bold, courageous, daring, audacious"
-  },
-  "головы": {
-    "RU": "голова",
-    "EN": "head, mind, brains, chief, master"
-  },
-  "сложили": {
-    "RU": "сложить",
-    "EN": "fold; stack; add"
-  },
-  "поле": {
-    "RU": "поле",
-    "EN": "field, ground, margin, brim"
-  },
-  "мало": {
-    "RU": "маленький",
-    "EN": "small, little, diminutive, slight, young, baby, child"
-  },
-  "остался": {
-    "RU": "остаться",
-    "EN": "remain, stay, be left"
-  },
-  "светлой": {
-    "RU": "светлый",
-    "EN": "light, bright"
-  },
-  "памяти": {
-    "RU": "память",
-    "EN": "memory, recollection, remembrance, store, storage"
-  },
-  "трезвом": {
-    "RU": "трезвый",
-    "EN": "sober, abstinent"
-  },
-  "уме": {
-    "RU": "ум",
-    "EN": "mind, brains, wit, intellect"
-  },
-  "твердой": {
-    "RU": "твёрдый",
-    "EN": "hard, solid, firm, strong, steadfast, stable"
-  },
-  "рукой": {
-    "RU": "рука",
-    "EN": "hand; arm; handwriting"
-  },
-  "строю": {
-    "RU": "строй",
-    "EN": "system, order, pitch, harmony, formation"
-  },
-  "где": {
-    "RU": "где",
-    "EN": "where"
-  },
-  "же": {
-    "RU": "же",
-    "EN": "and, as for, but"
-  },
-  "ты": {
-    "RU": "ты",
-    "EN": "you"
+  "а": {
+    "RU": "а",
+    "EN": "and; but, yet; oh, ah, oh well"
   },
   "теперь": {
     "RU": "теперь",
     "EN": "now, nowadays, today"
   },
-  "воля": {
-    "RU": "воля",
-    "EN": "will; power; freedom"
+  "электричка": {
+    "RU": "электричка",
+    "EN": "electric railway, electric train"
   },
-  "вольная": {
-    "RU": "вольная",
-    "EN": "letter of enfranchisement"
+  "везет": {
+    "RU": "везти",
+    "EN": "to transport someone/something (by vehicle); to be lucky"
   },
-  "сей": {
-    "RU": "сей",
-    "EN": "This"
+  "меня": {
+    "RU": "меня",
+    "EN": "genitive of I"
   },
-  "час": {
-    "RU": "час",
-    "EN": "hour, time, hours"
+  "туда": {
+    "RU": "туда",
+    "EN": "there"
   },
-  "ласковый": {
-    "RU": "ласковый",
-    "EN": "affectionate, tender, sweet, caressing"
+  "куда": {
+    "RU": "куда",
+    "EN": "wherever"
   },
-  "рассвет": {
-    "RU": "рассвет",
-    "EN": "dawn, daybreak"
+  "хочу": {
+    "RU": "хотеть",
+    "EN": "want; to feel like"
   },
-  "встречаешь": {
-    "RU": "встречать",
-    "EN": "meet"
+  "в": {
+    "RU": "в",
+    "EN": "in; at; into; to; for; on; within"
   },
-  "ответь": {
-    "RU": "ответить",
-    "EN": "answer, reply, respond"
+  "тамбуре": {
+    "RU": "тамбур",
+    "EN": "tambour, tamboura, lobby, platform, chain-stitch"
   },
-  "хорошо": {
-    "RU": "хороший",
-    "EN": "good, beautiful, handsome"
+  "холодно": {
+    "RU": "холодный",
+    "EN": "cold, cool"
   },
-  "плохо": {
-    "RU": "плохой",
-    "EN": "bad"
+  "и": {
+    "RU": "и",
+    "EN": "and"
   },
-  "без": {
-    "RU": "без",
-    "EN": "without; to (time)"
+  "то": {
+    "RU": "тот",
+    "EN": "that, the other, the right"
   },
-  "тебя": {
-    "RU": "тебя",
-    "EN": "genetive of \"you\""
+  "же": {
+    "RU": "же",
+    "EN": "and, as for, but"
   },
-  "плечи": {
-    "RU": "плечо",
-    "EN": "shoulder, upper arm, humerus, arm"
-  },
-  "терпеливые": {
-    "RU": "терпеливый",
-    "EN": "patient"
-  },
-  "под": {
-    "RU": "под",
-    "EN": "under; below; underneath; to go down/below; to go/put under something; (impression, affection)"
-  },
-  "плеть": {
-    "RU": "плеть",
-    "EN": "lash"
-  },
-  "эта": {
-    "RU": "этот",
-    "EN": "this"
-  },
-  "улица": {
-    "RU": "улица",
-    "EN": "street"
-  },
-  "войди": {
-    "RU": "войти",
-    "EN": "enter, go in, come in"
-  },
-  "этот": {
-    "RU": "этот",
-    "EN": "this"
-  },
-  "дом": {
-    "RU": "дом",
-    "EN": "house, home, house-hold"
-  },
-  "поднимись": {
-    "RU": "подняться",
-    "EN": "to climb, come up"
-  },
-  "восьмой": {
-    "RU": "восьмая",
-    "EN": "eighth, quaver"
-  },
-  "этаж": {
-    "RU": "этаж",
-    "EN": "floor, storey"
-  },
-  "позвони": {
-    "RU": "позвонить",
-    "EN": "ring, clang; call"
-  },
-  "звонок": {
-    "RU": "звонок",
-    "EN": "(phone) call; bell"
-  },
-  "постучи": {
-    "RU": "постучать",
-    "EN": "knock, rap"
-  },
-  "эту": {
-    "RU": "этот",
-    "EN": "this"
-  },
-  "дверь": {
-    "RU": "дверь",
-    "EN": "door"
-  },
-  "тебе": {
-    "RU": "тебе",
-    "EN": "dative of \"you\""
-  },
-  "никто": {
-    "RU": "никто",
-    "EN": "nobody, no one"
-  },
-  "откроет": {
-    "RU": "открыть",
-    "EN": "open, clear, uncover, bare, inaugurate, discover, let out, reveal"
-  },
-  "беги": {
-    "RU": "бежать",
-    "EN": "run"
-  },
-  "дурак": {
-    "RU": "дурак",
-    "EN": "fool, idiot"
-  },
-  "вниз": {
-    "RU": "вниз",
-    "EN": "down, downwards"
-  },
-  "лестничной": {
-    "RU": "лестничный",
-    "EN": "Adjective of лестница"
-  },
-  "клетке": {
-    "RU": "клетка",
-    "EN": "cage, coop, hutch, new, check, checkwork, square, cell"
-  },
-  "сквозь": {
-    "RU": "сквозь",
-    "EN": "through"
-  },
-  "записки": {
-    "RU": "записка",
-    "EN": "note"
-  },
-  "стенках": {
-    "RU": "стенка",
-    "EN": "wall, side, sea-wall"
-  },
-  "навсегда": {
-    "RU": "навсегда",
-    "EN": "for ever, for good"
+  "время": {
+    "RU": "время",
+    "EN": "time, times, tense"
   },
   "как": {
     "RU": "как",
     "EN": "how"
   },
-  "ожоги": {
-    "RU": "ожог",
-    "EN": "burn"
+  "тепло": {
+    "RU": "тепло",
+    "EN": "heat, warmth, cordiality, warmly, cordially"
   },
-  "побелке": {
-    "RU": "побелка",
-    "EN": "whitewashing"
+  "свежо": {
+    "RU": "свежий",
+    "EN": "fresh, latest"
   },
-  "непонятны": {
-    "RU": "непонятный",
-    "EN": "incomprehensible, unintelligible, obscure"
+  "почему": {
+    "RU": "почему",
+    "EN": "why"
   },
-  "та": {
-    "RU": "тот",
-    "EN": "that, the other, the right"
+  "молчу": {
+    "RU": "молчать",
+    "EN": "be silent, keep quiet"
   },
-  "тот": {
-    "RU": "тот",
-    "EN": "that, the other, the right"
+  "кричу": {
+    "RU": "кричать",
+    "EN": "shout"
   },
-  "каком": {
-    "RU": "какой",
-    "EN": "which, what, what kind of"
+  "так": {
+    "RU": "так",
+    "EN": "so, thus, like this, this way, then"
   },
-  "этаже": {
-    "RU": "этаж",
-    "EN": "floor, storey"
+  "на": {
+    "RU": "на",
+    "EN": "on (place); on (day/week); on (transport means); to; onto, upon; at"
   },
-  "нас": {
-    "RU": "нас",
-    "EN": "genetive of \"we\""
+  "деревьях": {
+    "RU": "дерево",
+    "EN": "tree, wood"
   },
-  "откроют": {
-    "RU": "открыть",
-    "EN": "open, clear, uncover, bare, inaugurate, discover, let out, reveal"
+  "сохнет": {
+    "RU": "сохнуть",
+    "EN": "dry, get dry; have a crush"
   },
-  "звонка": {
-    "RU": "звонок",
-    "EN": "(phone) call; bell"
+  "листва": {
+    "RU": "листва",
+    "EN": "leaves, foliage, leafage"
   },
-  "стука": {
-    "RU": "стук",
-    "EN": "knock, tap, noise"
+  "циклы": {
+    "RU": "цикл",
+    "EN": "cycle"
   },
-  "зайду": {
-    "RU": "зайти",
-    "EN": "go in, call in at, drop in, pop in"
+  "природы": {
+    "RU": "природа",
+    "EN": "nature, countryside, character"
+  },
+  "пора": {
+    "RU": "пора",
+    "EN": "time; it is time to"
+  },
+  "дым": {
+    "RU": "дым",
+    "EN": "smoke"
+  },
+  "сигареты": {
+    "RU": "сигарета",
+    "EN": "cigarette"
+  },
+  "фильтре": {
+    "RU": "фильтр",
+    "EN": "filter, sifter"
+  },
+  "угли": {
+    "RU": "уголь",
+    "EN": "coal"
+  },
+  "чуть": {
+    "RU": "чуть",
+    "EN": "nearly; a little"
+  },
+  "погорели": {
+    "RU": "погореть",
+    "EN": "be burnt out, burn down, fail, burn"
+  },
+  "погасли": {
+    "RU": "погаснуть",
+    "EN": "turn off"
+  },
+  "они": {
+    "RU": "они",
+    "EN": "they"
+  },
+  "полосы": {
+    "RU": "полоса",
+    "EN": "stripe, strip, band, flat bar, wale, weal, region, zone, belt, period, field, patch, type page"
+  },
+  "небе": {
+    "RU": "небо",
+    "EN": "sky, heaven"
   },
   "там": {
     "RU": "там",
     "EN": "there, later, by and by"
   },
-  "скажут": {
+  "выше": {
+    "RU": "высокий",
+    "EN": "high; tall"
+  },
+  "светлей": {
+    "RU": "светлеть",
+    "EN": "brighten, clear up, show"
+  },
+  "слышатся": {
+    "RU": "слышаться",
+    "EN": "be heard, be felt"
+  },
+  "стуки": {
+    "RU": "стук",
+    "EN": "knock, tap, noise"
+  },
+  "трамвайных": {
+    "RU": "трамвайный",
+    "EN": "tram"
+  },
+  "путей": {
+    "RU": "путь",
+    "EN": "way, track, path, race, journey, voyage, passage, duct, means"
+  },
+  "моей": {
+    "RU": "мой",
+    "EN": "my, mine, my people"
+  },
+  "бутылке": {
+    "RU": "бутылка",
+    "EN": "bottle"
+  },
+  "осталось": {
+    "RU": "остаться",
+    "EN": "remain, stay, be left"
+  },
+  "дне": {
+    "RU": "день",
+    "EN": "day, afternoon"
+  },
+  "все": {
+    "RU": "весь",
+    "EN": "all, the whole of, everything, everybody, everyone, no more left"
+  },
+  "допиваю": {
+    "RU": "допивать",
+    "EN": "drink up"
+  },
+  "иду": {
+    "RU": "идти",
+    "EN": "go, walk"
+  },
+  "тебе": {
+    "RU": "тебе",
+    "EN": "dative of \"you\""
+  },
+  "мы": {
+    "RU": "мы",
+    "EN": "we"
+  },
+  "сидим": {
+    "RU": "сидеть",
+    "EN": "sit, be perched, be, fit"
+  },
+  "за": {
+    "RU": "за",
+    "EN": "behind; at (location); at (direction); for (in support of); for (mistake for); for (reason); for (duration); following after, chasing after; over (a certain age); beyond, on the far side of; out of (location)"
+  },
+  "столом": {
+    "RU": "стол",
+    "EN": "table, desk, board; diet, cooking, cuisine; department, section"
+  },
+  "ты": {
+    "RU": "ты",
+    "EN": "you"
+  },
+  "напротив": {
+    "RU": "напротив",
+    "EN": "opposite, on the contrary"
+  },
+  "подниматься": {
+    "RU": "подниматься",
+    "EN": "rise, climb, ascend"
+  },
+  "лом": {
+    "RU": "лом",
+    "EN": "crow, crowbar, scrap, waste, fragments"
+  },
+  "но": {
+    "RU": "но",
+    "EN": "but"
+  },
+  "хочешь": {
+    "RU": "хотеть",
+    "EN": "want; to feel like"
+  },
+  "огня": {
+    "RU": "огонь",
+    "EN": "fire, light"
+  },
+  "смотрю": {
+    "RU": "смотреть",
+    "EN": "look, watch"
+  },
+  "тебя": {
+    "RU": "тебя",
+    "EN": "genetive of \"you\""
+  },
+  "тоже": {
+    "RU": "тоже",
+    "EN": "also, as well, too"
+  },
+  "пусть": {
+    "RU": "пусть",
+    "EN": "Let be"
+  },
+  "прольется": {
+    "RU": "пролиться",
+    "EN": "to spill; to be spilled"
+  },
+  "ром": {
+    "RU": "ром",
+    "EN": "rum"
+  },
+  "твою": {
+    "RU": "твой",
+    "EN": "your, yours, thy, thine, your people"
+  },
+  "свечу": {
+    "RU": "свеча",
+    "EN": "candle, light, taper, candle-power, suppository"
+  },
+  "встаешь": {
+    "RU": "вставать",
+    "EN": "get up, rise, be up, stand up, go, fit, arise"
+  },
+  "идешь": {
+    "RU": "идти",
+    "EN": "go, walk"
+  },
+  "сквозь": {
+    "RU": "сквозь",
+    "EN": "through"
+  },
+  "танцующий": {
+    "RU": "танцующий",
+    "EN": ""
+  },
+  "зал": {
+    "RU": "зал",
+    "EN": "hall, audience chamber, reception-room"
+  },
+  "из": {
+    "RU": "из",
+    "EN": "from; out of"
+  },
+  "бокала": {
+    "RU": "бокал",
+    "EN": "glass (of wine), goblet"
+  },
+  "пьешь": {
+    "RU": "пить",
+    "EN": "drink"
+  },
+  "о": {
+    "RU": "о",
+    "EN": "about; of; on; against"
+  },
+  "сказал": {
     "RU": "сказать",
     "EN": "say, tell, speak, talk"
   },
-  "привет": {
-    "RU": "привет",
-    "EN": "hello (informal), hi (informal)"
+  "растворяются": {
+    "RU": "растворяться",
+    "EN": "open, dissolve"
   },
-  "убегу": {
-    "RU": "убег",
-    "EN": ""
+  "лица": {
+    "RU": "лицо",
+    "EN": "face, the right side, person"
   },
-  "выключаю": {
-    "RU": "выключать",
-    "EN": "turn off, switch off, cut off, exclude"
+  "чужих": {
+    "RU": "чужой",
+    "EN": "stranger"
   },
-  "телевизор": {
-    "RU": "телевизор",
-    "EN": "television set, TV set"
+  "голоса": {
+    "RU": "голос",
+    "EN": "voice, part, vote"
   },
-  "пишу": {
-    "RU": "писать",
-    "EN": "write; paint"
+  "идем": {
+    "RU": "идти",
+    "EN": "go, walk"
   },
-  "письмо": {
-    "RU": "письмо",
-    "EN": "letter, writing, script"
+  "веселиться": {
+    "RU": "веселиться",
+    "EN": "have fun; enjoy oneself"
   },
-  "про": {
-    "RU": "про",
-    "EN": "about, for"
+  "нас": {
+    "RU": "нас",
+    "EN": "genetive of \"we\""
   },
-  "то": {
+  "ждут": {
+    "RU": "ждать",
+    "EN": "wait, expect, await"
+  },
+  "чудеса": {
+    "RU": "чудо",
+    "EN": "miracle, wonder, marvel"
+  },
+  "утро": {
+    "RU": "утро",
+    "EN": "morning, morn"
+  },
+  "начнется": {
+    "RU": "начаться",
+    "EN": "begin"
+  },
+  "того": {
     "RU": "тот",
     "EN": "that, the other, the right"
   },
@@ -687,713 +463,541 @@
     "RU": "что",
     "EN": "what"
   },
-  "больше": {
-    "RU": "больше",
-    "EN": "bigger, larger, greater, more"
+  "февраль": {
+    "RU": "февраль",
+    "EN": "February"
   },
-  "могу": {
-    "RU": "мочь",
-    "EN": "be able, can"
+  "стал": {
+    "RU": "стать",
+    "EN": "begin to do sth; become"
   },
-  "смотреть": {
-    "RU": "смотреть",
-    "EN": "look, watch"
+  "твердым": {
+    "RU": "твёрдый",
+    "EN": "hard, solid, firm, strong, steadfast, stable"
   },
-  "дерьмо": {
-    "RU": "дерьмо",
-    "EN": "Shit"
+  "теплым": {
+    "RU": "тёплый",
+    "EN": "warm, mild, cordial, kindly, affectionate"
   },
-  "нет": {
-    "RU": "житься",
-    "EN": "to be able to live"
+  "мой": {
+    "RU": "мой",
+    "EN": "my, mine, my people"
   },
-  "сил": {
-    "RU": "сила",
-    "EN": "power"
+  "календарь": {
+    "RU": "календарь",
+    "EN": "calendar"
   },
-  "почти": {
-    "RU": "почесть",
-    "EN": "honour"
+  "разбросал": {
+    "RU": "разбросать",
+    "EN": "throw about, scatter, scatter about, strew about"
   },
-  "запил": {
-    "RU": "запить",
-    "EN": ""
+  "сомнения": {
+    "RU": "сомнение",
+    "EN": "doubt"
   },
-  "забыл": {
-    "RU": "забыть",
-    "EN": "forget"
+  "прочую": {
+    "RU": "прочий",
+    "EN": "other"
   },
-  "телефон": {
-    "RU": "телефон",
-    "EN": "telephone, phone"
+  "дрянь": {
+    "RU": "дрянь",
+    "EN": "rubbish, trash, rotter"
   },
-  "звонил": {
-    "RU": "звонить",
-    "EN": "(phone)call"
+  "непорочную": {
+    "RU": "непорочный",
+    "EN": "chaste, immaculate, pure"
   },
-  "чтобы": {
-    "RU": "чтобы",
-    "EN": "so that; in order to"
+  "даль": {
+    "RU": "даль",
+    "EN": "distance"
   },
-  "встал": {
-    "RU": "встать",
-    "EN": "get up, stand up, rise"
+  "всю": {
+    "RU": "весь",
+    "EN": "all, the whole of, everything, everybody, everyone, no more left"
   },
-  "оделся": {
-    "RU": "одеться",
-    "EN": "dress"
-  },
-  "пошел": {
-    "RU": "пойти",
-    "EN": "go; walk"
-  },
-  "а": {
-    "RU": "а",
-    "EN": "and; but, yet; oh, ah, oh well"
-  },
-  "побежал": {
-    "RU": "побежать",
-    "EN": "break into a run"
-  },
-  "только": {
-    "RU": "только",
-    "EN": "only; just, simply"
-  },
-  "его": {
-    "RU": "его",
-    "EN": "genetive of \"he\"; genetive of \"it\""
-  },
-  "послал": {
-    "RU": "послать",
-    "EN": "send, dispatch"
-  },
-  "сказал": {
-    "RU": "сказать",
-    "EN": "say, tell, speak, talk"
-  },
-  "болен": {
-    "RU": "больной",
-    "EN": "sick, diseased, sore, morbid"
-  },
-  "устал": {
-    "RU": "усталый",
-    "EN": "tired, weary, fatigued"
-  },
-  "ночь": {
-    "RU": "ночь",
-    "EN": "night"
-  },
-  "спал": {
-    "RU": "спать",
-    "EN": "sleep"
-  },
-  "жду": {
-    "RU": "ждать",
-    "EN": "wait, expect, await"
-  },
-  "ответа": {
-    "RU": "ответ",
-    "EN": "answer, reply, response"
-  },
-  "надежд": {
-    "RU": "надежда",
-    "EN": "hope"
-  },
-  "нету": {
-    "RU": "нету",
-    "EN": "there is no, there are no"
-  },
-  "скоро": {
-    "RU": "скорый",
-    "EN": "quick, fast, near, forthcoming"
-  },
-  "кончится": {
-    "RU": "кончиться",
-    "EN": "end, finish"
-  },
-  "лето": {
-    "RU": "лето",
-    "EN": "summer"
-  },
-  "это": {
+  "эту": {
     "RU": "этот",
     "EN": "this"
   },
-  "повезло": {
-    "RU": "повезти",
-    "EN": "bring, take, carry; be lucky"
+  "прочную": {
+    "RU": "прочный",
+    "EN": "durable, solid, firm, strong"
   },
-  "дождь": {
-    "RU": "дождь",
-    "EN": "rain"
+  "закрываются": {
+    "RU": "закрываться",
+    "EN": "close, shut, be closed, be shut, cover oneself up, be over"
   },
-  "идет": {
-    "RU": "идти",
-    "EN": "go, walk"
+  "двери": {
+    "RU": "дверь",
+    "EN": "door"
   },
-  "четвертый": {
-    "RU": "четвертый",
-    "EN": "fourth"
+  "гаснут": {
+    "RU": "гаснуть",
+    "EN": "go out, die out, become dim, sink, decline"
   },
-  "хотя": {
-    "RU": "хотя",
-    "EN": "though, although, even though"
+  "огни": {
+    "RU": "огонь",
+    "EN": "fire, light"
   },
-  "радио": {
-    "RU": "радио",
-    "EN": "radio, radio set, wireless"
+  "остаемся": {
+    "RU": "оставаться",
+    "EN": "remain, stay, be left"
   },
-  "сказали": {
-    "RU": "сказать",
-    "EN": "say, tell, speak, talk"
+  "стараться": {
+    "RU": "стараться",
+    "EN": "try hard; strive"
   },
-  "жаркой": {
-    "RU": "жаркий",
-    "EN": "hot, ardent"
-  },
-  "будет": {
-    "RU": "будет",
-    "EN": ""
-  },
-  "даже": {
-    "RU": "даже",
-    "EN": "even"
-  },
-  "тень": {
-    "RU": "тень",
-    "EN": "shadow, shade; ghost, phantom; atom, particle"
-  },
-  "впрочем": {
-    "RU": "впрочем",
-    "EN": "however"
-  },
-  "той": {
-    "RU": "той",
-    "EN": ""
-  },
-  "тени": {
-    "RU": "тень",
-    "EN": "shadow, shade; ghost, phantom; atom, particle"
-  },
-  "пока": {
-    "RU": "пока",
-    "EN": "bye (informal); while"
-  },
-  "сухо": {
-    "RU": "сухой",
-    "EN": "dry, arid"
-  },
-  "тепло": {
-    "RU": "тепло",
-    "EN": "heat, warmth, cordiality, warmly, cordially"
-  },
-  "боюсь": {
-    "RU": "бояться",
-    "EN": "be afraid, dread, fear"
+  "прожить": {
+    "RU": "прожить",
+    "EN": "spend, run through"
   },
   "дни": {
     "RU": "день",
     "EN": "day, afternoon"
   },
-  "идут": {
-    "RU": "идти",
-    "EN": "go, walk"
-  },
-  "чередом": {
-    "RU": "черёд",
-    "EN": "turn"
-  },
-  "едим": {
-    "RU": "есть",
-    "EN": "eat"
-  },
-  "три": {
-    "RU": "тереть",
-    "EN": "rub, polish, rub sore, chafe, abrade, grate, grind"
-  },
-  "пьем": {
-    "RU": "пить",
-    "EN": "drink"
-  },
-  "общем": {
-    "RU": "общий",
-    "EN": "general, common, mutual, aggregate, total"
-  },
-  "весело": {
-    "RU": "весёлый",
-    "EN": "merry, cheerful, happy; funny"
-  },
-  "живем": {
-    "RU": "жить",
-    "EN": "live"
-  },
-  "за": {
-    "RU": "за",
-    "EN": "behind; at (location); at (direction); for (in support of); for (mistake for); for (reason); for (duration); following after, chasing after; over (a certain age); beyond, on the far side of; out of (location)"
-  },
-  "окном": {
-    "RU": "окно",
-    "EN": "window, casement-window, window-sill, gap, opening, port, slot, free period, break"
-  },
-  "магнитофон": {
-    "RU": "магнитофон",
-    "EN": "tape-recorder"
-  },
-  "сломался": {
-    "RU": "сломаться",
-    "EN": "break, crack, pose, mince, put on airs, be extremely affected, make difficulties"
-  },
-  "сижу": {
-    "RU": "сидеть",
-    "EN": "sit, be perched, be, fit"
-  },
-  "тишине": {
-    "RU": "тишина",
-    "EN": "silence"
-  },
-  "рад": {
-    "RU": "рада",
-    "EN": "glad"
-  },
-  "вполне": {
-    "RU": "вполне",
-    "EN": "quite, fully, entirely, completely"
-  },
-  "стройка": {
-    "RU": "стройка",
-    "EN": "building, construction, building sit"
-  },
-  "работает": {
-    "RU": "работать",
-    "EN": "work, operate"
-  },
-  "кран": {
-    "RU": "кран",
-    "EN": "tap / faucet, stop-cock; crane"
-  },
-  "закрыт": {
-    "RU": "закрытый",
-    "EN": "closed"
-  },
-  "пятый": {
-    "RU": "пятый",
-    "EN": "fifth"
-  },
-  "год": {
-    "RU": "год",
-    "EN": "year"
-  },
-  "углом": {
-    "RU": "угол",
-    "EN": "corner, angle, home"
-  },
-  "ресторан": {
-    "RU": "ресторан",
-    "EN": "restaurant"
-  },
-  "столе": {
-    "RU": "стол",
-    "EN": "table, desk, board; diet, cooking, cuisine; department, section"
-  },
-  "стоит": {
-    "RU": "стоять",
-    "EN": "stand"
-  },
-  "банка": {
-    "RU": "банк",
-    "EN": "bank, faro"
-  },
-  "банке": {
-    "RU": "банк",
-    "EN": "bank, faro"
-  },
-  "тюльпан": {
-    "RU": "тюльпан",
-    "EN": "tulip"
-  },
-  "окне": {
-    "RU": "окно",
-    "EN": "window, casement-window, window-sill, gap, opening, port, slot, free period, break"
-  },
-  "стакан": {
-    "RU": "стакан",
-    "EN": "glass"
-  },
-  "годом": {
-    "RU": "год",
-    "EN": "year"
-  },
-  "жизнь": {
-    "RU": "жизнь",
-    "EN": "life, existence"
-  },
-  "пройдет": {
-    "RU": "пройти",
-    "EN": "pass; get to, go to, reach; make one's way"
-  },
-  "сотый": {
-    "RU": "сотый",
-    "EN": "hundredth"
-  },
-  "раз": {
-    "RU": "раз",
-    "EN": "time; one; once"
-  },
-  "маслом": {
-    "RU": "масло",
-    "EN": "butter, oil; oil painting"
-  },
-  "упадет": {
-    "RU": "упасть",
-    "EN": "to fall, drop; to sink, decline"
-  },
-  "бутерброд": {
-    "RU": "бутерброд",
-    "EN": "sandwich"
-  },
-  "может": {
-    "RU": "мочь",
-    "EN": "be able, can"
-  },
-  "хоть": {
-    "RU": "хоть",
-    "EN": "though, even; you may, might as well"
-  },
-  "когда": {
-    "RU": "когда",
-    "EN": "when, while, as"
-  },
-  "нам": {
-    "RU": "нам",
-    "EN": "dative of \"we\""
-  },
-  "повезет": {
-    "RU": "повезти",
-    "EN": "bring, take, carry; be lucky"
-  },
-  "один": {
-    "RU": "один",
-    "EN": "one, 1; alone"
-  },
-  "холодный": {
-    "RU": "холодный",
-    "EN": "cold, cool"
+  "дальше": {
+    "RU": "дальше",
+    "EN": "farther, further, then, any longer"
   },
   "идти": {
     "RU": "идти",
     "EN": "go, walk"
   },
-  "куда": {
-    "RU": "куда",
-    "EN": "wherever"
+  "шаг": {
+    "RU": "шаг",
+    "EN": "step, stride, pace, tread, footsteps"
   },
-  "лень": {
-    "RU": "лень",
-    "EN": "laziness, idleness, indolence"
+  "шагом": {
+    "RU": "шаг",
+    "EN": "step, stride, pace, tread, footsteps"
   },
-  "сегодня": {
-    "RU": "сегодня",
-    "EN": "today"
+  "украду": {
+    "RU": "украсть",
+    "EN": "steal, pilfer"
   },
-  "звонит": {
-    "RU": "звонить",
-    "EN": "(phone)call"
+  "прерывисто": {
+    "RU": "прерывистый",
+    "EN": "broken, interrupted"
   },
-  "пейзаж": {
-    "RU": "пейзаж",
-    "EN": "view, scenery, landscape"
+  "дышишь": {
+    "RU": "дышать",
+    "EN": "breathe, respire"
   },
-  "опять": {
-    "RU": "опять",
-    "EN": "again"
+  "звезду": {
+    "RU": "звезда",
+    "EN": "star; famous person; name of service module on the International Space Station"
   },
-  "застыл": {
-    "RU": "застыть",
-    "EN": "thicken, set congeal, harden"
+  "сжимаешь": {
+    "RU": "сжимать",
+    "EN": "squeeze, compress"
   },
-  "туман": {
-    "RU": "туман",
-    "EN": "mist, fog, haze"
+  "ладонях": {
+    "RU": "ладонь",
+    "EN": "palm (of the hand)"
   },
-  "фильме": {
-    "RU": "фильм",
-    "EN": "movie, film"
+  "черную": {
+    "RU": "чёрный",
+    "EN": "black"
   },
-  "все": {
-    "RU": "весь",
-    "EN": "all, the whole of, everything, everybody, everyone, no more left"
+  "простыню": {
+    "RU": "простыня",
+    "EN": "sheet, bed-sheet"
   },
-  "скучный": {
-    "RU": "скучный",
-    "EN": "boring"
+  "радостно": {
+    "RU": "радостно",
+    "EN": "With joy, happily"
   },
-  "вид": {
-    "RU": "вид",
-    "EN": "appearance, look, aspect, semblance; sight, view, views"
+  "тонем": {
+    "RU": "тонуть",
+    "EN": "sink, go down, drown, be lost"
   },
-  "приходи": {
-    "RU": "приходить",
-    "EN": "arrive"
+  "этом": {
+    "RU": "этот",
+    "EN": "this"
   },
-  "ко": {
-    "RU": "ко",
-    "EN": "to, towards; by, for"
+  "сладком": {
+    "RU": "сладкое",
+    "EN": "sweet course, dessert"
   },
-  "слушать": {
-    "RU": "слушать",
-    "EN": "listen, hear, attend, examine chest, auscultate, obey"
+  "раю": {
+    "RU": "рай",
+    "EN": "paradise, Eden, Elysium"
   },
-  "старые": {
-    "RU": "старый",
-    "EN": "old, ancient, the old, the past"
+  "звезды": {
+    "RU": "звезда",
+    "EN": "star; famous person; name of service module on the International Space Station"
   },
-  "пластинки": {
-    "RU": "пластинка",
-    "EN": "plate, blade, lamina"
+  "меркнут": {
+    "RU": "меркнуть",
+    "EN": "fade, wane"
   },
-  "мир": {
+  "под": {
+    "RU": "под",
+    "EN": "under; below; underneath; to go down/below; to go/put under something; (impression, affection)"
+  },
+  "ведь": {
+    "RU": "ведь",
+    "EN": "you know; after all; even"
+  },
+  "высоко": {
+    "RU": "высоко",
+    "EN": "high, high up, it is high"
+  },
+  "цепляешь": {
+    "RU": "цеплять",
+    "EN": "to hitch up"
+  },
+  "ногами": {
+    "RU": "нога",
+    "EN": "leg"
+  },
+  "новый": {
+    "RU": "новый",
+    "EN": "new, novel"
+  },
+  "томик": {
+    "RU": "томик",
+    "EN": "small volume"
+  },
+  "он": {
+    "RU": "он",
+    "EN": "he; it (masculine inanimate nouns)"
+  },
+  "падает": {
+    "RU": "падать",
+    "EN": "fall, drop"
+  },
+  "пол": {
+    "RU": "пол",
+    "EN": "floor, sex"
+  },
+  "загадать": {
+    "RU": "загадать",
+    "EN": "wish for, offer, think, make plans, plan ahead"
+  },
+  "желаю": {
+    "RU": "желать",
+    "EN": "wish, desire, covet"
+  },
+  "увидеть": {
+    "RU": "увидеть",
+    "EN": "see"
+  },
+  "познать": {
+    "RU": "познать",
+    "EN": "get to know, cognize, become acquainted, experience"
+  },
+  "миру": {
     "RU": "мир",
     "EN": "world; peace"
   },
-  "сошел": {
-    "RU": "сойти",
-    "EN": "descend, get off, alight, come off, pass, be taken, go, fetch; to lose"
+  "есть": {
+    "RU": "быть",
+    "EN": "be"
   },
-  "ума": {
-    "RU": "ум",
-    "EN": "mind, brains, wit, intellect"
+  "сказать": {
+    "RU": "сказать",
+    "EN": "say, tell, speak, talk"
   },
-  "надоело": {
-    "RU": "надоесть",
-    "EN": "tired of, sick of, pester, worry, plague"
+  "молчат": {
+    "RU": "молчать",
+    "EN": "be silent, keep quiet"
   },
-  "снаружи": {
-    "RU": "снаружи",
-    "EN": "outside"
+  "запрети": {
+    "RU": "запретить",
+    "EN": "forbid, prohibit, ban"
   },
-  "давай": {
-    "RU": "давать",
-    "EN": "give"
-  },
-  "до": {
-    "RU": "до",
-    "EN": "to (direction); to (distance); before; until; up to (limit)"
-  },
-  "утра": {
-    "RU": "утро",
-    "EN": "morning, morn"
-  },
-  "какая": {
-    "RU": "какой",
-    "EN": "which, what, what kind of"
-  },
-  "жуткая": {
-    "RU": "жуткий",
-    "EN": "terrible, terrifying, awe-inspiring, uncanny, weird, eerie, sinister"
-  },
-  "тоска": {
-    "RU": "тоска",
-    "EN": "melancholy, depression, yearning, anguish, ennui, weariness, boredom, longing, grief"
-  },
-  "время": {
-    "RU": "время",
-    "EN": "time, times, tense"
-  },
-  "стынет": {
-    "RU": "стыть",
-    "EN": ""
-  },
-  "у": {
-    "RU": "у",
-    "EN": "(possession); by, at (place); with; from (take, borrow)"
-  },
-  "виска": {
-    "RU": "висок",
-    "EN": "temple"
-  },
-  "ближе": {
-    "RU": "близкий",
-    "EN": "near; close"
-  },
-  "к": {
-    "RU": "к",
-    "EN": "towards, to; visit someone"
-  },
-  "ночи": {
-    "RU": "ночь",
-    "EN": "night"
-  },
-  "свет": {
-    "RU": "свет",
-    "EN": "light, world, society"
-  },
-  "пустых": {
-    "RU": "пустой",
-    "EN": "empty, hollow, void"
-  },
-  "огней": {
-    "RU": "огонь",
-    "EN": "fire, light"
-  },
-  "чего": {
-    "RU": "чего",
-    "EN": "what"
-  },
-  "ждать": {
-    "RU": "ждать",
-    "EN": "wait, expect, await"
-  },
-  "ложиться": {
-    "RU": "ложиться",
-    "EN": "lie down; go to bed"
-  },
-  "спать": {
-    "RU": "спать",
-    "EN": "sleep"
-  },
-  "снова": {
-    "RU": "снова",
-    "EN": "again"
-  },
-  "страшно": {
-    "RU": "страшный",
-    "EN": "terrible, frightful, fearful, dreadful"
-  },
-  "звоню": {
-    "RU": "звонить",
-    "EN": "(phone)call"
-  },
-  "вчера": {
-    "RU": "вчера",
-    "EN": "yesterday"
-  },
-  "пачка": {
-    "RU": "пачка",
-    "EN": "packet, bundle, batch, sheaf, pack, parcel, tutu"
-  },
-  "сигарет": {
-    "RU": "сигарета",
-    "EN": "cigarette"
-  },
-  "моем": {
-    "RU": "мой",
-    "EN": "my, mine, my people"
-  },
-  "кармане": {
-    "RU": "карман",
-    "EN": "pocket"
-  },
-  "заставляет": {
-    "RU": "заставлять",
-    "EN": "force, compel, make; cram, fill, block up, obstruct"
-  },
-  "возьму": {
-    "RU": "взять",
-    "EN": "take, hire"
-  },
-  "позвоню": {
-    "RU": "позвонить",
-    "EN": "ring, clang; call"
-  },
-  "своей": {
-    "RU": "свой",
-    "EN": "my; your; his; her; our; their"
-  },
-  "маме": {
-    "RU": "мама",
-    "EN": "mom, mama, mommy, mummy"
-  },
-  "мама": {
-    "RU": "мама",
-    "EN": "mom, mama, mommy, mummy"
-  },
-  "почему": {
-    "RU": "почему",
-    "EN": "why"
-  },
-  "умереть": {
-    "RU": "умереть",
-    "EN": "die, pass away"
-  },
-  "никогда": {
-    "RU": "никогда",
-    "EN": "never, ever"
-  },
-  "закончится": {
-    "RU": "закончиться",
-    "EN": "come to an end close, end"
-  },
-  "бросить": {
-    "RU": "бросить",
-    "EN": "to throw; to send urgently; to give up, to quit, to leave off; to abandon, to forsake"
-  },
-  "курить": {
-    "RU": "курить",
-    "EN": "smoke, burn, distil"
-  },
-  "честно": {
-    "RU": "честный",
-    "EN": "honest, honest-minded, upright, fair"
-  },
-  "хочется": {
-    "RU": "хотеться",
-    "EN": "like"
-  },
-  "стены": {
-    "RU": "стена",
-    "EN": "wall"
-  },
-  "давят": {
-    "RU": "давить",
-    "EN": "press, lie heavy, crush, press, squeeze"
-  },
-  "комнате": {
-    "RU": "комната",
-    "EN": "room"
-  },
-  "белый": {
-    "RU": "белый",
-    "EN": "white"
-  },
-  "потолок": {
-    "RU": "потолок",
-    "EN": "ceiling, roof, limit, absolute limit"
-  },
-  "засыпаю": {
-    "RU": "засыпать",
-    "EN": "fall asleep; fill up, cover, engulf, overwhelm"
-  },
-  "холоде": {
-    "RU": "холод",
-    "EN": "cold, coldness, cold weather"
-  },
-  "открытые": {
-    "RU": "открытый",
-    "EN": "open, overt, frank, undisguised"
-  },
-  "окна": {
-    "RU": "окно",
-    "EN": "window, casement-window, window-sill, gap, opening, port, slot, free period, break"
-  },
-  "дует": {
-    "RU": "дуть",
-    "EN": "blow, swill, souse, go at it, rush it"
-  },
-  "ветер": {
-    "RU": "ветер",
-    "EN": "wind, breeze"
-  },
-  "закрывал": {
-    "RU": "закрывать",
-    "EN": "close"
+  "думать": {
+    "RU": "думать",
+    "EN": "think, consider, reflect, ponder, believe, intend"
   },
   "их": {
     "RU": "их",
     "EN": "their, them"
   },
-  "тепла": {
-    "RU": "тепло",
-    "EN": "heat, warmth, cordiality, warmly, cordially"
+  "уже": {
+    "RU": "уж",
+    "EN": "grass snake"
+  },
+  "спасти": {
+    "RU": "спасти",
+    "EN": "save, rescue, salvage"
+  },
+  "масса": {
+    "RU": "масса",
+    "EN": "mass, paste, a lot, lots"
+  },
+  "ад": {
+    "RU": "ад",
+    "EN": "hell, Hades, the Underworld"
+  },
+  "машина": {
+    "RU": "машина",
+    "EN": "car; machine, machinery, engine, mechanism"
+  },
+  "работает": {
+    "RU": "работать",
+    "EN": "work, operate"
+  },
+  "снести": {
+    "RU": "снести",
+    "EN": "tear down; demolish; knock down"
+  },
+  "склеп": {
+    "RU": "склеп",
+    "EN": "vault, crypt"
+  },
+  "трепыхается": {
+    "RU": "трепыхаться",
+    "EN": "flutter, quiver"
+  },
+  "сон": {
+    "RU": "сон",
+    "EN": "dream; sleep"
+  },
+  "сне": {
+    "RU": "сон",
+    "EN": "dream; sleep"
+  },
+  "смеемся": {
+    "RU": "смеяться",
+    "EN": "to laugh; to laugh at; to mock, to deride"
+  },
+  "пройдет": {
+    "RU": "пройти",
+    "EN": "pass; get to, go to, reach; make one's way"
+  },
+  "быстро": {
+    "RU": "быстрый",
+    "EN": "fast, quick, rapid, prompt"
+  },
+  "увидишь": {
+    "RU": "увидеть",
+    "EN": "see"
+  },
+  "вновь": {
+    "RU": "вновь",
+    "EN": "again, afresh, anew"
+  },
+  "давит": {
+    "RU": "давить",
+    "EN": "press, lie heavy, crush, press, squeeze"
+  },
+  "людей": {
+    "RU": "человек",
+    "EN": "person, people; man"
+  },
+  "рабов": {
+    "RU": "раб",
+    "EN": "slave, serf, bondman, bondslave"
+  },
+  "упаду": {
+    "RU": "упад",
+    "EN": ""
+  },
+  "ослепленный": {
+    "RU": "ослепленный",
+    "EN": "blinded, dazzled"
+  },
+  "бледный": {
+    "RU": "бледный",
+    "EN": "pale, pallid, wan, insipid, colourless"
+  },
+  "свет": {
+    "RU": "свет",
+    "EN": "light, world, society"
+  },
+  "поможет": {
+    "RU": "помочь",
+    "EN": "help, assist, aid"
+  },
+  "прийти": {
+    "RU": "прийти",
+    "EN": "come, arrive"
+  },
+  "себя": {
+    "RU": "себя",
+    "EN": "ourselves, yourselves, himself, herself, itself, yourself, myself, themselves"
+  },
+  "даже": {
+    "RU": "даже",
+    "EN": "even"
+  },
+  "страшно": {
+    "RU": "страшный",
+    "EN": "terrible, frightful, fearful, dreadful"
+  },
+  "представить": {
+    "RU": "представить",
+    "EN": "imagine; present"
+  },
+  "рядом": {
+    "RU": "ряд",
+    "EN": "row, line, tier; file, rank; series; a number of, several"
+  },
+  "нет": {
+    "RU": "житься",
+    "EN": "to be able to live"
+  },
+  "никого": {
+    "RU": "никой",
+    "EN": "no one"
+  },
+  "до": {
+    "RU": "до",
+    "EN": "to (direction); to (distance); before; until; up to (limit)"
+  },
+  "рассвета": {
+    "RU": "рассвет",
+    "EN": "dawn, daybreak"
+  },
+  "подскажет": {
+    "RU": "подсказать",
+    "EN": "prompt, suggest"
+  },
+  "никто": {
+    "RU": "никто",
+    "EN": "nobody, no one"
+  },
+  "больше": {
+    "RU": "больше",
+    "EN": "bigger, larger, greater, more"
+  },
+  "солнце": {
+    "RU": "солнце",
+    "EN": "sun"
+  },
+  "далекой": {
+    "RU": "далёкий",
+    "EN": "far"
+  },
+  "моем": {
+    "RU": "мой",
+    "EN": "my, mine, my people"
+  },
+  "сердце": {
+    "RU": "сердце",
+    "EN": "heart"
+  },
+  "рана": {
+    "RU": "рана",
+    "EN": "wound, injury"
+  },
+  "этому": {
+    "RU": "этот",
+    "EN": "this"
+  },
+  "только": {
+    "RU": "только",
+    "EN": "only; just, simply"
+  },
+  "сложно": {
+    "RU": "сложный",
+    "EN": "complicated, complex, intricate, compound; difficult"
+  },
+  "поверить": {
+    "RU": "поверить",
+    "EN": "to believe"
+  },
+  "перекрестке": {
+    "RU": "перекрёсток",
+    "EN": "crossroads, crossing; Intersection"
+  },
+  "твоих": {
+    "RU": "твой",
+    "EN": "your, yours, thy, thine, your people"
+  },
+  "мыслей": {
+    "RU": "мысль",
+    "EN": "thought, idea"
+  },
+  "запрет": {
+    "RU": "запрет",
+    "EN": "prohibition, ban; withdrawal; removal"
+  },
+  "ничего": {
+    "RU": "ничего",
+    "EN": "not badly, passably, so-so, not bad, never mind, all right; nothing"
+  },
+  "это": {
+    "RU": "этот",
+    "EN": "this"
+  },
+  "был": {
+    "RU": "быть",
+    "EN": "be"
+  },
+  "твой": {
+    "RU": "твой",
+    "EN": "your, yours, thy, thine, your people"
+  },
+  "ответ": {
+    "RU": "ответ",
+    "EN": "answer, reply, response"
+  },
+  "после": {
+    "RU": "посол",
+    "EN": "ambassador, salting"
+  },
+  "этих": {
+    "RU": "этот",
+    "EN": "this"
+  },
+  "слов": {
+    "RU": "слово",
+    "EN": "word; speech"
+  },
+  "мир": {
+    "RU": "мир",
+    "EN": "world; peace"
+  },
+  "потушит": {
+    "RU": "потушить",
+    "EN": "Extinguish"
+  },
+  "тут": {
+    "RU": "тут",
+    "EN": "mulberry fruit; mulberry tree"
+  },
+  "кричи": {
+    "RU": "кричать",
+    "EN": "shout"
+  },
+  "зови": {
+    "RU": "звать",
+    "EN": "call, call upon"
+  },
+  "моих": {
+    "RU": "мой",
+    "EN": "my, mine, my people"
+  },
+  "глазах": {
+    "RU": "глаз",
+    "EN": "eye"
+  },
+  "заветных": {
+    "RU": "заветный",
+    "EN": "cherished, intimate, hidden, sacred"
+  },
+  "снах": {
+    "RU": "сон",
+    "EN": "dream; sleep"
+  },
+  "луна": {
+    "RU": "луна",
+    "EN": "moon"
+  },
+  "кассеты": {
+    "RU": "кассета",
+    "EN": "cassette, plate-holder, film-holder, reel"
+  },
+  "мотать": {
+    "RU": "мотать",
+    "EN": "wind, reel, shake, squander, waste"
+  },
+  "твои": {
+    "RU": "твой",
+    "EN": "your, yours, thy, thine, your people"
   },
   "мои": {
     "RU": "мой",
@@ -1403,61 +1007,77 @@
     "RU": "друг",
     "EN": "friend"
   },
-  "сигареты": {
-    "RU": "сигарета",
-    "EN": "cigarette"
+  "пришли": {
+    "RU": "прийти",
+    "EN": "come, arrive"
   },
-  "мы": {
-    "RU": "мы",
-    "EN": "we"
+  "танцевать": {
+    "RU": "танцевать",
+    "EN": "dance"
   },
-  "расстанемся": {
-    "RU": "расстаться",
-    "EN": "part, leave, break up"
+  "один": {
+    "RU": "один",
+    "EN": "one, 1; alone"
   },
-  "сердце": {
-    "RU": "сердце",
-    "EN": "heart"
+  "музыка": {
+    "RU": "музыка",
+    "EN": "music"
   },
-  "бьется": {
-    "RU": "биться",
-    "EN": "fight, knock, hit, strike, beat, struggle"
+  "жаль": {
+    "RU": "жалить",
+    "EN": "sting, bite"
   },
-  "песня": {
-    "RU": "песня",
-    "EN": "song"
+  "умею": {
+    "RU": "уметь",
+    "EN": "be able, know, can, be good, be a good hand"
   },
-  "быть": {
-    "RU": "быть",
-    "EN": "be"
+  "стробоскопа": {
+    "RU": "стробоскоп",
+    "EN": "stroboscope"
   },
-  "новый": {
-    "RU": "новый",
-    "EN": "new, novel"
+  "начинает": {
+    "RU": "начинать",
+    "EN": "begin, start, commence"
   },
-  "начнется": {
-    "RU": "начаться",
-    "EN": "begin"
+  "моргать": {
+    "RU": "моргать",
+    "EN": "blink, wink"
   },
-  "завтра": {
-    "RU": "завтра",
-    "EN": "tomorrow"
+  "люди": {
+    "RU": "человек",
+    "EN": "person, people; man"
   },
-  "тут": {
-    "RU": "тут",
-    "EN": "mulberry fruit; mulberry tree"
+  "простите": {
+    "RU": "простить",
+    "EN": "to excuse, to forgive, to pardon"
   },
-  "выглянет": {
-    "RU": "выглянуть",
-    "EN": "look out, peep out, emerge"
+  "открой": {
+    "RU": "открыть",
+    "EN": "open, clear, uncover, bare, inaugurate, discover, let out, reveal"
   },
-  "бороться": {
-    "RU": "бороться",
-    "EN": "fight, struggle, contend, strive, combat, battle, wrestle"
+  "глаза": {
+    "RU": "глаз",
+    "EN": "eye"
   },
-  "непросто": {
-    "RU": "непростой",
-    "EN": "not easy"
+  "посмотри": {
+    "RU": "посмотреть",
+    "EN": "look, watch"
+  },
+  "эти": {
+    "RU": "этот",
+    "EN": "this"
+  },
+  "движения": {
+    "RU": "движение",
+    "EN": "movement"
+  },
+  "для": {
+    "RU": "для",
+    "EN": "for"
+  },
+  "ну": {
+    "RU": "ну",
+    "EN": "well"
   },
   "эмалированное": {
     "RU": "эмалированный",
@@ -1478,6 +1098,10 @@
   "кровать": {
     "RU": "кровать",
     "EN": "bed; bedstead"
+  },
+  "жить": {
+    "RU": "жить",
+    "EN": "live"
   },
   "тяжело": {
     "RU": "тяжёлый",
@@ -1507,13 +1131,13 @@
     "RU": "капать",
     "EN": "drip, dribble, drop, fall, pour out drop by drop, spill, slander, malign, run down"
   },
-  "из": {
-    "RU": "из",
-    "EN": "from; out of"
-  },
   "крана": {
     "RU": "кран",
     "EN": "tap / faucet, stop-cock; crane"
+  },
+  "жизнь": {
+    "RU": "жизнь",
+    "EN": "life, existence"
   },
   "блядь": {
     "RU": "блядь",
@@ -1522,6 +1146,10 @@
   "выходит": {
     "RU": "выходить",
     "EN": "go out, come out, leave; use up, run out of; get married; be published, be issued"
+  },
+  "бы": {
+    "RU": "бы",
+    "EN": "would"
   },
   "видит": {
     "RU": "видеть",
@@ -1534,10 +1162,6 @@
   "приподняться": {
     "RU": "приподняться",
     "EN": "to raise oneself"
-  },
-  "глаза": {
-    "RU": "глаз",
-    "EN": "eye"
   },
   "ей": {
     "RU": "ей",
@@ -1555,9 +1179,1277 @@
     "RU": "разрыдаться",
     "EN": ""
   },
-  "слов": {
+  "никогда": {
+    "RU": "никогда",
+    "EN": "never, ever"
+  },
+  "умереть": {
+    "RU": "умереть",
+    "EN": "die, pass away"
+  },
+  "давай": {
+    "RU": "давать",
+    "EN": "give"
+  },
+  "пой": {
+    "RU": "петь",
+    "EN": "sing, chant, intone"
+  },
+  "грустную": {
+    "RU": "грустный",
+    "EN": "sad, sorrowful"
+  },
+  "песню": {
+    "RU": "песня",
+    "EN": "song"
+  },
+  "смысла": {
+    "RU": "смысл",
+    "EN": "sense, meaning"
+  },
+  "ноль": {
+    "RU": "ноль",
+    "EN": "nil"
+  },
+  "где": {
+    "RU": "где",
+    "EN": "where"
+  },
+  "квартире": {
+    "RU": "квартира",
+    "EN": "flat, apartment, one-room flat, bed-sitter, billets, quarters"
+  },
+  "уныло": {
+    "RU": "унылый",
+    "EN": "sad, cheerless, doleful, dismal, despondent, crestfallen, downcast"
+  },
+  "скрип": {
+    "RU": "скрип",
+    "EN": "squeak, creak, crunch"
+  },
+  "половиц": {
+    "RU": "половица",
+    "EN": "floor board"
+  },
+  "привык": {
+    "RU": "привыкнуть",
+    "EN": "get used to"
+  },
+  "огарок": {
+    "RU": "огарок",
+    "EN": "candle-end"
+  },
+  "свечки": {
+    "RU": "свечка",
+    "EN": ""
+  },
+  "окурки": {
+    "RU": "окурок",
+    "EN": "cigarette-end, cigarette-butt, cigar-butt"
+  },
+  "треск": {
+    "RU": "треск",
+    "EN": "crash, crack, crackle, fuss"
+  },
+  "пластинки": {
+    "RU": "пластинка",
+    "EN": "plate, blade, lamina"
+  },
+  "помню": {
+    "RU": "помнить",
+    "EN": "remember, keep in mind"
+  },
+  "подарила": {
+    "RU": "подарить",
+    "EN": "give, make a present, grant, present, favour, bestow"
+  },
+  "наверняка": {
+    "RU": "наверняка",
+    "EN": "for sure"
+  },
+  "забыла": {
+    "RU": "забыть",
+    "EN": "forget"
+  },
+  "вечеров": {
+    "RU": "вечер",
+    "EN": "evening"
+  },
+  "спросила": {
+    "RU": "спросить",
+    "EN": "ask, inquire, demand"
+  },
+  "вместо": {
+    "RU": "вместо",
+    "EN": "instead of"
+  },
+  "завтра": {
+    "RU": "завтра",
+    "EN": "tomorrow"
+  },
+  "ответа": {
+    "RU": "ответ",
+    "EN": "answer, reply, response"
+  },
+  "скажу": {
+    "RU": "сказать",
+    "EN": "say, tell, speak, talk"
+  },
+  "открыто": {
+    "RU": "открытый",
+    "EN": "open, overt, frank, undisguised"
+  },
+  "были": {
+    "RU": "быль",
+    "EN": "fact, true story"
+  },
+  "тщеславные": {
+    "RU": "тщеславный",
+    "EN": "vain, vainglorious, conceited"
+  },
+  "мечты": {
+    "RU": "мечта",
+    "EN": "dream, day-dream, waking dream"
+  },
+  "бездействия": {
+    "RU": "бездействие",
+    "EN": "inaction, inactivity, inertia, inertness"
+  },
+  "прогрессивный": {
+    "RU": "прогрессивный",
+    "EN": "progressive, progress-minded"
+  },
+  "регресс": {
+    "RU": "регресс",
+    "EN": "regress, retrogression"
+  },
+  "последствия": {
+    "RU": "последствие",
+    "EN": "consequence, sequel, after-effects"
+  },
+  "выдуманный": {
+    "RU": "выдуманный",
+    "EN": "made-up, concocted, fabricated, invented"
+  },
+  "самим": {
+    "RU": "сам",
+    "EN": "ourselves, yourself, thyself, yourselves, himself, herself, itself, themselves"
+  },
+  "умные": {
+    "RU": "умный",
+    "EN": "smart, intelligent, clever, sensible; inteligente"
+  },
+  "слова": {
     "RU": "слово",
     "EN": "word; speech"
+  },
+  "простой": {
+    "RU": "простой",
+    "EN": "stand-by, downtime, idle period"
+  },
+  "необычный": {
+    "RU": "необычный",
+    "EN": "unusual, uncommon"
+  },
+  "человек": {
+    "RU": "человек",
+    "EN": "person, people; man"
+  },
+  "люблю": {
+    "RU": "любить",
+    "EN": "love; like"
+  },
+  "обижаться": {
+    "RU": "обижаться",
+    "EN": "take offense, be offended, be hurt, resent"
+  },
+  "всех": {
+    "RU": "весь",
+    "EN": "all, the whole of, everything, everybody, everyone, no more left"
+  },
+  "вы": {
+    "RU": "вы",
+    "EN": "you (plural); you (formal)"
+  },
+  "бегать": {
+    "RU": "бегать",
+    "EN": "run, run about, be shifty, rove"
+  },
+  "подо": {
+    "RU": "подо",
+    "EN": ""
+  },
+  "такой": {
+    "RU": "такой",
+    "EN": "such, so, that sort of"
+  },
+  "унижусь": {
+    "RU": "унизиться",
+    "EN": ""
+  },
+  "будь": {
+    "RU": "быть",
+    "EN": "be"
+  },
+  "нагой": {
+    "RU": "нагой",
+    "EN": "naked, nude, bare"
+  },
+  "мое": {
+    "RU": "мой",
+    "EN": "my, mine, my people"
+  },
+  "эго": {
+    "RU": "эго",
+    "EN": ""
+  },
+  "лев": {
+    "RU": "лев",
+    "EN": "lion, Leo, lew, lev"
+  },
+  "толстой": {
+    "RU": "толстый",
+    "EN": "thick, heavy, stout, fat, corpulent"
+  },
+  "попробуй": {
+    "RU": "попробовать",
+    "EN": "attempt, try, endeavour, test, taste, feel"
+  },
+  "скажи": {
+    "RU": "сказать",
+    "EN": "say, tell, speak, talk"
+  },
+  "упрек": {
+    "RU": "упрек",
+    "EN": "reproach, reproof, rebuke; blame"
+  },
+  "угрозы": {
+    "RU": "угроза",
+    "EN": "threat, menace"
+  },
+  "понял": {
+    "RU": "понять",
+    "EN": "understand, comprehend, realize"
+  },
+  "намек": {
+    "RU": "намек",
+    "EN": "hint, allusion"
+  },
+  "доме": {
+    "RU": "дом",
+    "EN": "house, home, house-hold"
+  },
+  "звучит": {
+    "RU": "звучать",
+    "EN": "sound, ring, resound, be heard"
+  },
+  "ритме": {
+    "RU": "ритм",
+    "EN": "rhythm"
+  },
+  "стучит": {
+    "RU": "стучать",
+    "EN": "knock, make a noise, chatter"
+  },
+  "наплевать": {
+    "RU": "наплевать",
+    "EN": "not care a damn / spit, not care a damn, two hoots"
+  },
+  "будет": {
+    "RU": "будет",
+    "EN": ""
+  },
+  "потом": {
+    "RU": "пот",
+    "EN": "sweat, perspiration"
+  },
+  "танцую": {
+    "RU": "танцевать",
+    "EN": "dance"
+  },
+  "словно": {
+    "RU": "словно",
+    "EN": "as if, like"
+  },
+  "бог": {
+    "RU": "бог",
+    "EN": "God, god"
+  },
+  "если": {
+    "RU": "если",
+    "EN": "if"
+  },
+  "повезет": {
+    "RU": "повезти",
+    "EN": "bring, take, carry; be lucky"
+  },
+  "продолжим": {
+    "RU": "продолжить",
+    "EN": "continue, go on, proceed, keep on, extend, prolong"
+  },
+  "ночь": {
+    "RU": "ночь",
+    "EN": "night"
+  },
+  "звездным": {
+    "RU": "звёздный",
+    "EN": "star, sidereal, starry, starlit, converging"
+  },
+  "небом": {
+    "RU": "небо",
+    "EN": "sky, heaven"
+  },
+  "сниться": {
+    "RU": "сниться",
+    "EN": "to come in a dream"
+  },
+  "когда": {
+    "RU": "когда",
+    "EN": "when, while, as"
+  },
+  "забаве": {
+    "RU": "забава",
+    "EN": "amusement, fun, pastime"
+  },
+  "нам": {
+    "RU": "нам",
+    "EN": "dative of \"we\""
+  },
+  "дверь": {
+    "RU": "дверь",
+    "EN": "door"
+  },
+  "постучится": {
+    "RU": "постучаться",
+    "EN": "knock, rap"
+  },
+  "холодный": {
+    "RU": "холодный",
+    "EN": "cold, cool"
+  },
+  "январь": {
+    "RU": "январь",
+    "EN": "January"
+  },
+  "открою": {
+    "RU": "открыть",
+    "EN": "open, clear, uncover, bare, inaugurate, discover, let out, reveal"
+  },
+  "пошлю": {
+    "RU": "послать",
+    "EN": "send, dispatch"
+  },
+  "подальше": {
+    "RU": "подальше",
+    "EN": "somewhat, a little, as far as possible; away, rather far off"
+  },
+  "продолжу": {
+    "RU": "продолжить",
+    "EN": "continue, go on, proceed, keep on, extend, prolong"
+  },
+  "уходить": {
+    "RU": "уходить",
+    "EN": "leave, depart"
+  },
+  "вот": {
+    "RU": "вот",
+    "EN": "there, here, there is"
+  },
+  "летит": {
+    "RU": "лететь",
+    "EN": "travel; fly"
+  },
+  "пара": {
+    "RU": "пара",
+    "EN": "couple (human); couple (pair)"
+  },
+  "том": {
+    "RU": "том",
+    "EN": "volume"
+  },
+  "успеть": {
+    "RU": "успеть",
+    "EN": "to have time, to find time; to manage, to succeed; to arrive in time (for); to catch"
+  },
+  "паром": {
+    "RU": "паром",
+    "EN": "ferry"
+  },
+  "достало": {
+    "RU": "достать",
+    "EN": "reach; take, fetch; get; annoy, bother, pester"
+  },
+  "поговорим": {
+    "RU": "поговорить",
+    "EN": "have a talk, talk"
+  },
+  "танцем": {
+    "RU": "танец",
+    "EN": "dance"
+  },
+  "страстен": {
+    "RU": "страстный",
+    "EN": "passionate, impassioned, ardent, fervent"
+  },
+  "пыль": {
+    "RU": "пыль",
+    "EN": "dust, spray"
+  },
+  "стоит": {
+    "RU": "стоять",
+    "EN": "stand"
+  },
+  "столбом": {
+    "RU": "столб",
+    "EN": "post, pole, pillar, column"
+  },
+  "танцуют": {
+    "RU": "танцевать",
+    "EN": "dance"
+  },
+  "зерна": {
+    "RU": "зерно",
+    "EN": "grain, seed, core, kernel, corn, cereals, grain crop"
+  },
+  "упали": {
+    "RU": "упасть",
+    "EN": "to fall, drop; to sink, decline"
+  },
+  "землю": {
+    "RU": "земля",
+    "EN": "earth, ground, the Earth, land, soil"
+  },
+  "просят": {
+    "RU": "просить",
+    "EN": "request, ask for"
+  },
+  "дождя": {
+    "RU": "дождь",
+    "EN": "rain"
+  },
+  "им": {
+    "RU": "им",
+    "EN": "dative of \"they\""
+  },
+  "нужен": {
+    "RU": "нужный",
+    "EN": "necessary, needed"
+  },
+  "дождь": {
+    "RU": "дождь",
+    "EN": "rain"
+  },
+  "разрежь": {
+    "RU": "разрезать",
+    "EN": "cut, slit, cut into sections, carve"
+  },
+  "мою": {
+    "RU": "мой",
+    "EN": "my, mine, my people"
+  },
+  "грудь": {
+    "RU": "грудь",
+    "EN": "breast, chest, bosom, bust, front, shirt-front"
+  },
+  "внутрь": {
+    "RU": "внутрь",
+    "EN": "inside, inwards, in"
+  },
+  "горит": {
+    "RU": "гореть",
+    "EN": "burn, be on fire, shine, sparkle"
+  },
+  "огнем": {
+    "RU": "огонь",
+    "EN": "fire, light"
+  },
+  "через": {
+    "RU": "через",
+    "EN": "across, over; through; through, using; in (time) (no more than)"
+  },
+  "день": {
+    "RU": "день",
+    "EN": "day, afternoon"
+  },
+  "час": {
+    "RU": "час",
+    "EN": "hour, time, hours"
+  },
+  "миг": {
+    "RU": "миг",
+    "EN": "moment, instant"
+  },
+  "встать": {
+    "RU": "встать",
+    "EN": "get up, stand up, rise"
+  },
+  "дверям": {
+    "RU": "дверь",
+    "EN": "door"
+  },
+  "подходят": {
+    "RU": "подходить",
+    "EN": "fit, suit"
+  },
+  "ключи": {
+    "RU": "ключ",
+    "EN": "key, clue, clef, source, spring"
+  },
+  "вышиби": {
+    "RU": "вышибить",
+    "EN": "knock out, break in, chuck out, kick out"
+  },
+  "плечом": {
+    "RU": "плечо",
+    "EN": "shoulder, upper arm, humerus, arm"
+  },
+  "мама": {
+    "RU": "мама",
+    "EN": "mom, mama, mommy, mummy"
+  },
+  "больны": {
+    "RU": "больной",
+    "EN": "sick, diseased, sore, morbid"
+  },
+  "знаю": {
+    "RU": "знать",
+    "EN": "know, be aware, be acquainted, have a knowledge, aristocracy, nobility, the elite, evidently, it seems"
+  },
+  "сошли": {
+    "RU": "сойти",
+    "EN": "descend, get off, alight, come off, pass, be taken, go, fetch; to lose"
+  },
+  "ума": {
+    "RU": "ум",
+    "EN": "mind, brains, wit, intellect"
+  },
+  "сталь": {
+    "RU": "сталь",
+    "EN": "steel"
+  },
+  "между": {
+    "RU": "между",
+    "EN": "between"
+  },
+  "пальцев": {
+    "RU": "палец",
+    "EN": "finger, toe, pin, cam"
+  },
+  "сжатый": {
+    "RU": "сжатый",
+    "EN": "condensed, compressed, concise"
+  },
+  "кулак": {
+    "RU": "кулак",
+    "EN": "fist, concentrated force, cam, kulak"
+  },
+  "удар": {
+    "RU": "удар",
+    "EN": "blow /kick  stroke, impact, stab, lash, slash, kick, punch, cuff"
+  },
+  "кисти": {
+    "RU": "кисть",
+    "EN": "brush, tassel, cluster, bunch, hand"
+  },
+  "плоть": {
+    "RU": "плоть",
+    "EN": "flesh"
+  },
+  "крови": {
+    "RU": "кровь",
+    "EN": "blood"
+  },
+  "жилах": {
+    "RU": "жила",
+    "EN": "tendon, sinew, vein, lode, strand, skinflint"
+  },
+  "застыл": {
+    "RU": "застыть",
+    "EN": "thicken, set congeal, harden"
+  },
+  "яд": {
+    "RU": "яд",
+    "EN": "poison, toxin, toxic substance, venom"
+  },
+  "медленный": {
+    "RU": "медленный",
+    "EN": "slow"
+  },
+  "разрушенный": {
+    "RU": "разрушенный",
+    "EN": "ravaged, destroyed"
+  },
+  "разбитые": {
+    "RU": "разбитый",
+    "EN": "broken"
+  },
+  "лбы": {
+    "RU": "лоб",
+    "EN": "forehead"
+  },
+  "надвое": {
+    "RU": "надвое",
+    "EN": "in two, ambiguously"
+  },
+  "хлеб": {
+    "RU": "хлеб",
+    "EN": "bread, loaf, corn, crops, cereals, grain, living, means of subsistence, daily bread"
+  },
+  "кто": {
+    "RU": "кто",
+    "EN": "who"
+  },
+  "плачет": {
+    "RU": "плакать",
+    "EN": "weep, cry, mourn"
+  },
+  "молчит": {
+    "RU": "молчать",
+    "EN": "be silent, keep quiet"
+  },
+  "рад": {
+    "RU": "рада",
+    "EN": "glad"
+  },
+  "должен": {
+    "RU": "должный",
+    "EN": "must"
+  },
+  "быть": {
+    "RU": "быть",
+    "EN": "be"
+  },
+  "сильным": {
+    "RU": "сильный",
+    "EN": "strong, powerful, fierce, keen, intense, violent, towering, potent, impressive, hard, heavy, good"
+  },
+  "уметь": {
+    "RU": "уметь",
+    "EN": "be able, know, can, be good, be a good hand"
+  },
+  "руки": {
+    "RU": "рука",
+    "EN": "hand; arm; handwriting"
+  },
+  "прочь": {
+    "RU": "прочить",
+    "EN": "intend"
+  },
+  "от": {
+    "RU": "от",
+    "EN": "from (away); from (part of a whole); from (cause); from (distance); from (someone); from (range); for, against a purpose"
+  },
+  "иначе": {
+    "RU": "иначе",
+    "EN": "otherwise; differently"
+  },
+  "зачем": {
+    "RU": "зачем",
+    "EN": "what for, why"
+  },
+  "стоить": {
+    "RU": "стоить",
+    "EN": "cost, be worth, should be"
+  },
+  "тысячи": {
+    "RU": "тысяча",
+    "EN": "a thousand"
+  },
+  "важна": {
+    "RU": "важный",
+    "EN": "important, significant, grand, pompous"
+  },
+  "крепость": {
+    "RU": "крепость",
+    "EN": "stronghold, fortress, strength, solidity"
+  },
+  "стоишь": {
+    "RU": "стоять",
+    "EN": "stand"
+  },
+  "берегу": {
+    "RU": "берег",
+    "EN": "bank, shore, coast, beach"
+  },
+  "думаешь": {
+    "RU": "думать",
+    "EN": "think, consider, reflect, ponder, believe, intend"
+  },
+  "плыть": {
+    "RU": "плыть",
+    "EN": "swim; float"
+  },
+  "или": {
+    "RU": "или",
+    "EN": "or"
+  },
+  "льдом": {
+    "RU": "лёд",
+    "EN": "ice"
+  },
+  "покатятся": {
+    "RU": "покатиться",
+    "EN": "start rolling, roll"
+  },
+  "слезы": {
+    "RU": "слеза",
+    "EN": "tear"
+  },
+  "замерзли": {
+    "RU": "замёрзнуть",
+    "EN": "freeze, be frozen, freeze to death, be killed by frost"
+  },
+  "над": {
+    "RU": "над",
+    "EN": "above, over"
+  },
+  "пропастью": {
+    "RU": "пропасть",
+    "EN": "precipice, abyss, chasm; lots, tons"
+  },
+  "зла": {
+    "RU": "зло",
+    "EN": "evil, harm, maliciously"
+  },
+  "дымят": {
+    "RU": "дымить",
+    "EN": "smoke, emit smoke, fill with smoke"
+  },
+  "паровозы": {
+    "RU": "паровоз",
+    "EN": "chimney, engine, steam locomotive, railway engine"
+  },
+  "никуда": {
+    "RU": "никуда",
+    "EN": "nowhere"
+  },
+  "сделал": {
+    "RU": "сделать",
+    "EN": "make; do"
+  },
+  "пустоту": {
+    "RU": "пустота",
+    "EN": "emptiness, void, futility, frivolousness, vacuum"
+  },
+  "представь": {
+    "RU": "представить",
+    "EN": "imagine; present"
+  },
+  "упал": {
+    "RU": "упасть",
+    "EN": "to fall, drop; to sink, decline"
+  },
+  "набрал": {
+    "RU": "набрать",
+    "EN": "dial; gain, accumulate, put on"
+  },
+  "высоту": {
+    "RU": "высота",
+    "EN": "height, altitude, pitch, loftiness, elevation, eminence, ridge, hill"
+  },
+  "дал": {
+    "RU": "дать",
+    "EN": "give"
+  },
+  "шанс": {
+    "RU": "шанс",
+    "EN": "chance"
+  },
+  "удалил": {
+    "RU": "удалить",
+    "EN": "delete, remove, dismiss; make leave, send away"
+  },
+  "номер": {
+    "RU": "номер",
+    "EN": "number, size, room, issue, item on the programme, turn, trick"
+  },
+  "просто": {
+    "RU": "простой",
+    "EN": "simple, easy, common, plain, mere"
+  },
+  "приснилась": {
+    "RU": "присниться",
+    "EN": "dream"
+  },
+  "вечер": {
+    "RU": "вечер",
+    "EN": "evening"
+  },
+  "бессонный": {
+    "RU": "бессонный",
+    "EN": "sleepless"
+  },
+  "довольны": {
+    "RU": "довольный",
+    "EN": "satisfied, content, pleased"
+  },
+  "его": {
+    "RU": "его",
+    "EN": "genetive of \"he\"; genetive of \"it\""
+  },
+  "хрустят": {
+    "RU": "хрустеть",
+    "EN": "crunch, crackle"
+  },
+  "деревья": {
+    "RU": "дерево",
+    "EN": "tree, wood"
+  },
+  "раскатами": {
+    "RU": "раскат",
+    "EN": "roll, peal"
+  },
+  "грома": {
+    "RU": "гром",
+    "EN": "thunder"
+  },
+  "корнями": {
+    "RU": "корень",
+    "EN": "root, radical"
+  },
+  "излому": {
+    "RU": "излом",
+    "EN": "fracture, break"
+  },
+  "упасть": {
+    "RU": "упасть",
+    "EN": "to fall, drop; to sink, decline"
+  },
+  "суждено": {
+    "RU": "суждено",
+    "EN": "destined, bound, meant to"
+  },
+  "такая": {
+    "RU": "такой",
+    "EN": "such, so, that sort of"
+  },
+  "доля": {
+    "RU": "доля",
+    "EN": "part, portion, share, quota, fate, lot; lobe"
+  },
+  "отчаяние": {
+    "RU": "отчаяние",
+    "EN": "despair"
+  },
+  "лечит": {
+    "RU": "лечить",
+    "EN": "heal, treat"
+  },
+  "недугов": {
+    "RU": "недуг",
+    "EN": "ailment, illness"
+  },
+  "разлуки": {
+    "RU": "разлука",
+    "EN": "separation, parting"
+  },
+  "пред": {
+    "RU": "пред",
+    "EN": "before"
+  },
+  "твоим": {
+    "RU": "твой",
+    "EN": "your, yours, thy, thine, your people"
+  },
+  "светом": {
+    "RU": "свет",
+    "EN": "light, world, society"
+  },
+  "протяну": {
+    "RU": "протянуть",
+    "EN": "to hand, to hold out, stretch out, to reach, to draw"
+  },
+  "небу": {
+    "RU": "небо",
+    "EN": "sky, heaven"
+  },
+  "уходи": {
+    "RU": "уходить",
+    "EN": "leave, depart"
+  },
+  "вдаль": {
+    "RU": "вдаль",
+    "EN": "far"
+  },
+  "навстречу": {
+    "RU": "навстречу",
+    "EN": "towards, approaching"
+  },
+  "мечтам": {
+    "RU": "мечта",
+    "EN": "dream, day-dream, waking dream"
+  },
+  "анализ": {
+    "RU": "анализ",
+    "EN": "analysis"
+  },
+  "кончен": {
+    "RU": "конченый",
+    "EN": ""
+  },
+  "мысли": {
+    "RU": "мысль",
+    "EN": "thought, idea"
+  },
+  "хорошем": {
+    "RU": "хороший",
+    "EN": "good, beautiful, handsome"
+  },
+  "покажу": {
+    "RU": "показать",
+    "EN": "show, display, point"
+  },
+  "преподнесу": {
+    "RU": "преподнести",
+    "EN": "present, make a present"
+  },
+  "можно": {
+    "RU": "можно",
+    "EN": "one can, it is possible; may I, can I"
+  },
+  "тогда": {
+    "RU": "тогда",
+    "EN": "then"
+  },
+  "громко": {
+    "RU": "громкий",
+    "EN": "loud, famous, celebrated, bombastic, high-flown"
+  },
+  "закрою": {
+    "RU": "закрой",
+    "EN": ""
+  },
+  "устал": {
+    "RU": "усталый",
+    "EN": "tired, weary, fatigued"
+  },
+  "любви": {
+    "RU": "любовь",
+    "EN": "love"
+  },
+  "жертвовать": {
+    "RU": "жертвовать",
+    "EN": "endow, make a donation, give, sacrifice, offer, offer up"
+  },
+  "навсегда": {
+    "RU": "навсегда",
+    "EN": "for ever, for good"
+  },
+  "обречен": {
+    "RU": "обречённый",
+    "EN": "doomed"
+  },
+  "лечить": {
+    "RU": "лечить",
+    "EN": "heal, treat"
+  },
+  "больные": {
+    "RU": "больной",
+    "EN": "patient, sick person, invalid"
+  },
+  "раны": {
+    "RU": "рана",
+    "EN": "wound, injury"
+  },
+  "вечный": {
+    "RU": "вечный",
+    "EN": "eternal, everlasting, perpetual"
+  },
+  "впереди": {
+    "RU": "впереди",
+    "EN": "in front, ahead, before, in front of"
+  },
+  "месте": {
+    "RU": "место",
+    "EN": "place, spot, site, locality; region, area; site, scene; room, space; job, position; piece of luggage"
+  },
+  "ждали": {
+    "RU": "ждать",
+    "EN": "wait, expect, await"
+  },
+  "жажда": {
+    "RU": "жажда",
+    "EN": "thirst, craving"
+  },
+  "нежным": {
+    "RU": "нежный",
+    "EN": "tender, delicate, loving, affectionate, fond"
+  },
+  "упиваться": {
+    "RU": "упиваться",
+    "EN": "get drunk, revel, be intoxicated"
+  },
+  "знаешь": {
+    "RU": "знать",
+    "EN": "know, be aware, be acquainted, have a knowledge, aristocracy, nobility, the elite, evidently, it seems"
+  },
+  "биться": {
+    "RU": "биться",
+    "EN": "fight, knock, hit, strike, beat, struggle"
+  },
+  "осадами": {
+    "RU": "осада",
+    "EN": "siege"
+  },
+  "захватами": {
+    "RU": "захват",
+    "EN": "seizure, capture, usurpation, claw"
+  },
+  "разбиться": {
+    "RU": "разбиться",
+    "EN": "break, crash, break up, divide"
+  },
+  "показал": {
+    "RU": "показать",
+    "EN": "show, display, point"
+  },
+  "преподнес": {
+    "RU": "преподнести",
+    "EN": "present, make a present"
+  },
+  "технология": {
+    "RU": "технология",
+    "EN": "technology"
+  },
+  "атомный": {
+    "RU": "атомный",
+    "EN": "atomic"
+  },
+  "строки": {
+    "RU": "строка",
+    "EN": "line"
+  },
+  "надгробия": {
+    "RU": "надгробие",
+    "EN": "gravestone, epitaph"
+  },
+  "тех": {
+    "RU": "тот",
+    "EN": "that, the other, the right"
+  },
+  "иллюзий": {
+    "RU": "иллюзия",
+    "EN": "illusion"
+  },
+  "смеха": {
+    "RU": "смех",
+    "EN": "laughter, laugh"
+  },
+  "кривых": {
+    "RU": "кривая",
+    "EN": "curve"
+  },
+  "зеркал": {
+    "RU": "зеркало",
+    "EN": "looking-glass, glass, mirror, speculum"
+  },
+  "знал": {
+    "RU": "знать",
+    "EN": "know, be aware, be acquainted, have a knowledge, aristocracy, nobility, the elite, evidently, it seems"
+  },
+  "власть": {
+    "RU": "власть",
+    "EN": "power, authority, rule"
+  },
+  "тенью": {
+    "RU": "тень",
+    "EN": "shadow, shade; ghost, phantom; atom, particle"
+  },
+  "миром": {
+    "RU": "мир",
+    "EN": "world; peace"
+  },
+  "чужая": {
+    "RU": "чужой",
+    "EN": "stranger"
+  },
+  "ладонь": {
+    "RU": "ладонь",
+    "EN": "palm (of the hand)"
+  },
+  "железные": {
+    "RU": "железный",
+    "EN": "iron, ferreous, ferrous"
+  },
+  "пальцы": {
+    "RU": "палец",
+    "EN": "finger, toe, pin, cam"
+  },
+  "души": {
+    "RU": "душа",
+    "EN": "soul"
+  },
+  "впиваются": {
+    "RU": "впиваться",
+    "EN": "stick, pierce, bite, drive its sting, dig its fangs"
+  },
+  "решил": {
+    "RU": "решить",
+    "EN": "decide, determine, resolve, be determined, solve"
+  },
+  "разольется": {
+    "RU": "разлиться",
+    "EN": "spill, overflow, spread, pour out song"
+  },
+  "по": {
+    "RU": "по",
+    "EN": "along, down; on the subject of; by the means of; hit or punch somewhere; after a age"
+  },
+  "черной": {
+    "RU": "чёрный",
+    "EN": "black"
+  },
+  "реке": {
+    "RU": "река",
+    "EN": "river, stream"
+  },
+  "белое": {
+    "RU": "белый",
+    "EN": "white"
+  },
+  "ни": {
+    "RU": "ни",
+    "EN": "neither; no"
+  },
+  "покажешь": {
+    "RU": "показать",
+    "EN": "show, display, point"
+  },
+  "земля": {
+    "RU": "земля",
+    "EN": "earth, ground, the Earth, land, soil"
+  },
+  "грохот": {
+    "RU": "грохот",
+    "EN": "crash, din, thunder, roar, rumble, roll, rattle, riddle, screen, sifter"
+  },
+  "разорвет": {
+    "RU": "разорвать",
+    "EN": "tear, tear asunder, break, dig up, rummage through, turn upside-down"
+  },
+  "части": {
+    "RU": "часть",
+    "EN": "part"
+  },
+  "смерть": {
+    "RU": "смерть",
+    "EN": "death, decease"
+  },
+  "иди": {
+    "RU": "идти",
+    "EN": "go, walk"
+  },
+  "твое": {
+    "RU": "твой",
+    "EN": "your, yours, thy, thine, your people"
+  },
+  "сейчас": {
+    "RU": "сейчас",
+    "EN": "now; soon; at once"
+  },
+  "счастье": {
+    "RU": "счастье",
+    "EN": "happiness, luck, good fortune"
+  },
+  "пронеси": {
+    "RU": "пронести",
+    "EN": "to smuggle"
+  },
+  "век": {
+    "RU": "век",
+    "EN": "century, age, lifetime, for ages, always"
+  },
+  "нелепицу": {
+    "RU": "нелепица",
+    "EN": ""
+  },
+  "быта": {
+    "RU": "быт",
+    "EN": "life"
+  },
+  "социальных": {
+    "RU": "социальный",
+    "EN": "social"
+  },
+  "проблем": {
+    "RU": "проблема",
+    "EN": "problem"
+  },
+  "сотнях": {
+    "RU": "сотня",
+    "EN": "a hundred, a hundred roubles, sotnia"
+  },
+  "картотек": {
+    "RU": "картотека",
+    "EN": "card index"
+  },
+  "проложи": {
+    "RU": "проложить",
+    "EN": "lay, build, construct, interlay"
+  },
+  "путь": {
+    "RU": "путь",
+    "EN": "way, track, path, race, journey, voyage, passage, duct, means"
+  },
+  "исчезни": {
+    "RU": "исчезнуть",
+    "EN": "disappear, vanish, wear off"
+  },
+  "насовсем": {
+    "RU": "насовсем",
+    "EN": "for keeps"
+  },
+  "заставляешь": {
+    "RU": "заставлять",
+    "EN": "force, compel, make; cram, fill, block up, obstruct"
+  },
+  "петь": {
+    "RU": "петь",
+    "EN": "sing, chant, intone"
+  },
+  "песни": {
+    "RU": "песня",
+    "EN": "song"
+  },
+  "про": {
+    "RU": "про",
+    "EN": "about, for"
+  },
+  "природу": {
+    "RU": "природа",
+    "EN": "nature, countryside, character"
+  },
+  "верить": {
+    "RU": "верить",
+    "EN": "believe, trust"
+  },
+  "своего": {
+    "RU": "свой",
+    "EN": "my; your; his; her; our; their"
+  },
+  "бога": {
+    "RU": "бог",
+    "EN": "God, god"
+  },
+  "земле": {
+    "RU": "земля",
+    "EN": "earth, ground, the Earth, land, soil"
+  },
+  "плохая": {
+    "RU": "плохой",
+    "EN": "bad"
+  },
+  "погода": {
+    "RU": "погода",
+    "EN": "weather"
+  },
+  "песня": {
+    "RU": "песня",
+    "EN": "song"
+  },
+  "без": {
+    "RU": "без",
+    "EN": "without; to (time)"
   },
   "сна": {
     "RU": "сон",
@@ -1603,10 +2495,6 @@
     "RU": "море",
     "EN": "sea, ocean"
   },
-  "дождя": {
-    "RU": "дождь",
-    "EN": "rain"
-  },
   "глоток": {
     "RU": "глоток",
     "EN": "drink, mouthful, sip, gulp"
@@ -1615,9 +2503,9 @@
     "RU": "яблоко",
     "EN": "apple"
   },
-  "упасть": {
-    "RU": "упасть",
-    "EN": "to fall, drop; to sink, decline"
+  "место": {
+    "RU": "место",
+    "EN": "place, spot, site, locality; region, area; site, scene; room, space; job, position; piece of luggage"
   },
   "вору": {
     "RU": "вор",
@@ -1655,9 +2543,17 @@
     "RU": "злость",
     "EN": "malice, spite, ill-naturedness, fury; kızgınlık, öfke, hırs"
   },
+  "снова": {
+    "RU": "снова",
+    "EN": "again"
+  },
   "окнами": {
     "RU": "окно",
     "EN": "window, casement-window, window-sill, gap, opening, port, slot, free period, break"
+  },
+  "белый": {
+    "RU": "белый",
+    "EN": "white"
   },
   "вызывает": {
     "RU": "вызывать",
@@ -1675,6 +2571,10 @@
     "RU": "весь",
     "EN": "all, the whole of, everything, everybody, everyone, no more left"
   },
+  "идет": {
+    "RU": "идти",
+    "EN": "go, walk"
+  },
   "стадо": {
     "RU": "стадо",
     "EN": "herd, flock; flock of sheep"
@@ -1687,17 +2587,9 @@
     "RU": "тело",
     "EN": "body"
   },
-  "должен": {
-    "RU": "должный",
-    "EN": "must"
-  },
   "дух": {
     "RU": "дух",
     "EN": "spirit, courage, heart, breath, spectre, ghost"
-  },
-  "шаг": {
-    "RU": "шаг",
-    "EN": "step, stride, pace, tread, footsteps"
   },
   "след": {
     "RU": "след",
@@ -1707,10 +2599,6 @@
     "RU": "тьма",
     "EN": "dark, darkness, ten thousand, thousands, a multitude, a host"
   },
-  "хочешь": {
-    "RU": "хотеть",
-    "EN": "want; to feel like"
-  },
   "ли": {
     "RU": "ли",
     "EN": "whether, if"
@@ -1719,6 +2607,10 @@
     "RU": "изменить",
     "EN": "change, alter, vary; betray"
   },
+  "этот": {
+    "RU": "этот",
+    "EN": "this"
+  },
   "сможешь": {
     "RU": "смочь",
     "EN": "be able, power, might"
@@ -1726,10 +2618,6 @@
   "принять": {
     "RU": "принять",
     "EN": "to take; to admit, to accept; to receive"
-  },
-  "встать": {
-    "RU": "встать",
-    "EN": "get up, stand up, rise"
   },
   "выйти": {
     "RU": "выйти",
@@ -1755,221 +2643,1797 @@
     "RU": "трон",
     "EN": "throne"
   },
-  "вместо": {
-    "RU": "вместо",
-    "EN": "instead of"
+  "лень": {
+    "RU": "лень",
+    "EN": "laziness, idleness, indolence"
   },
-  "зелень": {
-    "RU": "зелень",
-    "EN": "greenery, verdure, greens, vegetables, green, vert"
+  "да": {
+    "RU": "да",
+    "EN": "yes"
+  },
+  "звонит": {
+    "RU": "звонить",
+    "EN": "(phone)call"
+  },
+  "пейзаж": {
+    "RU": "пейзаж",
+    "EN": "view, scenery, landscape"
+  },
+  "окне": {
+    "RU": "окно",
+    "EN": "window, casement-window, window-sill, gap, opening, port, slot, free period, break"
+  },
+  "опять": {
+    "RU": "опять",
+    "EN": "again"
+  },
+  "туман": {
+    "RU": "туман",
+    "EN": "mist, fog, haze"
+  },
+  "фильме": {
+    "RU": "фильм",
+    "EN": "movie, film"
+  },
+  "тот": {
+    "RU": "тот",
+    "EN": "that, the other, the right"
+  },
+  "скучный": {
+    "RU": "скучный",
+    "EN": "boring"
+  },
+  "вид": {
+    "RU": "вид",
+    "EN": "appearance, look, aspect, semblance; sight, view, views"
+  },
+  "приходи": {
+    "RU": "приходить",
+    "EN": "arrive"
+  },
+  "ко": {
+    "RU": "ко",
+    "EN": "to, towards; by, for"
+  },
+  "слушать": {
+    "RU": "слушать",
+    "EN": "listen, hear, attend, examine chest, auscultate, obey"
+  },
+  "старые": {
+    "RU": "старый",
+    "EN": "old, ancient, the old, the past"
+  },
+  "сошел": {
+    "RU": "сойти",
+    "EN": "descend, get off, alight, come off, pass, be taken, go, fetch; to lose"
+  },
+  "надоело": {
+    "RU": "надоесть",
+    "EN": "tired of, sick of, pester, worry, plague"
+  },
+  "снаружи": {
+    "RU": "снаружи",
+    "EN": "outside"
+  },
+  "какая": {
+    "RU": "какой",
+    "EN": "which, what, what kind of"
+  },
+  "жуткая": {
+    "RU": "жуткий",
+    "EN": "terrible, terrifying, awe-inspiring, uncanny, weird, eerie, sinister"
+  },
+  "тоска": {
+    "RU": "тоска",
+    "EN": "melancholy, depression, yearning, anguish, ennui, weariness, boredom, longing, grief"
+  },
+  "стынет": {
+    "RU": "стыть",
+    "EN": ""
+  },
+  "у": {
+    "RU": "у",
+    "EN": "(possession); by, at (place); with; from (take, borrow)"
+  },
+  "виска": {
+    "RU": "висок",
+    "EN": "temple"
+  },
+  "ближе": {
+    "RU": "близкий",
+    "EN": "near; close"
+  },
+  "ночи": {
+    "RU": "ночь",
+    "EN": "night"
+  },
+  "пустых": {
+    "RU": "пустой",
+    "EN": "empty, hollow, void"
+  },
+  "огней": {
+    "RU": "огонь",
+    "EN": "fire, light"
+  },
+  "чего": {
+    "RU": "чего",
+    "EN": "what"
+  },
+  "ждать": {
+    "RU": "ждать",
+    "EN": "wait, expect, await"
+  },
+  "ложиться": {
+    "RU": "ложиться",
+    "EN": "lie down; go to bed"
+  },
+  "спать": {
+    "RU": "спать",
+    "EN": "sleep"
+  },
+  "звоню": {
+    "RU": "звонить",
+    "EN": "(phone)call"
+  },
+  "коротка": {
+    "RU": "короткий",
+    "EN": "short"
+  },
+  "цель": {
+    "RU": "цель",
+    "EN": "aim, goal, object, end, purpose, objective, target, mark"
+  },
+  "далека": {
+    "RU": "далёкий",
+    "EN": "far"
+  },
+  "ночью": {
+    "RU": "ночь",
+    "EN": "night"
+  },
+  "часто": {
+    "RU": "частый",
+    "EN": "frequent; close, thick; quick, rapid"
+  },
+  "хочется": {
+    "RU": "хотеться",
+    "EN": "like"
+  },
+  "пить": {
+    "RU": "пить",
+    "EN": "drink"
+  },
+  "выходишь": {
+    "RU": "выходить",
+    "EN": "go out, come out, leave; use up, run out of; get married; be published, be issued"
+  },
+  "кухню": {
+    "RU": "кухня",
+    "EN": "kitchen, cook-house, galley, cooking, cuisine, machinations"
+  },
+  "вода": {
+    "RU": "вода",
+    "EN": "water"
+  },
+  "здесь": {
+    "RU": "здесь",
+    "EN": "here, with us, in this country, about it, in it, at this point"
+  },
+  "горька": {
+    "RU": "горький",
+    "EN": "bitter, miserable"
+  },
+  "можешь": {
+    "RU": "мочь",
+    "EN": "be able, can"
+  },
+  "доброе": {
+    "RU": "добрый",
+    "EN": "good; kind"
+  },
+  "последний": {
+    "RU": "последний",
+    "EN": "last, latest, latter, recent"
+  },
+  "герой": {
+    "RU": "герой",
+    "EN": "hero; character"
+  },
+  "таким": {
+    "RU": "такой",
+    "EN": "such, so, that sort of"
+  },
+  "здравствуй": {
+    "RU": "здравствовать",
+    "EN": "be well, prosper, thrive"
+  },
+  "хотел": {
+    "RU": "хотеть",
+    "EN": "want; to feel like"
+  },
+  "прошло": {
+    "RU": "пройти",
+    "EN": "pass; get to, go to, reach; make one's way"
+  },
+  "смог": {
+    "RU": "смог",
+    "EN": "smog"
+  },
+  "твоя": {
+    "RU": "твой",
+    "EN": "your, yours, thy, thine, your people"
+  },
+  "ноша": {
+    "RU": "ноша",
+    "EN": "burden"
+  },
+  "легка": {
+    "RU": "лёгкий",
+    "EN": "light, easy, slight; lung"
+  },
+  "немеет": {
+    "RU": "неметь",
+    "EN": "become numb, grow numb, grow numb"
+  },
+  "рука": {
+    "RU": "рука",
+    "EN": "hand; arm; handwriting"
+  },
+  "встречаешь": {
+    "RU": "встречать",
+    "EN": "meet"
+  },
+  "рассвет": {
+    "RU": "рассвет",
+    "EN": "dawn, daybreak"
+  },
+  "дурака": {
+    "RU": "дурак",
+    "EN": "fool, idiot"
+  },
+  "утром": {
+    "RU": "утро",
+    "EN": "morning, morn"
+  },
+  "стремишься": {
+    "RU": "стремиться",
+    "EN": "Aspire; speed, rush, seek, aim, aspire, strive, long, crave"
+  },
+  "скорее": {
+    "RU": "скорый",
+    "EN": "quick, fast, near, forthcoming"
+  },
+  "уйти": {
+    "RU": "уйти",
+    "EN": "leave, depart"
+  },
+  "телефонный": {
+    "RU": "телефонный",
+    "EN": "telephone, telephonic"
+  },
+  "звонок": {
+    "RU": "звонок",
+    "EN": "(phone) call; bell"
+  },
+  "команда": {
+    "RU": "команда",
+    "EN": "team, crew, party; command, order, detachment"
+  },
+  "уходишь": {
+    "RU": "уходить",
+    "EN": "leave, depart"
+  },
+  "ждет": {
+    "RU": "ждать",
+    "EN": "wait, expect, await"
+  },
+  "песен": {
+    "RU": "песня",
+    "EN": "song"
+  },
+  "сколько": {
+    "RU": "сколько",
+    "EN": "how much, how many"
+  },
+  "кукушка": {
+    "RU": "кукушка",
+    "EN": "cuckoo, small steam locomotive"
+  },
+  "пропой": {
+    "RU": "пропеть",
+    "EN": "sing"
+  },
+  "городе": {
+    "RU": "город",
+    "EN": "town"
+  },
+  "выселках": {
+    "RU": "выселок",
+    "EN": "settlement"
+  },
+  "камнем": {
+    "RU": "камень",
+    "EN": "stone, rock"
+  },
+  "лежать": {
+    "RU": "лежать",
+    "EN": "lay; be situated"
+  },
+  "гореть": {
+    "RU": "гореть",
+    "EN": "burn, be on fire, shine, sparkle"
+  },
+  "взгляни": {
+    "RU": "взглянуть",
+    "EN": "to glance, to look at"
+  },
+  "моя": {
+    "RU": "мой",
+    "EN": "my, mine, my people"
+  },
+  "превратилась": {
+    "RU": "превратиться",
+    "EN": "turn into, become"
+  },
+  "порох": {
+    "RU": "порох",
+    "EN": "powder, gunpowder"
+  },
+  "дай": {
+    "RU": "дать",
+    "EN": "give"
+  },
+  "пойдет": {
+    "RU": "пойти",
+    "EN": "go; walk"
+  },
+  "следу": {
+    "RU": "след",
+    "EN": "track, footprint, footstep, trace, sign, vestige, sole"
+  },
+  "одинокому": {
+    "RU": "одинокий",
+    "EN": "solitary, lonely, lone, single, single man, bachelor"
+  },
+  "сильные": {
+    "RU": "сильный",
+    "EN": "strong, powerful, fierce, keen, intense, violent, towering, potent, impressive, hard, heavy, good"
+  },
+  "смелые": {
+    "RU": "смелый",
+    "EN": "bold, courageous, daring, audacious"
+  },
+  "головы": {
+    "RU": "голова",
+    "EN": "head, mind, brains, chief, master"
+  },
+  "сложили": {
+    "RU": "сложить",
+    "EN": "fold; stack; add"
+  },
+  "поле": {
+    "RU": "поле",
+    "EN": "field, ground, margin, brim"
+  },
+  "бою": {
+    "RU": "бой",
+    "EN": "beating, breakage; battle, combat, engagement; fight, fighting, struggle; striking (of a clock)"
+  },
+  "мало": {
+    "RU": "маленький",
+    "EN": "small, little, diminutive, slight, young, baby, child"
+  },
+  "остался": {
+    "RU": "остаться",
+    "EN": "remain, stay, be left"
+  },
+  "светлой": {
+    "RU": "светлый",
+    "EN": "light, bright"
+  },
+  "памяти": {
+    "RU": "память",
+    "EN": "memory, recollection, remembrance, store, storage"
+  },
+  "трезвом": {
+    "RU": "трезвый",
+    "EN": "sober, abstinent"
+  },
+  "уме": {
+    "RU": "ум",
+    "EN": "mind, brains, wit, intellect"
+  },
+  "твердой": {
+    "RU": "твёрдый",
+    "EN": "hard, solid, firm, strong, steadfast, stable"
+  },
+  "рукой": {
+    "RU": "рука",
+    "EN": "hand; arm; handwriting"
+  },
+  "строю": {
+    "RU": "строй",
+    "EN": "system, order, pitch, harmony, formation"
+  },
+  "воля": {
+    "RU": "воля",
+    "EN": "will; power; freedom"
+  },
+  "вольная": {
+    "RU": "вольная",
+    "EN": "letter of enfranchisement"
+  },
+  "сей": {
+    "RU": "сей",
+    "EN": "This"
+  },
+  "ласковый": {
+    "RU": "ласковый",
+    "EN": "affectionate, tender, sweet, caressing"
+  },
+  "ответь": {
+    "RU": "ответить",
+    "EN": "answer, reply, respond"
+  },
+  "хорошо": {
+    "RU": "хороший",
+    "EN": "good, beautiful, handsome"
+  },
+  "плохо": {
+    "RU": "плохой",
+    "EN": "bad"
+  },
+  "плечи": {
+    "RU": "плечо",
+    "EN": "shoulder, upper arm, humerus, arm"
+  },
+  "терпеливые": {
+    "RU": "терпеливый",
+    "EN": "patient"
+  },
+  "плеть": {
+    "RU": "плеть",
+    "EN": "lash"
+  },
+  "пачка": {
+    "RU": "пачка",
+    "EN": "packet, bundle, batch, sheaf, pack, parcel, tutu"
+  },
+  "сигарет": {
+    "RU": "сигарета",
+    "EN": "cigarette"
+  },
+  "кармане": {
+    "RU": "карман",
+    "EN": "pocket"
+  },
+  "заставляет": {
+    "RU": "заставлять",
+    "EN": "force, compel, make; cram, fill, block up, obstruct"
+  },
+  "возьму": {
+    "RU": "взять",
+    "EN": "take, hire"
+  },
+  "телефон": {
+    "RU": "телефон",
+    "EN": "telephone, phone"
+  },
+  "позвоню": {
+    "RU": "позвонить",
+    "EN": "ring, clang; call"
+  },
+  "своей": {
+    "RU": "свой",
+    "EN": "my; your; his; her; our; their"
+  },
+  "маме": {
+    "RU": "мама",
+    "EN": "mom, mama, mommy, mummy"
+  },
+  "закончится": {
+    "RU": "закончиться",
+    "EN": "come to an end close, end"
+  },
+  "бросить": {
+    "RU": "бросить",
+    "EN": "to throw; to send urgently; to give up, to quit, to leave off; to abandon, to forsake"
+  },
+  "курить": {
+    "RU": "курить",
+    "EN": "smoke, burn, distil"
+  },
+  "честно": {
+    "RU": "честный",
+    "EN": "honest, honest-minded, upright, fair"
+  },
+  "стены": {
+    "RU": "стена",
+    "EN": "wall"
+  },
+  "давят": {
+    "RU": "давить",
+    "EN": "press, lie heavy, crush, press, squeeze"
+  },
+  "этой": {
+    "RU": "этот",
+    "EN": "this"
+  },
+  "комнате": {
+    "RU": "комната",
+    "EN": "room"
+  },
+  "потолок": {
+    "RU": "потолок",
+    "EN": "ceiling, roof, limit, absolute limit"
+  },
+  "засыпаю": {
+    "RU": "засыпать",
+    "EN": "fall asleep; fill up, cover, engulf, overwhelm"
+  },
+  "холоде": {
+    "RU": "холод",
+    "EN": "cold, coldness, cold weather"
+  },
+  "открытые": {
+    "RU": "открытый",
+    "EN": "open, overt, frank, undisguised"
+  },
+  "окна": {
+    "RU": "окно",
+    "EN": "window, casement-window, window-sill, gap, opening, port, slot, free period, break"
+  },
+  "дует": {
+    "RU": "дуть",
+    "EN": "blow, swill, souse, go at it, rush it"
+  },
+  "ветер": {
+    "RU": "ветер",
+    "EN": "wind, breeze"
+  },
+  "закрывал": {
+    "RU": "закрывать",
+    "EN": "close"
+  },
+  "жду": {
+    "RU": "ждать",
+    "EN": "wait, expect, await"
+  },
+  "тепла": {
+    "RU": "тепло",
+    "EN": "heat, warmth, cordiality, warmly, cordially"
+  },
+  "расстанемся": {
+    "RU": "расстаться",
+    "EN": "part, leave, break up"
+  },
+  "окном": {
+    "RU": "окно",
+    "EN": "window, casement-window, window-sill, gap, opening, port, slot, free period, break"
+  },
+  "бьется": {
+    "RU": "биться",
+    "EN": "fight, knock, hit, strike, beat, struggle"
+  },
+  "эта": {
+    "RU": "этот",
+    "EN": "this"
+  },
+  "может": {
+    "RU": "мочь",
+    "EN": "be able, can"
+  },
+  "выглянет": {
+    "RU": "выглянуть",
+    "EN": "look out, peep out, emerge"
+  },
+  "бороться": {
+    "RU": "бороться",
+    "EN": "fight, struggle, contend, strive, combat, battle, wrestle"
+  },
+  "непросто": {
+    "RU": "непростой",
+    "EN": "not easy"
+  },
+  "нарисовала": {
+    "RU": "нарисовать",
+    "EN": "draw, paint, picture, depict"
+  },
+  "портрет": {
+    "RU": "портрет",
+    "EN": "portrait, likeness"
+  },
+  "стене": {
+    "RU": "стена",
+    "EN": "wall"
+  },
+  "грязном": {
+    "RU": "грязный",
+    "EN": "dirty, muddy, miry, filthy, sordid"
+  },
+  "холодном": {
+    "RU": "холодный",
+    "EN": "cold, cool"
+  },
+  "холсте": {
+    "RU": "холст",
+    "EN": "canvas, linen, flax, cloth, sackcloth, sacking"
+  },
+  "знаем": {
+    "RU": "знать",
+    "EN": "know, be aware, be acquainted, have a knowledge, aristocracy, nobility, the elite, evidently, it seems"
+  },
+  "краски": {
+    "RU": "краска",
+    "EN": "paint, dye, colour, blush, flush"
+  },
+  "высохнут": {
+    "RU": "высохнуть",
+    "EN": "dry out, dry up, wither, waste away, fade away"
+  },
+  "стереть": {
+    "RU": "стереть",
+    "EN": "wipe, erase, delete; wash, clean, do laundry"
+  },
+  "грязного": {
+    "RU": "грязный",
+    "EN": "dirty, muddy, miry, filthy, sordid"
+  },
+  "холодного": {
+    "RU": "холодный",
+    "EN": "cold, cool"
+  },
+  "холста": {
+    "RU": "холст",
+    "EN": "canvas, linen, flax, cloth, sackcloth, sacking"
+  },
+  "покричи": {
+    "RU": "покричать",
+    "EN": "shout, scold"
+  },
+  "постучи": {
+    "RU": "постучать",
+    "EN": "knock, rap"
+  },
+  "соседней": {
+    "RU": "соседний",
+    "EN": "neighbouring, neighbour, next, adjacent, near by"
   },
   "стекла": {
     "RU": "стекло",
     "EN": "glass, glassware; pane, window"
   },
-  "дым": {
-    "RU": "дым",
-    "EN": "smoke"
+  "окон": {
+    "RU": "окно",
+    "EN": "window, casement-window, window-sill, gap, opening, port, slot, free period, break"
   },
-  "сетки": {
-    "RU": "сетка",
-    "EN": "net, netting, gauze, rack, butterfly-net, sweep-net, string-bag, graticule, grid, scale"
+  "побелка": {
+    "RU": "побелка",
+    "EN": "whitewashing"
   },
-  "календаря": {
-    "RU": "календарь",
-    "EN": "calendar"
+  "облик": {
+    "RU": "облик",
+    "EN": "look, aspect, appearance, cast of mind, temper, character"
   },
-  "красное": {
-    "RU": "красный",
-    "EN": "red"
+  "кружилось": {
+    "RU": "кружиться",
+    "EN": "whirl, spin, go round"
   },
-  "сгорает": {
-    "RU": "сгорать",
-    "EN": "be burnt down, be consumed, be used up, burn"
+  "небо": {
+    "RU": "небо",
+    "EN": "sky, heaven"
   },
-  "дотла": {
-    "RU": "дотла",
-    "EN": "utterly, completely, to the ground"
+  "крайним": {
+    "RU": "крайний",
+    "EN": "extreme, the last"
   },
-  "догорает": {
-    "RU": "догорать",
-    "EN": "burn low"
+  "днем": {
+    "RU": "день",
+    "EN": "day, afternoon"
   },
-  "пылающий": {
-    "RU": "пылающий",
+  "ноября": {
+    "RU": "ноябрь",
+    "EN": "November"
+  },
+  "приятно": {
+    "RU": "приятный",
+    "EN": "nice, pleasant, pleasing, agreeable, welcome"
+  },
+  "тонуть": {
+    "RU": "тонуть",
+    "EN": "sink, go down, drown, be lost"
+  },
+  "огне": {
+    "RU": "огонь",
+    "EN": "fire, light"
+  },
+  "считал": {
+    "RU": "считать",
+    "EN": "consider, deem, find, think; count, compute"
+  },
+  "пришло": {
+    "RU": "прийти",
+    "EN": "come, arrive"
+  },
+  "момент": {
+    "RU": "момент",
+    "EN": "moment, instant, feature"
+  },
+  "судного": {
+    "RU": "судный",
     "EN": ""
+  },
+  "дня": {
+    "RU": "день",
+    "EN": "day, afternoon"
+  },
+  "горечь": {
+    "RU": "горечь",
+    "EN": "bitter taste, bitter stuff, bitterness"
+  },
+  "страх": {
+    "RU": "страх",
+    "EN": "fear, fright, terrors, risk, responsibility, terribly"
+  },
+  "обрыву": {
+    "RU": "обрыв",
+    "EN": "cliff, precipice, break, rupture"
+  },
+  "затем": {
+    "RU": "затем",
+    "EN": "then, after that, thereupon, upon which, subsequently, for that reason"
+  },
+  "повторю": {
+    "RU": "повторить",
+    "EN": "repeat, reiterate"
+  },
+  "настанет": {
+    "RU": "настать",
+    "EN": "come, begin"
+  },
+  "мире": {
+    "RU": "мир",
+    "EN": "world; peace"
+  },
+  "забрать": {
+    "RU": "забрать",
+    "EN": "pick up, collect"
+  },
+  "смогу": {
+    "RU": "смог",
+    "EN": "smog"
+  },
+  "прощай": {
+    "RU": "прощать",
+    "EN": "to forgive, to excuse, to pardon"
+  },
+  "забудь": {
+    "RU": "забыть",
+    "EN": "forget"
+  },
+  "вернуть": {
+    "RU": "вернуть",
+    "EN": "return, give back, bring back, send back; repay, pay back, reimburse, refund; recover, get back, win back"
+  },
+  "отпусти": {
+    "RU": "отпустить",
+    "EN": "let go, let off, set free, release, give leave, supply, serve, grow, let grow, slacken, turn loose, loosen, remit, forgive, temper, draw"
+  },
+  "спокойно": {
+    "RU": "спокойный",
+    "EN": "quiet, calm, tranquil, placid, serene, easy-tempered, composed, easy"
+  },
+  "утонуть": {
+    "RU": "утонуть",
+    "EN": "to drown"
+  },
+  "холодной": {
+    "RU": "холодный",
+    "EN": "cold, cool"
   },
   "город": {
     "RU": "город",
     "EN": "town"
   },
-  "падает": {
-    "RU": "падать",
-    "EN": "fall, drop"
+  "большой": {
+    "RU": "большой",
+    "EN": "big, large, great, important, grown-up"
   },
-  "перемен": {
-    "RU": "перемена",
-    "EN": "change, volte-face, interval, break, intermission, recess, change of underwear, change of bed-linen"
-  },
-  "требуют": {
-    "RU": "требовать",
-    "EN": "demand, need, require"
-  },
-  "сердца": {
-    "RU": "сердце",
-    "EN": "heart"
-  },
-  "смехе": {
-    "RU": "смех",
-    "EN": "laughter, laugh"
-  },
-  "слезах": {
-    "RU": "слеза",
-    "EN": "tear"
-  },
-  "пульсации": {
-    "RU": "пульсация",
-    "EN": "pulsation, pulse"
-  },
-  "вен": {
-    "RU": "вена",
-    "EN": "vein"
-  },
-  "ждем": {
-    "RU": "ждать",
-    "EN": "wait, expect, await"
-  },
-  "продолжает": {
-    "RU": "продолжать",
-    "EN": "continue, go on, proceed, keep on, extend, prolong"
-  },
-  "коробка": {
-    "RU": "коробка",
-    "EN": "box, frame"
-  },
-  "от": {
-    "RU": "от",
-    "EN": "from (away); from (part of a whole); from (cause); from (distance); from (someone); from (range); for, against a purpose"
-  },
-  "спичек": {
-    "RU": "спичка",
-    "EN": "match a device to make fire"
-  },
-  "пуста": {
-    "RU": "пустой",
-    "EN": "empty, hollow, void"
-  },
-  "кухне": {
-    "RU": "кухня",
-    "EN": "kitchen, cook-house, galley, cooking, cuisine, machinations"
-  },
-  "синим": {
-    "RU": "синий",
-    "EN": "dark blue"
-  },
-  "цветком": {
-    "RU": "цветок",
-    "EN": "flower, blossom"
-  },
-  "горит": {
+  "горят": {
     "RU": "гореть",
     "EN": "burn, be on fire, shine, sparkle"
   },
-  "газ": {
-    "RU": "газ",
-    "EN": "gas, wind, gauze, gossamer"
+  "фонари": {
+    "RU": "фонарь",
+    "EN": "lantern, lamp, light, skylight, bay, black eye"
   },
-  "руках": {
-    "RU": "рука",
-    "EN": "hand; arm; handwriting"
+  "машины": {
+    "RU": "машина",
+    "EN": "car; machine, machinery, engine, mechanism"
   },
-  "чай": {
-    "RU": "чай",
-    "EN": "tea, tea-party, methinks, maybe"
+  "гудят": {
+    "RU": "гудеть",
+    "EN": "buss, drone, hoot, honk"
   },
-  "схема": {
-    "RU": "схема",
-    "EN": "scheme, system; pattern; framework; diagram, chart; design; circuit"
+  "городом": {
+    "RU": "город",
+    "EN": "town"
   },
-  "проста": {
-    "RU": "простой",
-    "EN": "simple, easy, common, plain, mere"
+  "красна": {
+    "RU": "красный",
+    "EN": "red"
   },
-  "ничего": {
-    "RU": "ничего",
-    "EN": "not badly, passably, so-so, not bad, never mind, all right; nothing"
+  "дом": {
+    "RU": "дом",
+    "EN": "house, home, house-hold"
   },
-  "находится": {
-    "RU": "находиться",
-    "EN": "be situated"
+  "откуда": {
+    "RU": "откуда",
+    "EN": "from where"
   },
-  "можем": {
-    "RU": "мочь",
-    "EN": "be able, can"
+  "взялась": {
+    "RU": "взяться",
+    "EN": "undertake, begin, start, take up, touch, seize; originate, come from"
   },
-  "похвастаться": {
-    "RU": "похвастаться",
-    "EN": "show off"
+  "печаль": {
+    "RU": "печаль",
+    "EN": "grief, sorrow"
   },
-  "мудростью": {
-    "RU": "мудрость",
-    "EN": "wisdom"
+  "вроде": {
+    "RU": "вроде",
+    "EN": "sort of"
+  },
+  "жив": {
+    "RU": "живой",
+    "EN": "alive"
+  },
+  "здоров": {
+    "RU": "здоровый",
+    "EN": "healthy, strong, robust, sound, wholesome, huge"
+  },
+  "тужить": {
+    "RU": "тужить",
+    "EN": "grieve"
+  },
+  "вокруг": {
+    "RU": "вокруг",
+    "EN": "around"
+  },
+  "благодать": {
+    "RU": "благодать",
+    "EN": "plenty, abundance, paradise, grace"
+  },
+  "черта": {
+    "RU": "черта",
+    "EN": "line; trait, feature, streak; boundary, precinct"
+  },
+  "видать": {
+    "RU": "видать",
+    "EN": "see"
+  },
+  "красота": {
+    "RU": "красота",
+    "EN": "beauty"
+  },
+  "кричат": {
+    "RU": "кричать",
+    "EN": "shout"
+  },
+  "ура": {
+    "RU": "ура",
+    "EN": "hurrah"
+  },
+  "бегут": {
+    "RU": "бежать",
+    "EN": "run"
+  },
+  "этим": {
+    "RU": "этот",
+    "EN": "this"
+  },
+  "всем": {
+    "RU": "весь",
+    "EN": "all, the whole of, everything, everybody, everyone, no more left"
+  },
+  "встает": {
+    "RU": "вставать",
+    "EN": "get up, rise, be up, stand up, go, fit, arise"
+  },
+  "укутывал": {
+    "RU": "укутывать",
+    "EN": "wrap up, muffle"
+  },
+  "других": {
+    "RU": "другой",
+    "EN": "other, another, different, another thing, something else, others, the rest"
+  },
+  "имитации": {
+    "RU": "имитация",
+    "EN": "mimicking, imitation"
+  },
+  "побед": {
+    "RU": "победа",
+    "EN": "victory, triumph"
+  },
+  "всего": {
+    "RU": "весь",
+    "EN": "all, the whole of, everything, everybody, everyone, no more left"
+  },
+  "лишь": {
+    "RU": "лишь",
+    "EN": "only, as soon as"
+  },
+  "зеркало": {
+    "RU": "зеркало",
+    "EN": "looking-glass, glass, mirror, speculum"
+  },
+  "которое": {
+    "RU": "который",
+    "EN": "which, that; who"
+  },
+  "отражает": {
+    "RU": "отражать",
+    "EN": "reflect; repulse, repel, parry"
+  },
+  "возле": {
+    "RU": "возле",
+    "EN": "near, beside, by"
+  },
+  "звезд": {
+    "RU": "звезда",
+    "EN": "star; famous person; name of service module on the International Space Station"
+  },
+  "медных": {
+    "RU": "медный",
+    "EN": "copper, cupric, cupreous"
+  },
+  "бликов": {
+    "RU": "блик",
+    "EN": "highlight"
+  },
+  "среди": {
+    "RU": "среди",
+    "EN": "among, amongst, amidst, in the middle"
+  },
+  "ярких": {
+    "RU": "яркий",
+    "EN": "bright, blazing, gaudy, striking, brilliant, vivid, lively"
+  },
+  "облаков": {
+    "RU": "облако",
+    "EN": "cloud"
+  },
+  "взглядов": {
+    "RU": "взгляд",
+    "EN": "look, gaze, stare, glance, glare, view, opinion"
+  },
+  "легкий": {
+    "RU": "легкий",
+    "EN": "light, easy, slight; lung"
+  },
+  "тошный": {
+    "RU": "тошный",
+    "EN": "tiresome, tedious, nauseous"
+  },
+  "бессмертный": {
+    "RU": "бессмертный",
+    "EN": "immortal, undying, unfading"
+  },
+  "поменяет": {
+    "RU": "поменять",
+    "EN": "change, exchange"
+  },
+  "прогноз": {
+    "RU": "прогноз",
+    "EN": "forecast"
+  },
+  "заблудились": {
+    "RU": "заблудиться",
+    "EN": "get lost, go astray"
+  },
+  "внутри": {
+    "RU": "внутри",
+    "EN": "inside, within"
+  },
+  "завелся": {
+    "RU": "завестись",
+    "EN": "start, start up; turned on, excited"
+  },
+  "неспокойный": {
+    "RU": "неспокойный",
+    "EN": "restless, uneasy"
+  },
+  "паразит": {
+    "RU": "паразит",
+    "EN": "parasite, sponger, vermin"
+  },
+  "укачало": {
+    "RU": "укачать",
+    "EN": "rock to sleep, cause sea-sickness, make sick"
+  },
+  "выдержал": {
+    "RU": "выдержать",
+    "EN": "to handle, bear, sustain, stand, endure, contain oneself, keep to mature, season"
+  },
+  "напор": {
+    "RU": "напор",
+    "EN": "pressure, force, head"
+  },
+  "даст": {
+    "RU": "дать",
+    "EN": "give"
+  },
+  "места": {
+    "RU": "место",
+    "EN": "place, spot, site, locality; region, area; site, scene; room, space; job, position; piece of luggage"
+  },
+  "покажи": {
+    "RU": "показать",
+    "EN": "show, display, point"
+  },
+  "уверенных": {
+    "RU": "уверенный",
+    "EN": "assured, sure, confident, positive, certain"
+  },
+  "завтрашнем": {
+    "RU": "завтрашний",
+    "EN": "tomorrow's"
+  },
+  "нарисуй": {
+    "RU": "нарисовать",
+    "EN": "draw, paint, picture, depict"
+  },
+  "портреты": {
+    "RU": "портрет",
+    "EN": "portrait, likeness"
+  },
+  "погибших": {
+    "RU": "погибший",
+    "EN": "lost"
+  },
+  "пути": {
+    "RU": "путь",
+    "EN": "way, track, path, race, journey, voyage, passage, duct, means"
+  },
+  "выжил": {
+    "RU": "выжить",
+    "EN": "survive"
+  },
+  "полка": {
+    "RU": "полок",
+    "EN": "shelf, tray"
+  },
+  "стать": {
+    "RU": "стать",
+    "EN": "figure; character, type; points of a horse; need, necessity"
+  },
+  "дверью": {
+    "RU": "дверь",
+    "EN": "door"
+  },
+  "замком": {
+    "RU": "замок",
+    "EN": "castle"
+  },
+  "ключом": {
+    "RU": "ключ",
+    "EN": "key, clue, clef, source, spring"
+  },
+  "замка": {
+    "RU": "замок",
+    "EN": "castle"
+  },
+  "война": {
+    "RU": "война",
+    "EN": "war, warfare"
+  },
+  "б": {
+    "RU": "б",
+    "EN": ""
+  },
+  "делал": {
+    "RU": "делать",
+    "EN": "make, do"
+  },
+  "которых": {
+    "RU": "который",
+    "EN": "which, that; who"
+  },
+  "сын": {
+    "RU": "сын",
+    "EN": "son"
+  },
+  "дочь": {
+    "RU": "дочь",
+    "EN": "daughter"
+  },
+  "теорема": {
+    "RU": "теорема",
+    "EN": "theorem"
+  },
+  "верна": {
+    "RU": "верный",
+    "EN": "true, right, faithful, loyal, reliable, sure, certain, correct"
+  },
+  "станет": {
+    "RU": "стать",
+    "EN": "begin to do sth; become"
+  },
+  "которым": {
+    "RU": "который",
+    "EN": "which, that; who"
+  },
+  "дрогнет": {
+    "RU": "дрогнуть",
+    "EN": "shiver, be chilled, shake, quaver, move, waver, falter, flinch"
+  },
+  "стена": {
+    "RU": "стена",
+    "EN": "wall"
+  },
+  "теплое": {
+    "RU": "тёплый",
+    "EN": "warm, mild, cordial, kindly, affectionate"
+  },
+  "улицы": {
+    "RU": "улица",
+    "EN": "street"
+  },
+  "отпечатков": {
+    "RU": "отпечаток",
+    "EN": "imprint, impress; fingerprint"
+  },
+  "ног": {
+    "RU": "нога",
+    "EN": "leg"
+  },
+  "звездная": {
+    "RU": "звёздный",
+    "EN": "star, sidereal, starry, starlit, converging"
+  },
+  "сапогах": {
+    "RU": "сапог",
+    "EN": "boot, top-boot, jackboot; waders, boots; very long boots"
+  },
+  "мягкое": {
+    "RU": "мягкий",
+    "EN": "soft, mild, gentle"
+  },
+  "кресло": {
+    "RU": "кресло",
+    "EN": "armchair, easy chair, stall"
+  },
+  "клетчатый": {
+    "RU": "клетчатый",
+    "EN": "checked, cellular"
+  },
+  "плед": {
+    "RU": "плед",
+    "EN": "rug, plaid; blanket"
+  },
+  "нажатый": {
+    "RU": "нажатый",
+    "EN": ""
+  },
+  "вовремя": {
+    "RU": "вовремя",
+    "EN": "on time"
+  },
+  "курок": {
+    "RU": "курок",
+    "EN": "trigger"
+  },
+  "солнечный": {
+    "RU": "солнечный",
+    "EN": "sun, solar, sunny"
+  },
+  "ослепительных": {
+    "RU": "ослепительный",
+    "EN": "blinding, dazzling"
+  },
+  "группа": {
+    "RU": "группа",
+    "EN": "group, cluster, clump"
+  },
+  "рукаве": {
+    "RU": "рукав",
+    "EN": "sleeve, branch, arm, hose"
+  },
+  "порядковый": {
+    "RU": "порядковый",
+    "EN": "ordinal"
+  },
+  "пожелай": {
+    "RU": "пожелать",
+    "EN": "wish, desire, covet"
+  },
+  "удачи": {
+    "RU": "удача",
+    "EN": "good luck, success, good fortune"
+  },
+  "остаться": {
+    "RU": "остаться",
+    "EN": "remain, stay, be left"
+  },
+  "траве": {
+    "RU": "трава",
+    "EN": "grass; weed; herb"
+  },
+  "платить": {
+    "RU": "платить",
+    "EN": "pay"
+  },
+  "победы": {
+    "RU": "победа",
+    "EN": "victory, triumph"
+  },
+  "любой": {
+    "RU": "любой",
+    "EN": "any, every, anyone, either"
+  },
+  "никому": {
+    "RU": "никой",
+    "EN": "no one"
+  },
+  "ставить": {
+    "RU": "ставить",
+    "EN": "to put, place; to bet, wager; to set; to implicate, raise"
+  },
+  "ногу": {
+    "RU": "нога",
+    "EN": "leg"
+  },
+  "высокая": {
+    "RU": "высокий",
+    "EN": "high; tall"
+  },
+  "звезда": {
+    "RU": "звезда",
+    "EN": "star; famous person; name of service module on the International Space Station"
+  },
+  "зовет": {
+    "RU": "звать",
+    "EN": "call, call upon"
+  },
+  "безболезненные": {
+    "RU": "безболезненный",
+    "EN": "painless, smooth"
+  },
+  "шаги": {
+    "RU": "шаг",
+    "EN": "step, stride, pace, tread, footsteps"
+  },
+  "воспоминаний": {
+    "RU": "воспоминание",
+    "EN": "recollection, memory, reminiscence, memoirs, reminiscences"
+  },
+  "круги": {
+    "RU": "круг",
+    "EN": "circle, sphere, range, scope, reach, lap"
+  },
+  "кровью": {
+    "RU": "кровь",
+    "EN": "blood"
+  },
+  "риск": {
+    "RU": "риск",
+    "EN": "risk"
+  },
+  "прикрытием": {
+    "RU": "прикрытие",
+    "EN": "cover, escort, screen, cloak"
+  },
+  "шороха": {
+    "RU": "шорох",
+    "EN": "rustle"
+  },
+  "стен": {
+    "RU": "стена",
+    "EN": "wall"
+  },
+  "телом": {
+    "RU": "тело",
+    "EN": "body"
+  },
+  "молча": {
+    "RU": "молча",
+    "EN": "silently, tacitly, without a word"
+  },
+  "грядет": {
+    "RU": "грясти",
+    "EN": "come forth"
+  },
+  "укрыто": {
+    "RU": "укрытый",
+    "EN": "sheltered, covered"
+  },
+  "сотнями": {
+    "RU": "сотня",
+    "EN": "a hundred, a hundred roubles, sotnia"
   },
   "глаз": {
     "RU": "глаз",
     "EN": "eye"
   },
-  "умелыми": {
-    "RU": "умелый",
-    "EN": "able, skilful"
+  "пульсации": {
+    "RU": "пульсация",
+    "EN": "pulsation, pulse"
   },
-  "жестами": {
-    "RU": "жест",
-    "EN": "gesture"
+  "сердца": {
+    "RU": "сердце",
+    "EN": "heart"
   },
-  "рук": {
-    "RU": "рука",
-    "EN": "hand; arm; handwriting"
+  "разум": {
+    "RU": "разум",
+    "EN": "mind"
   },
-  "нужно": {
-    "RU": "нужный",
-    "EN": "necessary, needed"
+  "мутит": {
+    "RU": "мутить",
+    "EN": "stir up, make dull"
   },
-  "друг": {
-    "RU": "друг",
-    "EN": "friend"
+  "цвета": {
+    "RU": "цвет",
+    "EN": "color, colour"
   },
-  "друга": {
-    "RU": "друг",
-    "EN": "friend"
+  "страсть": {
+    "RU": "страсть",
+    "EN": "passion, obsession; strong love between people; religion, plural only horror, suffering"
   },
-  "понять": {
-    "RU": "понять",
-    "EN": "understand, comprehend, realize"
+  "влияние": {
+    "RU": "влияние",
+    "EN": "influence, impact, authority, ascendancy"
   },
-  "замыкается": {
-    "RU": "замыкаться",
-    "EN": "lock, be locked, be closed"
+  "ослепительно": {
+    "RU": "ослепительный",
+    "EN": "blinding, dazzling"
   },
-  "круг": {
-    "RU": "круг",
-    "EN": "circle, sphere, range, scope, reach, lap"
+  "белая": {
+    "RU": "белая",
+    "EN": ""
   },
-  "вдруг": {
-    "RU": "вдруг",
-    "EN": "suddenly, all of a sudden"
+  "тень": {
+    "RU": "тень",
+    "EN": "shadow, shade; ghost, phantom; atom, particle"
   },
-  "становится": {
-    "RU": "становиться",
-    "EN": "become"
+  "мрачная": {
+    "RU": "мрачный",
+    "EN": "gloomy, sombre, dark, dismal, dreary"
   },
-  "менять": {
-    "RU": "менять",
-    "EN": "change, exchange"
+  "душа": {
+    "RU": "душа",
+    "EN": "soul"
   },
-  "знаю": {
+  "кидаешь": {
+    "RU": "кидать",
+    "EN": "throw, cast, fling"
+  },
+  "плен": {
+    "RU": "плена",
+    "EN": ""
+  },
+  "гроша": {
+    "RU": "грош",
+    "EN": "half copeck coin, penny, farthing, grosz"
+  },
+  "нечего": {
+    "RU": "нечего",
+    "EN": "nothing"
+  },
+  "терять": {
+    "RU": "терять",
+    "EN": "to lose, to waste; to shed"
+  },
+  "любить": {
+    "RU": "любить",
+    "EN": "love; like"
+  },
+  "выполнять": {
+    "RU": "выполнять",
+    "EN": "implement, fulfil, carry out, execute, accomplish, carry into effect, realize"
+  },
+  "дано": {
+    "RU": "дано",
+    "EN": "given, capable"
+  },
+  "слева": {
+    "RU": "слева",
+    "EN": "to the left"
+  },
+  "пойму": {
+    "RU": "пойма",
+    "EN": "flood-lands, water-meadow"
+  },
+  "знаком": {
+    "RU": "знак",
+    "EN": "sign, token, symbol, mark, omen, signal"
+  },
+  "соседом": {
+    "RU": "сосед",
+    "EN": "neighbour"
+  },
+  "хоть": {
+    "RU": "хоть",
+    "EN": "though, even; you may, might as well"
+  },
+  "вместе": {
+    "RU": "вместе",
+    "EN": "together"
+  },
+  "уж": {
+    "RU": "уж",
+    "EN": "grass snake"
+  },
+  "год": {
+    "RU": "год",
+    "EN": "year"
+  },
+  "хотя": {
+    "RU": "хотя",
+    "EN": "though, although, even though"
+  },
+  "каждый": {
+    "RU": "каждый",
+    "EN": "each, every, everyone"
+  },
+  "знает": {
     "RU": "знать",
     "EN": "know, be aware, be acquainted, have a knowledge, aristocracy, nobility, the elite, evidently, it seems"
+  },
+  "брод": {
+    "RU": "брод",
+    "EN": "ford"
+  },
+  "глядит": {
+    "RU": "глядеть",
+    "EN": "look, peer, show, face, look out, give, point, look like, see"
+  },
+  "троллейбуса": {
+    "RU": "троллейбус",
+    "EN": "trolleybus"
+  },
+  "который": {
+    "RU": "который",
+    "EN": "which, that; who"
+  },
+  "восток": {
+    "RU": "восток",
+    "EN": "east, the East, the Orient"
+  },
+  "братья": {
+    "RU": "брат",
+    "EN": "brother"
+  },
+  "седьмая": {
+    "RU": "седьмая",
+    "EN": ""
+  },
+  "едем": {
+    "RU": "ехать",
+    "EN": "drive"
+  },
+  "сосед": {
+    "RU": "сосед",
+    "EN": "neighbour"
+  },
+  "хочет": {
+    "RU": "хотеть",
+    "EN": "want; to feel like"
+  },
+  "гадаем": {
+    "RU": "гадать",
+    "EN": "tell fortunes, guess, surmise, conjecture"
+  },
+  "какой": {
+    "RU": "какой",
+    "EN": "which, what, what kind of"
+  },
+  "прок": {
+    "RU": "прок",
+    "EN": "use, benefit"
+  },
+  "троллейбусе": {
+    "RU": "троллейбус",
+    "EN": "trolleybus"
+  },
+  "кабине": {
+    "RU": "кабина",
+    "EN": "booth, shower, cab, lift car"
+  },
+  "троллейбус": {
+    "RU": "троллейбус",
+    "EN": "trolleybus"
+  },
+  "мотор": {
+    "RU": "мотор",
+    "EN": "motor, engine"
+  },
+  "заржавел": {
+    "RU": "заржаветь",
+    "EN": "become rusty, rust"
+  },
+  "смотрим": {
+    "RU": "смотреть",
+    "EN": "look, watch"
+  },
+  "долю": {
+    "RU": "доля",
+    "EN": "part, portion, share, quota, fate, lot; lobe"
+  },
+  "секунды": {
+    "RU": "секунда",
+    "EN": "second"
+  },
+  "показалась": {
+    "RU": "показаться",
+    "EN": "seem; show up"
+  },
+  "молчим": {
+    "RU": "молчать",
+    "EN": "be silent, keep quiet"
+  },
+  "помог": {
+    "RU": "помочь",
+    "EN": "help, assist, aid"
+  },
+  "крыши": {
+    "RU": "крыша",
+    "EN": "roof, house-top"
+  },
+  "домов": {
+    "RU": "дом",
+    "EN": "house, home, house-hold"
+  },
+  "дрожат": {
+    "RU": "дрожать",
+    "EN": "shiver, tremble, quiver, shake, quaver, take excessive care, fuss over, grudge"
+  },
+  "тяжестью": {
+    "RU": "тяжесть",
+    "EN": "weight, heaviness, gravity, load, difficulty, burden"
+  },
+  "дней": {
+    "RU": "день",
+    "EN": "day, afternoon"
+  },
+  "небесный": {
+    "RU": "небесный",
+    "EN": "celestial, heavenly, divine"
+  },
+  "пасет": {
+    "RU": "пасти",
+    "EN": "graze, pasture, shepherd; surveil, watch over, track, shadow, convoy"
+  },
+  "облака": {
+    "RU": "облако",
+    "EN": "cloud"
+  },
+  "стреляет": {
+    "RU": "стрелять",
+    "EN": "shoot, fire, fire a shot, cadge"
+  },
+  "дробью": {
+    "RU": "дробь",
+    "EN": "fraction, shot"
+  },
+  "велика": {
+    "RU": "велик",
+    "EN": "bicycle, bike"
+  },
+  "тем": {
+    "RU": "тема",
+    "EN": "subject, theme, topic, foundation"
+  },
+  "ложится": {
+    "RU": "ложиться",
+    "EN": "lie down; go to bed"
+  },
+  "спокойного": {
+    "RU": "спокойный",
+    "EN": "quiet, calm, tranquil, placid, serene, easy-tempered, composed, easy"
+  },
+  "спокойная": {
+    "RU": "спокойный",
+    "EN": "quiet, calm, tranquil, placid, serene, easy-tempered, composed, easy"
+  },
+  "ждал": {
+    "RU": "ждать",
+    "EN": "wait, expect, await"
+  },
+  "те": {
+    "RU": "тот",
+    "EN": "that, the other, the right"
+  },
+  "молчал": {
+    "RU": "молчать",
+    "EN": "be silent, keep quiet"
+  },
+  "перестали": {
+    "RU": "перестать",
+    "EN": "stop, cease"
+  },
+  "молчать": {
+    "RU": "молчать",
+    "EN": "be silent, keep quiet"
+  },
+  "кому": {
+    "RU": "ком",
+    "EN": "lump, ball, clod"
+  },
+  "садятся": {
+    "RU": "садиться",
+    "EN": "sit down, sit up, take, board, get in, land, alight, perch, settle, come down, set, shrink"
+  },
+  "седло": {
+    "RU": "седло",
+    "EN": "saddle"
+  },
+  "догнать": {
+    "RU": "догнать",
+    "EN": "catch up, overtake, come up, run down, overhaul"
+  },
+  "соседи": {
+    "RU": "сосед",
+    "EN": "neighbour"
+  },
+  "приходят": {
+    "RU": "приходить",
+    "EN": "arrive"
+  },
+  "слышится": {
+    "RU": "слышаться",
+    "EN": "be heard, be felt"
+  },
+  "стук": {
+    "RU": "стук",
+    "EN": "knock, tap, noise"
+  },
+  "копыт": {
+    "RU": "копыто",
+    "EN": "hoof"
+  },
+  "мешает": {
+    "RU": "мешать",
+    "EN": "disturb"
+  },
+  "уснуть": {
+    "RU": "уснуть",
+    "EN": "fall asleep"
+  },
+  "тревожит": {
+    "RU": "тревожить",
+    "EN": "disturb, worry, trouble, harass, make uneasy"
+  },
+  "отправляются": {
+    "RU": "отправляться",
+    "EN": "start, leave, depart, go, make, betake oneself, proceed"
+  },
+  "постой": {
+    "RU": "постой",
+    "EN": "wait"
+  },
+  "лета": {
+    "RU": "год",
+    "EN": "year"
+  },
+  "пришла": {
+    "RU": "прийти",
+    "EN": "come, arrive"
+  },
+  "заходили": {
+    "RU": "заходить",
+    "EN": "go in, call in at, drop in, pop in; sun sets"
+  },
+  "дома": {
+    "RU": "дом",
+    "EN": "house, home, house-hold"
+  },
+  "домах": {
+    "RU": "дом",
+    "EN": "house, home, house-hold"
+  },
+  "шел": {
+    "RU": "идти",
+    "EN": "go, walk"
+  },
+  "снег": {
+    "RU": "снег",
+    "EN": "snow"
+  },
+  "завтрашний": {
+    "RU": "завтрашний",
+    "EN": "tomorrow's"
+  },
+  "прячем": {
+    "RU": "прятать",
+    "EN": "hide, conceal"
+  },
+  "шторами": {
+    "RU": "штора",
+    "EN": "curtain, blind"
+  },
+  "крики": {
+    "RU": "крик",
+    "EN": "cry, shout, yell, scream"
+  },
+  "окрики": {
+    "RU": "окрик",
+    "EN": "hail, hallo"
+  },
+  "стой": {
+    "RU": "стоять",
+    "EN": "stand"
+  },
+  "рождение": {
+    "RU": "рождение",
+    "EN": "birth, delivery, birthday"
+  },
+  "потерянный": {
+    "RU": "потерянный",
+    "EN": "lost; embarrassed, perplexed"
+  },
+  "рай": {
+    "RU": "рай",
+    "EN": "paradise, Eden, Elysium"
+  },
+  "закрытая": {
+    "RU": "закрытый",
+    "EN": "closed"
+  },
+  "выбирай": {
+    "RU": "выбирать",
+    "EN": "choose, select, pick out, elect, take out, take everything out, haul, haul in, pull"
+  },
+  "хотели": {
+    "RU": "хотеть",
+    "EN": "want; to feel like"
+  },
+  "воды": {
+    "RU": "вода",
+    "EN": "water"
+  },
+  "света": {
+    "RU": "свет",
+    "EN": "light, world, society"
+  },
+  "выходили": {
+    "RU": "выходить",
+    "EN": "go out, come out, leave; use up, run out of; get married; be published, be issued"
+  },
+  "пили": {
+    "RU": "пить",
+    "EN": "drink"
+  },
+  "воду": {
+    "RU": "вода",
+    "EN": "water"
+  },
+  "луж": {
+    "RU": "лужа",
+    "EN": "puddle, pool"
+  },
+  "снов": {
+    "RU": "сон",
+    "EN": "dream; sleep"
+  },
+  "носили": {
+    "RU": "носить",
+    "EN": "wear, carry"
+  },
+  "траур": {
+    "RU": "траур",
+    "EN": "mourning"
+  },
+  "оркестр": {
+    "RU": "оркестр",
+    "EN": "orchestra, brass band, orchestra-pit"
+  },
+  "играл": {
+    "RU": "играть",
+    "EN": "play, act, perform, sparkle, toy, trifle"
+  },
+  "туш": {
+    "RU": "туш",
+    "EN": "flourish"
   },
   "нужна": {
     "RU": "нужный",
@@ -1979,25 +4443,13 @@
     "RU": "любовь",
     "EN": "love"
   },
-  "уходи": {
-    "RU": "уходить",
-    "EN": "leave, depart"
-  },
   "возвращайся": {
     "RU": "возвращаться",
     "EN": "return, go back, revert, recur, be restored, come back"
   },
-  "вновь": {
-    "RU": "вновь",
-    "EN": "again, afresh, anew"
-  },
   "найду": {
     "RU": "найти",
     "EN": "find"
-  },
-  "себя": {
-    "RU": "себя",
-    "EN": "ourselves, yourselves, himself, herself, itself, yourself, myself, themselves"
   },
   "занять": {
     "RU": "занять",
@@ -2035,14 +4487,6 @@
     "RU": "отдать",
     "EN": "to give back, to return; to give away, to hand over, to give up, to give over; to send; to devote; to cast (anchor); to recoil (of a gun)"
   },
-  "ключи": {
-    "RU": "ключ",
-    "EN": "key, clue, clef, source, spring"
-  },
-  "пора": {
-    "RU": "пора",
-    "EN": "time; it is time to"
-  },
   "лучше": {
     "RU": "хороший",
     "EN": "good, beautiful, handsome"
@@ -2058,6 +4502,962 @@
   "вынуждай": {
     "RU": "вынуждать",
     "EN": "force, compel, oblige, make"
+  },
+  "переделывают": {
+    "RU": "переделывать",
+    "EN": "do over again, alter, have altered, re-educate"
+  },
+  "явь": {
+    "RU": "явь",
+    "EN": "reality"
+  },
+  "переписывают": {
+    "RU": "переписывать",
+    "EN": "rewrite, retype, recopy, make a list, take a census"
+  },
+  "главы": {
+    "RU": "глава",
+    "EN": "head, chief, cupola, chapter"
+  },
+  "перекидывают": {
+    "RU": "перекидывать",
+    "EN": "throw"
+  },
+  "грязь": {
+    "RU": "грязь",
+    "EN": "dirt, filth, corruption, mud"
+  },
+  "чужие": {
+    "RU": "чужой",
+    "EN": "stranger"
+  },
+  "страны": {
+    "RU": "страна",
+    "EN": "country, land"
+  },
+  "продвигают": {
+    "RU": "продвигать",
+    "EN": "move, push, promote, further, advance"
+  },
+  "страшную": {
+    "RU": "страшный",
+    "EN": "terrible, frightful, fearful, dreadful"
+  },
+  "пропаганду": {
+    "RU": "пропаганда",
+    "EN": "information, teaching, propaganda, popularization"
+  },
+  "прекрасно": {
+    "RU": "прекрасный",
+    "EN": "beautiful, fine, excellent"
+  },
+  "жрем": {
+    "RU": "жрать",
+    "EN": "gorge, guzzle, gobble"
+  },
+  "коммерсанты": {
+    "RU": "коммерсант",
+    "EN": "merchant, business man"
+  },
+  "спекулируют": {
+    "RU": "спекулировать",
+    "EN": "speculate, profiteer, profit"
+  },
+  "провоцируют": {
+    "RU": "провоцировать",
+    "EN": "provoke"
+  },
+  "против": {
+    "RU": "против",
+    "EN": "against, opposite, facing, contrary to, to, as against"
+  },
+  "ведущие": {
+    "RU": "ведущая",
+    "EN": ""
+  },
+  "жизни": {
+    "RU": "жизнь",
+    "EN": "life, existence"
+  },
+  "втянул": {
+    "RU": "втянуть",
+    "EN": "pull, draw, induce to participate, involve"
+  },
+  "какую": {
+    "RU": "какой",
+    "EN": "which, what, what kind of"
+  },
+  "драму": {
+    "RU": "драма",
+    "EN": "drama"
+  },
+  "кино": {
+    "RU": "кино",
+    "EN": "cinema, pictures, movies"
+  },
+  "понимаю": {
+    "RU": "понимать",
+    "EN": "understand, comprehend, realize"
+  },
+  "застрелят": {
+    "RU": "застрелить",
+    "EN": "shoot"
+  },
+  "случайной": {
+    "RU": "случайный",
+    "EN": "random"
+  },
+  "покажешься": {
+    "RU": "показаться",
+    "EN": "seem; show up"
+  },
+  "актеры": {
+    "RU": "актёр",
+    "EN": "actor, player"
+  },
+  "играем": {
+    "RU": "играть",
+    "EN": "play, act, perform, sparkle, toy, trifle"
+  },
+  "режиссеры": {
+    "RU": "режиссёр",
+    "EN": "producer; director"
+  },
+  "фильмов": {
+    "RU": "фильм",
+    "EN": "movie, film"
+  },
+  "снимаем": {
+    "RU": "снимать",
+    "EN": "take off; rent; take a photograph, make a video"
+  },
+  "попались": {
+    "RU": "попасться",
+    "EN": "be caught, fall for; come across, catch eye"
+  },
+  "сети": {
+    "RU": "сеть",
+    "EN": "web, network, meshes, toils, system, circuit, net, fishnet"
+  },
+  "мелодрамы": {
+    "RU": "мелодрама",
+    "EN": "melodrama"
+  },
+  "беспамятства": {
+    "RU": "беспамятство",
+    "EN": "unconsciousness, frenzy"
+  },
+  "архитектура": {
+    "RU": "архитектура",
+    "EN": "architecture"
+  },
+  "конец": {
+    "RU": "конец",
+    "EN": "end, ending"
+  },
+  "разбиты": {
+    "RU": "разбитый",
+    "EN": "broken"
+  },
+  "скульптуры": {
+    "RU": "скульптура",
+    "EN": "sculpture"
+  },
+  "выключаю": {
+    "RU": "выключать",
+    "EN": "turn off, switch off, cut off, exclude"
+  },
+  "телевизор": {
+    "RU": "телевизор",
+    "EN": "television set, TV set"
+  },
+  "пишу": {
+    "RU": "писать",
+    "EN": "write; paint"
+  },
+  "письмо": {
+    "RU": "письмо",
+    "EN": "letter, writing, script"
+  },
+  "могу": {
+    "RU": "мочь",
+    "EN": "be able, can"
+  },
+  "смотреть": {
+    "RU": "смотреть",
+    "EN": "look, watch"
+  },
+  "дерьмо": {
+    "RU": "дерьмо",
+    "EN": "Shit"
+  },
+  "сил": {
+    "RU": "сила",
+    "EN": "power"
+  },
+  "запил": {
+    "RU": "запить",
+    "EN": ""
+  },
+  "забыл": {
+    "RU": "забыть",
+    "EN": "forget"
+  },
+  "звонил": {
+    "RU": "звонить",
+    "EN": "(phone)call"
+  },
+  "чтобы": {
+    "RU": "чтобы",
+    "EN": "so that; in order to"
+  },
+  "оделся": {
+    "RU": "одеться",
+    "EN": "dress"
+  },
+  "пошел": {
+    "RU": "пойти",
+    "EN": "go; walk"
+  },
+  "побежал": {
+    "RU": "побежать",
+    "EN": "break into a run"
+  },
+  "послал": {
+    "RU": "послать",
+    "EN": "send, dispatch"
+  },
+  "болен": {
+    "RU": "больной",
+    "EN": "sick, diseased, sore, morbid"
+  },
+  "надежд": {
+    "RU": "надежда",
+    "EN": "hope"
+  },
+  "нету": {
+    "RU": "нету",
+    "EN": "there is no, there are no"
+  },
+  "скоро": {
+    "RU": "скорый",
+    "EN": "quick, fast, near, forthcoming"
+  },
+  "кончится": {
+    "RU": "кончиться",
+    "EN": "end, finish"
+  },
+  "лето": {
+    "RU": "лето",
+    "EN": "summer"
+  },
+  "повезло": {
+    "RU": "повезти",
+    "EN": "bring, take, carry; be lucky"
+  },
+  "четвертый": {
+    "RU": "четвертый",
+    "EN": "fourth"
+  },
+  "радио": {
+    "RU": "радио",
+    "EN": "radio, radio set, wireless"
+  },
+  "сказали": {
+    "RU": "сказать",
+    "EN": "say, tell, speak, talk"
+  },
+  "жаркой": {
+    "RU": "жаркий",
+    "EN": "hot, ardent"
+  },
+  "впрочем": {
+    "RU": "впрочем",
+    "EN": "however"
+  },
+  "той": {
+    "RU": "той",
+    "EN": ""
+  },
+  "тени": {
+    "RU": "тень",
+    "EN": "shadow, shade; ghost, phantom; atom, particle"
+  },
+  "пока": {
+    "RU": "пока",
+    "EN": "bye (informal); while"
+  },
+  "сухо": {
+    "RU": "сухой",
+    "EN": "dry, arid"
+  },
+  "боюсь": {
+    "RU": "бояться",
+    "EN": "be afraid, dread, fear"
+  },
+  "идут": {
+    "RU": "идти",
+    "EN": "go, walk"
+  },
+  "чередом": {
+    "RU": "черёд",
+    "EN": "turn"
+  },
+  "едим": {
+    "RU": "есть",
+    "EN": "eat"
+  },
+  "три": {
+    "RU": "тереть",
+    "EN": "rub, polish, rub sore, chafe, abrade, grate, grind"
+  },
+  "пьем": {
+    "RU": "пить",
+    "EN": "drink"
+  },
+  "общем": {
+    "RU": "общий",
+    "EN": "general, common, mutual, aggregate, total"
+  },
+  "весело": {
+    "RU": "весёлый",
+    "EN": "merry, cheerful, happy; funny"
+  },
+  "живем": {
+    "RU": "жить",
+    "EN": "live"
+  },
+  "магнитофон": {
+    "RU": "магнитофон",
+    "EN": "tape-recorder"
+  },
+  "сломался": {
+    "RU": "сломаться",
+    "EN": "break, crack, pose, mince, put on airs, be extremely affected, make difficulties"
+  },
+  "сижу": {
+    "RU": "сидеть",
+    "EN": "sit, be perched, be, fit"
+  },
+  "тишине": {
+    "RU": "тишина",
+    "EN": "silence"
+  },
+  "вполне": {
+    "RU": "вполне",
+    "EN": "quite, fully, entirely, completely"
+  },
+  "стройка": {
+    "RU": "стройка",
+    "EN": "building, construction, building sit"
+  },
+  "кран": {
+    "RU": "кран",
+    "EN": "tap / faucet, stop-cock; crane"
+  },
+  "закрыт": {
+    "RU": "закрытый",
+    "EN": "closed"
+  },
+  "пятый": {
+    "RU": "пятый",
+    "EN": "fifth"
+  },
+  "углом": {
+    "RU": "угол",
+    "EN": "corner, angle, home"
+  },
+  "ресторан": {
+    "RU": "ресторан",
+    "EN": "restaurant"
+  },
+  "столе": {
+    "RU": "стол",
+    "EN": "table, desk, board; diet, cooking, cuisine; department, section"
+  },
+  "банка": {
+    "RU": "банк",
+    "EN": "bank, faro"
+  },
+  "банке": {
+    "RU": "банк",
+    "EN": "bank, faro"
+  },
+  "тюльпан": {
+    "RU": "тюльпан",
+    "EN": "tulip"
+  },
+  "стакан": {
+    "RU": "стакан",
+    "EN": "glass"
+  },
+  "годом": {
+    "RU": "год",
+    "EN": "year"
+  },
+  "сотый": {
+    "RU": "сотый",
+    "EN": "hundredth"
+  },
+  "раз": {
+    "RU": "раз",
+    "EN": "time; one; once"
+  },
+  "маслом": {
+    "RU": "масло",
+    "EN": "butter, oil; oil painting"
+  },
+  "вниз": {
+    "RU": "вниз",
+    "EN": "down, downwards"
+  },
+  "упадет": {
+    "RU": "упасть",
+    "EN": "to fall, drop; to sink, decline"
+  },
+  "бутерброд": {
+    "RU": "бутерброд",
+    "EN": "sandwich"
+  },
+  "зелень": {
+    "RU": "зелень",
+    "EN": "greenery, verdure, greens, vegetables, green, vert"
+  },
+  "сетки": {
+    "RU": "сетка",
+    "EN": "net, netting, gauze, rack, butterfly-net, sweep-net, string-bag, graticule, grid, scale"
+  },
+  "календаря": {
+    "RU": "календарь",
+    "EN": "calendar"
+  },
+  "красное": {
+    "RU": "красный",
+    "EN": "red"
+  },
+  "сгорает": {
+    "RU": "сгорать",
+    "EN": "be burnt down, be consumed, be used up, burn"
+  },
+  "дотла": {
+    "RU": "дотла",
+    "EN": "utterly, completely, to the ground"
+  },
+  "догорает": {
+    "RU": "догорать",
+    "EN": "burn low"
+  },
+  "пылающий": {
+    "RU": "пылающий",
+    "EN": ""
+  },
+  "перемен": {
+    "RU": "перемена",
+    "EN": "change, volte-face, interval, break, intermission, recess, change of underwear, change of bed-linen"
+  },
+  "требуют": {
+    "RU": "требовать",
+    "EN": "demand, need, require"
+  },
+  "смехе": {
+    "RU": "смех",
+    "EN": "laughter, laugh"
+  },
+  "слезах": {
+    "RU": "слеза",
+    "EN": "tear"
+  },
+  "вен": {
+    "RU": "вена",
+    "EN": "vein"
+  },
+  "ждем": {
+    "RU": "ждать",
+    "EN": "wait, expect, await"
+  },
+  "продолжает": {
+    "RU": "продолжать",
+    "EN": "continue, go on, proceed, keep on, extend, prolong"
+  },
+  "коробка": {
+    "RU": "коробка",
+    "EN": "box, frame"
+  },
+  "спичек": {
+    "RU": "спичка",
+    "EN": "match a device to make fire"
+  },
+  "пуста": {
+    "RU": "пустой",
+    "EN": "empty, hollow, void"
+  },
+  "кухне": {
+    "RU": "кухня",
+    "EN": "kitchen, cook-house, galley, cooking, cuisine, machinations"
+  },
+  "синим": {
+    "RU": "синий",
+    "EN": "dark blue"
+  },
+  "цветком": {
+    "RU": "цветок",
+    "EN": "flower, blossom"
+  },
+  "газ": {
+    "RU": "газ",
+    "EN": "gas, wind, gauze, gossamer"
+  },
+  "руках": {
+    "RU": "рука",
+    "EN": "hand; arm; handwriting"
+  },
+  "чай": {
+    "RU": "чай",
+    "EN": "tea, tea-party, methinks, maybe"
+  },
+  "схема": {
+    "RU": "схема",
+    "EN": "scheme, system; pattern; framework; diagram, chart; design; circuit"
+  },
+  "проста": {
+    "RU": "простой",
+    "EN": "simple, easy, common, plain, mere"
+  },
+  "находится": {
+    "RU": "находиться",
+    "EN": "be situated"
+  },
+  "можем": {
+    "RU": "мочь",
+    "EN": "be able, can"
+  },
+  "похвастаться": {
+    "RU": "похвастаться",
+    "EN": "show off"
+  },
+  "мудростью": {
+    "RU": "мудрость",
+    "EN": "wisdom"
+  },
+  "умелыми": {
+    "RU": "умелый",
+    "EN": "able, skilful"
+  },
+  "жестами": {
+    "RU": "жест",
+    "EN": "gesture"
+  },
+  "рук": {
+    "RU": "рука",
+    "EN": "hand; arm; handwriting"
+  },
+  "друг": {
+    "RU": "друг",
+    "EN": "friend"
+  },
+  "друга": {
+    "RU": "друг",
+    "EN": "friend"
+  },
+  "понять": {
+    "RU": "понять",
+    "EN": "understand, comprehend, realize"
+  },
+  "замыкается": {
+    "RU": "замыкаться",
+    "EN": "lock, be locked, be closed"
+  },
+  "круг": {
+    "RU": "круг",
+    "EN": "circle, sphere, range, scope, reach, lap"
+  },
+  "вдруг": {
+    "RU": "вдруг",
+    "EN": "suddenly, all of a sudden"
+  },
+  "становится": {
+    "RU": "становиться",
+    "EN": "become"
+  },
+  "менять": {
+    "RU": "менять",
+    "EN": "change, exchange"
+  },
+  "улица": {
+    "RU": "улица",
+    "EN": "street"
+  },
+  "войди": {
+    "RU": "войти",
+    "EN": "enter, go in, come in"
+  },
+  "поднимись": {
+    "RU": "подняться",
+    "EN": "to climb, come up"
+  },
+  "восьмой": {
+    "RU": "восьмая",
+    "EN": "eighth, quaver"
+  },
+  "этаж": {
+    "RU": "этаж",
+    "EN": "floor, storey"
+  },
+  "позвони": {
+    "RU": "позвонить",
+    "EN": "ring, clang; call"
+  },
+  "откроет": {
+    "RU": "открыть",
+    "EN": "open, clear, uncover, bare, inaugurate, discover, let out, reveal"
+  },
+  "беги": {
+    "RU": "бежать",
+    "EN": "run"
+  },
+  "дурак": {
+    "RU": "дурак",
+    "EN": "fool, idiot"
+  },
+  "лестничной": {
+    "RU": "лестничный",
+    "EN": "Adjective of лестница"
+  },
+  "клетке": {
+    "RU": "клетка",
+    "EN": "cage, coop, hutch, new, check, checkwork, square, cell"
+  },
+  "записки": {
+    "RU": "записка",
+    "EN": "note"
+  },
+  "стенках": {
+    "RU": "стенка",
+    "EN": "wall, side, sea-wall"
+  },
+  "ожоги": {
+    "RU": "ожог",
+    "EN": "burn"
+  },
+  "побелке": {
+    "RU": "побелка",
+    "EN": "whitewashing"
+  },
+  "непонятны": {
+    "RU": "непонятный",
+    "EN": "incomprehensible, unintelligible, obscure"
+  },
+  "та": {
+    "RU": "тот",
+    "EN": "that, the other, the right"
+  },
+  "каком": {
+    "RU": "какой",
+    "EN": "which, what, what kind of"
+  },
+  "этаже": {
+    "RU": "этаж",
+    "EN": "floor, storey"
+  },
+  "откроют": {
+    "RU": "открыть",
+    "EN": "open, clear, uncover, bare, inaugurate, discover, let out, reveal"
+  },
+  "звонка": {
+    "RU": "звонок",
+    "EN": "(phone) call; bell"
+  },
+  "стука": {
+    "RU": "стук",
+    "EN": "knock, tap, noise"
+  },
+  "зайду": {
+    "RU": "зайти",
+    "EN": "go in, call in at, drop in, pop in"
+  },
+  "скажут": {
+    "RU": "сказать",
+    "EN": "say, tell, speak, talk"
+  },
+  "привет": {
+    "RU": "привет",
+    "EN": "hello (informal), hi (informal)"
+  },
+  "убегу": {
+    "RU": "убег",
+    "EN": ""
+  },
+  "правде": {
+    "RU": "правда",
+    "EN": "truth"
+  },
+  "говорите": {
+    "RU": "говорить",
+    "EN": "speak, talk gapirish"
+  },
+  "научились": {
+    "RU": "научиться",
+    "EN": "learn"
+  },
+  "честным": {
+    "RU": "честный",
+    "EN": "honest, honest-minded, upright, fair"
+  },
+  "много": {
+    "RU": "много",
+    "EN": "a lot of, many"
+  },
+  "ненужных": {
+    "RU": "ненужный",
+    "EN": "unnecessary, needless, useless"
+  },
+  "бедствий": {
+    "RU": "бедствие",
+    "EN": "calamity, disaster, distress"
+  },
+  "глупых": {
+    "RU": "глупый",
+    "EN": "foolish, stupid, silly, inane"
+  },
+  "странных": {
+    "RU": "странный",
+    "EN": "strange, queer, odd, funny, rum"
+  },
+  "лиц": {
+    "RU": "лицо",
+    "EN": "face, the right side, person"
+  },
+  "хватает": {
+    "RU": "хватать",
+    "EN": "be enough; grab, seize"
+  },
+  "выглядит": {
+    "RU": "выглядеть",
+    "EN": "look like, look, find, discover, spy out"
+  },
+  "глупо": {
+    "RU": "глупый",
+    "EN": "foolish, stupid, silly, inane"
+  },
+  "странно": {
+    "RU": "странный",
+    "EN": "strange, queer, odd, funny, rum"
+  },
+  "равно": {
+    "RU": "равный",
+    "EN": "equal"
+  },
+  "злая": {
+    "RU": "злой",
+    "EN": "wicked, malicious, vicious, evil; angry"
+  },
+  "шутка": {
+    "RU": "шутка",
+    "EN": "joke, jet, trick, prank, jest, farce"
+  },
+  "громкий": {
+    "RU": "громкий",
+    "EN": "loud, famous, celebrated, bombastic, high-flown"
+  },
+  "смех": {
+    "RU": "смех",
+    "EN": "laughter, laugh"
+  },
+  "повсюду": {
+    "RU": "повсюду",
+    "EN": "everywhere, far and wide"
+  },
+  "смешно": {
+    "RU": "смешной",
+    "EN": "ridiculous, ludicrous, funny, droll, amusing, absurd"
+  },
+  "проспект": {
+    "RU": "проспект",
+    "EN": "avenue, prospectus, booklet, folder"
+  },
+  "ветеранов": {
+    "RU": "ветеран",
+    "EN": "veteran, old stager"
+  },
+  "тридцать": {
+    "RU": "тридцать",
+    "EN": "thirty"
+  },
+  "мчит": {
+    "RU": "мчать",
+    "EN": "rush, whirl along"
+  },
+  "такси": {
+    "RU": "такси",
+    "EN": "taxi"
+  },
+  "поздней": {
+    "RU": "поздний",
+    "EN": "late, tardy"
+  },
+  "машине": {
+    "RU": "машина",
+    "EN": "car; machine, machinery, engine, mechanism"
+  },
+  "сидит": {
+    "RU": "сидеть",
+    "EN": "sit, be perched, be, fit"
+  },
+  "фар": {
+    "RU": "фара",
+    "EN": "headlight"
+  },
+  "машет": {
+    "RU": "махать",
+    "EN": "wave, wag, flap"
+  },
+  "говорит": {
+    "RU": "говорить",
+    "EN": "speak, talk gapirish"
+  },
+  "пьяный": {
+    "RU": "пьяный",
+    "EN": "drunk, tipsy, intoxicated, tight, drunk man"
+  },
+  "отравлен": {
+    "RU": "отравленный",
+    "EN": ""
+  },
+  "заходит": {
+    "RU": "заходить",
+    "EN": "go in, call in at, drop in, pop in; sun sets"
+  },
+  "гасит": {
+    "RU": "гасить",
+    "EN": "put out, extinguish; turn off the light"
+  },
+  "пустой": {
+    "RU": "пустой",
+    "EN": "empty, hollow, void"
+  },
+  "разговор": {
+    "RU": "разговор",
+    "EN": "conversation"
+  },
+  "времени": {
+    "RU": "время",
+    "EN": "time, times, tense"
+  },
+  "вовсе": {
+    "RU": "вовсе",
+    "EN": "At all, quite"
+  },
+  "силуэты": {
+    "RU": "силуэт",
+    "EN": "silhouette"
+  },
+  "сплотились": {
+    "RU": "сплотиться",
+    "EN": ""
+  },
+  "танце": {
+    "RU": "танец",
+    "EN": "dance"
+  },
+  "была": {
+    "RU": "быть",
+    "EN": "be"
+  },
+  "триста": {
+    "RU": "триста",
+    "EN": "three hundred"
+  },
+  "лет": {
+    "RU": "год",
+    "EN": "year"
+  },
+  "восемь": {
+    "RU": "восемь",
+    "EN": "eight, 8"
+  },
+  "веков": {
+    "RU": "век",
+    "EN": "century, age, lifetime, for ages, always"
+  },
+  "послание": {
+    "RU": "послание",
+    "EN": "message, epistle"
+  },
+  "городах": {
+    "RU": "город",
+    "EN": "town"
+  },
+  "другой": {
+    "RU": "другой",
+    "EN": "other, another, different, another thing, something else, others, the rest"
+  },
+  "помнить": {
+    "RU": "помнить",
+    "EN": "remember, keep in mind"
+  },
+  "она": {
+    "RU": "она",
+    "EN": "she, it, he, she, it, he, she"
+  },
+  "самой": {
+    "RU": "самый",
+    "EN": "the most"
+  },
+  "прочих": {
+    "RU": "прочий",
+    "EN": "other"
+  },
+  "теней": {
+    "RU": "тень",
+    "EN": "shadow, shade; ghost, phantom; atom, particle"
+  },
+  "вспоминает": {
+    "RU": "вспоминать",
+    "EN": "to recall, to recollect, to remember"
+  },
+  "томно": {
+    "RU": "томный",
+    "EN": ""
+  },
+  "еле": {
+    "RU": "еле",
+    "EN": "hardly, only just, scarcely, barely"
+  },
+  "сойтись": {
+    "RU": "сойтись",
+    "EN": "meet, gather, come together, become friends, become intimate, agree, coincide, tally"
+  },
+  "решила": {
+    "RU": "решить",
+    "EN": "decide, determine, resolve, be determined, solve"
+  },
+  "судьба": {
+    "RU": "судьба",
+    "EN": "fate, fortune, destiny"
+  },
+  "дребезг": {
+    "RU": "дребезг",
+    "EN": ""
+  },
+  "разбито": {
+    "RU": "разбитый",
+    "EN": "broken"
+  },
+  "простит": {
+    "RU": "простить",
+    "EN": "to excuse, to forgive, to pardon"
+  },
+  "минутных": {
+    "RU": "минутный",
+    "EN": "momentary, short-lived, transient, ephemeral"
+  },
+  "утех": {
+    "RU": "утеха",
+    "EN": "joy, delight, pleasure, comfort, consolation"
+  },
+  "ленинградка": {
+    "RU": "ленинградка",
+    "EN": ""
   },
   "знакомьтесь": {
     "RU": "знакомиться",
@@ -2087,10 +5487,6 @@
     "RU": "ребёнок",
     "EN": "child, kid"
   },
-  "времени": {
-    "RU": "время",
-    "EN": "time, times, tense"
-  },
   "домашних": {
     "RU": "домашние",
     "EN": ""
@@ -2098,14 +5494,6 @@
   "животных": {
     "RU": "животное",
     "EN": "animal, beast, brute"
-  },
-  "она": {
-    "RU": "она",
-    "EN": "she, it, he, she, it, he, she"
-  },
-  "встает": {
-    "RU": "вставать",
-    "EN": "get up, rise, be up, stand up, go, fit, arise"
   },
   "семь": {
     "RU": "семь",
@@ -2118,10 +5506,6 @@
   "школу": {
     "RU": "школа",
     "EN": "school, schoolhouse"
-  },
-  "машине": {
-    "RU": "машина",
-    "EN": "car; machine, machinery, engine, mechanism"
   },
   "приезжает": {
     "RU": "приезжать",
@@ -2154,10 +5538,6 @@
   "длинную": {
     "RU": "длинный",
     "EN": "long, lengthy"
-  },
-  "черную": {
-    "RU": "чёрный",
-    "EN": "black"
   },
   "юбку": {
     "RU": "юбка",
@@ -2270,10 +5650,6 @@
   "читает": {
     "RU": "читать",
     "EN": "read"
-  },
-  "им": {
-    "RU": "им",
-    "EN": "dative of \"they\""
   },
   "сказки": {
     "RU": "сказка",
